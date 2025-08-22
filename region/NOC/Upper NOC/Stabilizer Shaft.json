@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 219,
   "name": "Stabilizer Shaft",
   "area": "NOC",

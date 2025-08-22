@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 89,
   "name": "ARC Auxiliary Room Access",
   "area": "ARC",

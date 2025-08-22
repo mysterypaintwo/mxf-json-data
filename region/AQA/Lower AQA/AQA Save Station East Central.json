@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 4,
   "name": "AQA Save Station East Central",
   "area": "AQA",

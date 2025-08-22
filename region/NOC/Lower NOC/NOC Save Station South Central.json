@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 190,
   "name": "NOC Save Station South Central",
   "area": "NOC",

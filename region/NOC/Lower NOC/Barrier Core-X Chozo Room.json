@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 175,
   "name": "Barrier Core-X Chozo Room",
   "area": "NOC",

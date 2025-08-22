@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 128,
   "name": "Not Ceres Ridley\u0027s Arena",
   "area": "L-X",

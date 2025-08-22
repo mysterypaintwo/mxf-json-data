@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/mysterypaintwo/x-fusion-logic-database/master/schema/mxf-requirements.schema.json",
+  "$id": "https://raw.githubusercontent.com/mysterypaintwo/mxf-json-data/master/schema/mxf-requirements.schema.json",
   "title": "Metroid: X-Fusion - Logical Requirements Schema",
 
   "definitions": {

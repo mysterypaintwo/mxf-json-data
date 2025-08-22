@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 221,
   "name": "West Turbo Tube Access",
   "area": "NOC",

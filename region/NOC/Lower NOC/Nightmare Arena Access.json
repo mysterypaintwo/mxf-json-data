@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 181,
   "name": "Nightmare Arena Access",
   "area": "NOC",

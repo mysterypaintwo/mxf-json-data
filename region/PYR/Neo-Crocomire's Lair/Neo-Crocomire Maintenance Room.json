@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 247,
   "name": "Neo-Crocomire Maintenance Room",
   "area": "PYR",

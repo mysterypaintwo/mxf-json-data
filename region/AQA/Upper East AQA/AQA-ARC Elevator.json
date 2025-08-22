@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 33,
   "name": "AQA-ARC Elevator",
   "area": "AQA",

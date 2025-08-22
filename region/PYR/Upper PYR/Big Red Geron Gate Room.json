@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 254,
   "name": "Big Red Geron Gate Room",
   "area": "PYR",

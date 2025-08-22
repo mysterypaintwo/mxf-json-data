@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 279,
   "name": "SRX-NOC Elevator Access",
   "area": "SRX",

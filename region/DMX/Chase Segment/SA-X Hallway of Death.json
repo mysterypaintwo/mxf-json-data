@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 107,
   "name": "SA-X Hallway of Death",
   "area": "DMX",

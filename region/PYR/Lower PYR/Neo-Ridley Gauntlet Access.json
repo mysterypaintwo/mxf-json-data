@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 231,
   "name": "Neo-Ridley Gauntlet Access",
   "area": "PYR",

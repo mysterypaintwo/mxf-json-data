@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 307,
   "name": "Cultivation Station",
   "area": "TRO",

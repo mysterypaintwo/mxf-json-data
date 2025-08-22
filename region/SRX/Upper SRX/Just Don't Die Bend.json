@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 289,
   "name": "Just Don\u0027t Die Bend",
   "area": "SRX",

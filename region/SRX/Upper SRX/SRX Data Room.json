@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 295,
   "name": "SRX Data Room",
   "area": "SRX",

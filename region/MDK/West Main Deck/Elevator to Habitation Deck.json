@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 164,
   "name": "Elevator to Habitation Deck",
   "area": "MDK",

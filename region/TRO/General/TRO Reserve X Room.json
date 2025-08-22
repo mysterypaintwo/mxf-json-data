@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 324,
   "name": "TRO Reserve X Room",
   "area": "TRO",

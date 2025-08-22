@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 126,
   "name": "Not 58 Escape Room",
   "area": "L-X",

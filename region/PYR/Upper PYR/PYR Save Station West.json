@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 265,
   "name": "PYR Save Station West",
   "area": "PYR",

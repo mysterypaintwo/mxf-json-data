@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/mxf-room.schema.json",
   "id": 111,
   "name": "Gold Gadora-X Arena",
   "area": "DMX",
