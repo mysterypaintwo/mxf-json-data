@@ -7,3 +7,9 @@ JSON representations of Metroid X-Fusion Game Data
 3. Run the editor and click "Set Working Directory" at the top-left.
 4. Refer to [SCHEMA.md](https://github.com/mysterypaintwo/mxf-json-data/blob/main/SCHEMA.md) for formatting expectations when contributing.
 5. When your edits are done, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for your changes back to the main repository.
+
+## Credits
+
+- **Metaquarius** – For developing the awesome game and providing images of every room.
+- **InsaneFirebat** – For creating the practice ROM, sharing internal game data, and performing useful reverse-engineering research.
+- **Super Metroid Map Randomizer Team** - For creating the foundation that inspired this project
