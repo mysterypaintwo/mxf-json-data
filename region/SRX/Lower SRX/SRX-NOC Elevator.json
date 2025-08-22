@@ -1,0 +1,63 @@
+{
+  "id": 280,
+  "name": "SRX-NOC Elevator",
+  "area": "SRX",
+  "subarea": "Lower SRX",
+  "roomImageFile": "SRX Room 7A500.jpg",
+  "roomAddress": "0x7A500",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 819,
+      "name": "West-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 820,
+      "name": "South Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "bottom",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    }
+  ],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

@@ -1,0 +1,64 @@
+{
+  "id": 343,
+  "name": "TRO Etecoon Room",
+  "area": "TRO",
+  "subarea": "Zazabi\u0027s Area",
+  "roomImageFile": "TRO Room 79700.jpg",
+  "roomAddress": "0x79700",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 121,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Etecoon 3",
+      "nodeAddress": "0x0",
+      "doorOrientation": "",
+      "doorEnvironments": [],
+      "mapTileMask": [
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "comment": ""
+    },
+    {
+      "id": 983,
+      "name": "West-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    }
+  ],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

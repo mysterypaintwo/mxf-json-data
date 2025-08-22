@@ -1,0 +1,64 @@
+{
+  "id": 25,
+  "name": "Sunken Treasury",
+  "area": "AQA",
+  "subarea": "Lower AQA",
+  "roomImageFile": "AQA Room 7BB00.jpg",
+  "roomAddress": "0x7BB00",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 8,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Energy Tank 12",
+      "nodeAddress": "0x0",
+      "doorOrientation": "",
+      "doorEnvironments": [],
+      "mapTileMask": [
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "comment": ""
+    },
+    {
+      "id": 190,
+      "name": "East-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    }
+  ],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

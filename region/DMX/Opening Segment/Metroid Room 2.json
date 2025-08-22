@@ -1,0 +1,63 @@
+{
+  "id": 122,
+  "name": "Metroid Room 2",
+  "area": "DMX",
+  "subarea": "Opening Segment",
+  "roomImageFile": "DMX Room 78500.jpg",
+  "roomAddress": "0x78500",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 433,
+      "name": "North-West Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 434,
+      "name": "South-West Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    }
+  ],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

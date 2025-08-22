@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Zazabi Arena Access and Zazabi Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 344,
+          "roomName": "Zazabi Arena Access",
+          "nodeid": 985,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 345,
+          "roomName": "Zazabi Arena",
+          "nodeid": 987,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Zazabi Arena Access and Zazabi Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 344,
+          "roomName": "Zazabi Arena Access",
+          "nodeid": 986,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 345,
+          "roomName": "Zazabi Arena",
+          "nodeid": 989,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Zazabi Arena and Zazabi Speedway Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 345,
+          "roomName": "Zazabi Arena",
+          "nodeid": 988,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 346,
+          "roomName": "Zazabi Speedway Access",
+          "nodeid": 990,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Zazabi Speedway Access and Zazabi Speedway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 346,
+          "roomName": "Zazabi Speedway Access",
+          "nodeid": 991,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Zazabi\u0027s Area",
+          "roomid": 347,
+          "roomName": "Zazabi Speedway",
+          "nodeid": 992,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

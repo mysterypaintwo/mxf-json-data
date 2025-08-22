@@ -1,0 +1,46 @@
+{
+  "id": 19,
+  "name": "LX-0-AQA-Tube",
+  "area": "AQA",
+  "subarea": "Lower AQA",
+  "roomImageFile": "AQA Room 78900.jpg",
+  "roomAddress": "0x78900",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 175,
+      "name": "East-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    }
+  ],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

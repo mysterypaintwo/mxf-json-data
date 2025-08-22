@@ -1,0 +1,280 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between ARC Auxiliary Room Access and Brain Freezer",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 89,
+          "roomName": "ARC Auxiliary Room Access",
+          "nodeid": 357,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 93,
+          "roomName": "Brain Freezer",
+          "nodeid": 366,
+          "nodeName": "West-South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between ARC Auxiliary Room Access and Freezer Shaft West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 89,
+          "roomName": "ARC Auxiliary Room Access",
+          "nodeid": 358,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 98,
+          "roomName": "Freezer Shaft West",
+          "nodeid": 380,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between ARC Auxiliary Room Access and ARC Auxiliary Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 89,
+          "roomName": "ARC Auxiliary Room Access",
+          "nodeid": 359,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 90,
+          "roomName": "ARC Auxiliary Room",
+          "nodeid": 360,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between ARC Save Station West and Freezer Shaft West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 91,
+          "roomName": "ARC Save Station West",
+          "nodeid": 361,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 98,
+          "roomName": "Freezer Shaft West",
+          "nodeid": 379,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between ARC Save Station West and Freezer Hallway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 91,
+          "roomName": "ARC Save Station West",
+          "nodeid": 362,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 96,
+          "roomName": "Freezer Hallway",
+          "nodeid": 371,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between ARC Security Room and Underpressure",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 92,
+          "roomName": "ARC Security Room",
+          "nodeid": 363,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 99,
+          "roomName": "Underpressure",
+          "nodeid": 382,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Brain Freezer and Freezer Shaft East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 93,
+          "roomName": "Brain Freezer",
+          "nodeid": 365,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 97,
+          "roomName": "Freezer Shaft East",
+          "nodeid": 376,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Chilling Passage and Freezer Shaft East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 94,
+          "roomName": "Chilling Passage",
+          "nodeid": 367,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 97,
+          "roomName": "Freezer Shaft East",
+          "nodeid": 375,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cryopipe and Freezer Shaft East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 95,
+          "roomName": "Cryopipe",
+          "nodeid": 369,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 97,
+          "roomName": "Freezer Shaft East",
+          "nodeid": 377,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cryopipe and Underpressure",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 95,
+          "roomName": "Cryopipe",
+          "nodeid": 370,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 99,
+          "roomName": "Underpressure",
+          "nodeid": 381,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Freezer Hallway and Freezer Shaft East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 96,
+          "roomName": "Freezer Hallway",
+          "nodeid": 372,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 97,
+          "roomName": "Freezer Shaft East",
+          "nodeid": 374,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 305,
+  "name": "Crumble City",
+  "area": "TRO",
+  "subarea": "General",
+  "roomImageFile": "TRO Room 78E00.jpg",
+  "roomAddress": "0x78E00",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 104,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile Tank 32",
+      "nodeAddress": "0x0",
+      "doorOrientation": "",
+      "doorEnvironments": [],
+      "mapTileMask": [
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "comment": ""
+    },
+    {
+      "id": 105,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Power Bomb Tank 9",
+      "nodeAddress": "0x0",
+      "doorOrientation": "",
+      "doorEnvironments": [],
+      "mapTileMask": [
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "comment": ""
+    },
+    {
+      "id": 888,
+      "name": "East-North Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "top",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 889,
+      "name": "West Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 890,
+      "name": "East-South Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "bottom",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    }
+  ],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

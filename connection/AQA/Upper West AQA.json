@@ -1,0 +1,630 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Etecoon Room and Triple Gate Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 42,
+          "roomName": "AQA Etecoon Room",
+          "nodeid": 233,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 62,
+          "roomName": "Triple Gate Room",
+          "nodeid": 285,
+          "nodeName": "North Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Mimic Colony and Construction Site",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 43,
+          "roomName": "AQA Mimic Colony",
+          "nodeid": 234,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 52,
+          "roomName": "Construction Site",
+          "nodeid": 255,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station North Central and Sciser Shaft",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 44,
+          "roomName": "AQA Save Station North Central",
+          "nodeid": 235,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 59,
+          "roomName": "Sciser Shaft",
+          "nodeid": 278,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station North Central and Construction Site",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 44,
+          "roomName": "AQA Save Station North Central",
+          "nodeid": 236,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 52,
+          "roomName": "Construction Site",
+          "nodeid": 256,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station West and Buoyant Bridge",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 45,
+          "roomName": "AQA Save Station West",
+          "nodeid": 237,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 49,
+          "roomName": "Buoyant Bridge",
+          "nodeid": 249,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station West and Deathcrab Spire",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 45,
+          "roomName": "AQA Save Station West",
+          "nodeid": 238,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 53,
+          "roomName": "Deathcrab Spire",
+          "nodeid": 260,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room North Access and Drain Pipe",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 46,
+          "roomName": "AQA Security Room North Access",
+          "nodeid": 239,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 54,
+          "roomName": "Drain Pipe",
+          "nodeid": 264,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room North Access and Drain Pipe",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 46,
+          "roomName": "AQA Security Room North Access",
+          "nodeid": 240,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 54,
+          "roomName": "Drain Pipe",
+          "nodeid": 266,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room North Access and Owtch Atrium",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 46,
+          "roomName": "AQA Security Room North Access",
+          "nodeid": 241,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 56,
+          "roomName": "Owtch Atrium",
+          "nodeid": 269,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Booster Barrier and Broken Bridge",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 47,
+          "roomName": "Booster Barrier",
+          "nodeid": 243,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 48,
+          "roomName": "Broken Bridge",
+          "nodeid": 245,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Booster Barrier and Sciser Shaft",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 47,
+          "roomName": "Booster Barrier",
+          "nodeid": 244,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 59,
+          "roomName": "Sciser Shaft",
+          "nodeid": 277,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Broken Bridge and Deathcrab Spire",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 48,
+          "roomName": "Broken Bridge",
+          "nodeid": 246,
+          "nodeName": "South-West Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 53,
+          "roomName": "Deathcrab Spire",
+          "nodeid": 261,
+          "nodeName": "East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Broken Bridge and Owtch Corridor",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 48,
+          "roomName": "Broken Bridge",
+          "nodeid": 247,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 57,
+          "roomName": "Owtch Corridor",
+          "nodeid": 271,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Buoyant Bridge and Deathcrab Spire",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 49,
+          "roomName": "Buoyant Bridge",
+          "nodeid": 248,
+          "nodeName": "North-East Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 53,
+          "roomName": "Deathcrab Spire",
+          "nodeid": 259,
+          "nodeName": "West-Upper Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Construction Site Access and Construction Site",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 50,
+          "roomName": "Construction Site Access",
+          "nodeid": 250,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 52,
+          "roomName": "Construction Site",
+          "nodeid": 257,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Construction Site Access and Triple Gate Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 50,
+          "roomName": "Construction Site Access",
+          "nodeid": 251,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 62,
+          "roomName": "Triple Gate Room",
+          "nodeid": 286,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Construction Site Access and Construction Site Checkpoint",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 50,
+          "roomName": "Construction Site Access",
+          "nodeid": 252,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 51,
+          "roomName": "Construction Site Checkpoint",
+          "nodeid": 253,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Deathcrab Spire and Serris Speedway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 53,
+          "roomName": "Deathcrab Spire",
+          "nodeid": 258,
+          "nodeName": "North-East Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 61,
+          "roomName": "Serris Speedway",
+          "nodeid": 283,
+          "nodeName": "North-West Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Deathcrab Spire and Floodbot Quarters",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 53,
+          "roomName": "Deathcrab Spire",
+          "nodeid": 262,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 55,
+          "roomName": "Floodbot Quarters",
+          "nodeid": 267,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Drain Pipe and Sciser Shaft",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 54,
+          "roomName": "Drain Pipe",
+          "nodeid": 263,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 59,
+          "roomName": "Sciser Shaft",
+          "nodeid": 280,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Drain Pipe and Resevoir West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 54,
+          "roomName": "Drain Pipe",
+          "nodeid": 265,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 58,
+          "roomName": "Resevoir West",
+          "nodeid": 274,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Floodbot Quarters and Resevoir West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 55,
+          "roomName": "Floodbot Quarters",
+          "nodeid": 268,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 58,
+          "roomName": "Resevoir West",
+          "nodeid": 273,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Owtch Corridor and Sciser Shaft",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 57,
+          "roomName": "Owtch Corridor",
+          "nodeid": 272,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 59,
+          "roomName": "Sciser Shaft",
+          "nodeid": 279,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Sciser Shaft and Serris Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 59,
+          "roomName": "Sciser Shaft",
+          "nodeid": 276,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 60,
+          "roomName": "Serris Arena",
+          "nodeid": 281,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Serris Arena and Serris Speedway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 60,
+          "roomName": "Serris Arena",
+          "nodeid": 282,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 61,
+          "roomName": "Serris Speedway",
+          "nodeid": 284,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

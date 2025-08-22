@@ -1,0 +1,255 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Climb and Crew Quarters",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 140,
+          "roomName": "Docking Bay Climb",
+          "nodeid": 475,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 145,
+          "roomName": "Crew Quarters",
+          "nodeid": 492,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Climb and Silo Entry",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 140,
+          "roomName": "Docking Bay Climb",
+          "nodeid": 477,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 152,
+          "roomName": "Silo Entry",
+          "nodeid": 508,
+          "nodeName": "East-North Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Climb and Silo Entry",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 140,
+          "roomName": "Docking Bay Climb",
+          "nodeid": 478,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 152,
+          "roomName": "Silo Entry",
+          "nodeid": 510,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Genesis Speedway and Nexus Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 146,
+          "roomName": "Genesis Speedway",
+          "nodeid": 493,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 171,
+          "roomName": "Nexus Crossing",
+          "nodeid": 563,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Operations Ventilation and Habitation Deck",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 149,
+          "roomName": "Operations Ventilation",
+          "nodeid": 496,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Upper Main Deck",
+          "roomid": 159,
+          "roomName": "Habitation Deck",
+          "nodeid": 529,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Operations Ventilation and Concourse Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 149,
+          "roomName": "Operations Ventilation",
+          "nodeid": 498,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 162,
+          "roomName": "Concourse Tower",
+          "nodeid": 541,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Operations Ventilation and Silo Entry",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 149,
+          "roomName": "Operations Ventilation",
+          "nodeid": 501,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 152,
+          "roomName": "Silo Entry",
+          "nodeid": 509,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Elevator to Central Nexus and Elevator to Habitation Deck",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Upper Main Deck",
+          "roomid": 156,
+          "roomName": "Elevator to Central Nexus",
+          "nodeid": 522,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 164,
+          "roomName": "Elevator to Habitation Deck",
+          "nodeid": 546,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Etecoon Hangar Bay and Central Nexus / Concourse",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Upper Main Deck",
+          "roomid": 157,
+          "roomName": "Etecoon Hangar Bay",
+          "nodeid": 525,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 161,
+          "roomName": "Central Nexus / Concourse",
+          "nodeid": 535,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Etecoon Hangar Bay and Concourse Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Upper Main Deck",
+          "roomid": 157,
+          "roomName": "Etecoon Hangar Bay",
+          "nodeid": 526,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 162,
+          "roomName": "Concourse Tower",
+          "nodeid": 540,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

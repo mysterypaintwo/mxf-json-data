@@ -1,0 +1,805 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Auxiliary Room Access and Yard Firing Range",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 1,
+          "roomName": "AQA Auxiliary Room Access",
+          "nodeid": 125,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 27,
+          "roomName": "Yard Firing Range",
+          "nodeid": 194,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Auxiliary Room Access and AQA Security Room South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 1,
+          "roomName": "AQA Auxiliary Room Access",
+          "nodeid": 126,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 9,
+          "roomName": "AQA Security Room South",
+          "nodeid": 140,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Auxiliary Room Access and AQA Auxiliary Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 1,
+          "roomName": "AQA Auxiliary Room Access",
+          "nodeid": 127,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 2,
+          "roomName": "AQA Auxiliary Room",
+          "nodeid": 128,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Data Room and Aquarium Hub East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 3,
+          "roomName": "AQA Data Room",
+          "nodeid": 129,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 11,
+          "roomName": "Aquarium Hub East",
+          "nodeid": 147,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station East Central and Neo-Draygon Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 4,
+          "roomName": "AQA Save Station East Central",
+          "nodeid": 130,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 20,
+          "roomName": "Neo-Draygon Access",
+          "nodeid": 177,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station East Central and Sunken Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 4,
+          "roomName": "AQA Save Station East Central",
+          "nodeid": 131,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 24,
+          "roomName": "Sunken Tower",
+          "nodeid": 186,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Save Station South and Glass Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 5,
+          "roomName": "AQA Save Station South",
+          "nodeid": 132,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 18,
+          "roomName": "Glass Tube",
+          "nodeid": 174,
+          "nodeName": "South Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room East and Sunken Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 6,
+          "roomName": "AQA Security Room East",
+          "nodeid": 133,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 24,
+          "roomName": "Sunken Tower",
+          "nodeid": 188,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room East and AQA-MDK Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 6,
+          "roomName": "AQA Security Room East",
+          "nodeid": 134,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 10,
+          "roomName": "AQA-MDK Elevator",
+          "nodeid": 143,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between AQA Security Room North and Cheddar Bay",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 7,
+          "roomName": "AQA Security Room North",
+          "nodeid": 135,
+          "nodeName": "North Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 162,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room North and Cheddar Bay",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 7,
+          "roomName": "AQA Security Room North",
+          "nodeid": 136,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 163,
+          "nodeName": "East-South Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room North and Sunken Ruins",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 7,
+          "roomName": "AQA Security Room North",
+          "nodeid": 137,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 23,
+          "roomName": "Sunken Ruins",
+          "nodeid": 183,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room South Access and AQA Security Room South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 8,
+          "roomName": "AQA Security Room South Access",
+          "nodeid": 138,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 9,
+          "roomName": "AQA Security Room South",
+          "nodeid": 141,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Security Room South Access and Sunken Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 8,
+          "roomName": "AQA Security Room South Access",
+          "nodeid": 139,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 24,
+          "roomName": "Sunken Tower",
+          "nodeid": 189,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Aquarium Hub East and Aquarium Hub West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 11,
+          "roomName": "Aquarium Hub East",
+          "nodeid": 144,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 12,
+          "roomName": "Aquarium Hub West",
+          "nodeid": 152,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Aquarium Hub East and Cheddar Bay",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 11,
+          "roomName": "Aquarium Hub East",
+          "nodeid": 145,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 161,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Aquarium Hub East and Aquarium Hub West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 11,
+          "roomName": "Aquarium Hub East",
+          "nodeid": 146,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 12,
+          "roomName": "Aquarium Hub West",
+          "nodeid": 154,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Aquarium Hub East and Glass Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 11,
+          "roomName": "Aquarium Hub East",
+          "nodeid": 148,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 18,
+          "roomName": "Glass Tube",
+          "nodeid": 171,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Aquarium Hub East and Yard Firing Range",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 11,
+          "roomName": "Aquarium Hub East",
+          "nodeid": 149,
+          "nodeName": "South Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 27,
+          "roomName": "Yard Firing Range",
+          "nodeid": 193,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Aquarium Hub West and Cheddar Bay",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 12,
+          "roomName": "Aquarium Hub West",
+          "nodeid": 150,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 159,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Aquarium Hub West and Gamepad Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 12,
+          "roomName": "Aquarium Hub West",
+          "nodeid": 151,
+          "nodeName": "East-Upper Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 17,
+          "roomName": "Gamepad Room",
+          "nodeid": 169,
+          "nodeName": "West-Upper Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Aquarium Hub West and Glass Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 12,
+          "roomName": "Aquarium Hub West",
+          "nodeid": 153,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 18,
+          "roomName": "Glass Tube",
+          "nodeid": 170,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cheddar Bay Speedway and Drowned Junction",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 13,
+          "roomName": "Cheddar Bay Speedway",
+          "nodeid": 155,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 15,
+          "roomName": "Drowned Junction",
+          "nodeid": 166,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cheddar Bay Speedway and Cheddar Bay",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 13,
+          "roomName": "Cheddar Bay Speedway",
+          "nodeid": 156,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 158,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Drowned Junction and LX-0-AQA-Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 15,
+          "roomName": "Drowned Junction",
+          "nodeid": 165,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 19,
+          "roomName": "LX-0-AQA-Tube",
+          "nodeid": 175,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between East Tunnel and Glass Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 16,
+          "roomName": "East Tunnel",
+          "nodeid": 167,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 18,
+          "roomName": "Glass Tube",
+          "nodeid": 173,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Glass Tube and West Tunnel",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 18,
+          "roomName": "Glass Tube",
+          "nodeid": 172,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 26,
+          "roomName": "West Tunnel",
+          "nodeid": 192,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Neo-Draygon Access and Sunken Ruins",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 20,
+          "roomName": "Neo-Draygon Access",
+          "nodeid": 176,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 23,
+          "roomName": "Sunken Ruins",
+          "nodeid": 184,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Neo-Draygon Access and Neo-Draygon Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 20,
+          "roomName": "Neo-Draygon Access",
+          "nodeid": 178,
+          "nodeName": "South Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 21,
+          "roomName": "Neo-Draygon Arena",
+          "nodeid": 179,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Neo-Draygon Arena and Speedbooster Lv. 2 Tutorial Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 21,
+          "roomName": "Neo-Draygon Arena",
+          "nodeid": 180,
+          "nodeName": "South Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 22,
+          "roomName": "Speedbooster Lv. 2 Tutorial Room",
+          "nodeid": 181,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Speedbooster Lv. 2 Tutorial Room and Sunken Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 22,
+          "roomName": "Speedbooster Lv. 2 Tutorial Room",
+          "nodeid": 182,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 24,
+          "roomName": "Sunken Tower",
+          "nodeid": 187,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Sunken Tower and Sunken Treasury",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 24,
+          "roomName": "Sunken Tower",
+          "nodeid": 185,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 25,
+          "roomName": "Sunken Treasury",
+          "nodeid": 190,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

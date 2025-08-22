@@ -1,0 +1,655 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Barrier Core-X Arena and Nocturnal Crossroads",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 174,
+          "roomName": "Barrier Core-X Arena",
+          "nodeid": 568,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 192,
+          "roomName": "Nocturnal Crossroads",
+          "nodeid": 615,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Barrier Core-X Arena and Barrier Core-X Chozo Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 174,
+          "roomName": "Barrier Core-X Arena",
+          "nodeid": 569,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 175,
+          "roomName": "Barrier Core-X Chozo Room",
+          "nodeid": 570,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Barrier Core-X Chozo Room and Warehouse",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 175,
+          "roomName": "Barrier Core-X Chozo Room",
+          "nodeid": 571,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 194,
+          "roomName": "Warehouse",
+          "nodeid": 619,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Catacombs Runway and Zozoro Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 176,
+          "roomName": "Catacombs Runway",
+          "nodeid": 572,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 195,
+          "roomName": "Zozoro Crossing",
+          "nodeid": 625,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Catacombs Runway and Catacombs",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 176,
+          "roomName": "Catacombs Runway",
+          "nodeid": 573,
+          "nodeName": "South-West Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 177,
+          "roomName": "Catacombs",
+          "nodeid": 577,
+          "nodeName": "East-Upper Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Catacombs Runway and Shiverclimb",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 176,
+          "roomName": "Catacombs Runway",
+          "nodeid": 574,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 193,
+          "roomName": "Shiverclimb",
+          "nodeid": 617,
+          "nodeName": "North Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Catacombs and Ninja Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 177,
+          "roomName": "Catacombs",
+          "nodeid": 575,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 183,
+          "roomName": "Ninja Room",
+          "nodeid": 595,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Catacombs and Ninja Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 177,
+          "roomName": "Catacombs",
+          "nodeid": 576,
+          "nodeName": "West Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 183,
+          "roomName": "Ninja Room",
+          "nodeid": 596,
+          "nodeName": "East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Catacombs and Ninja Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 177,
+          "roomName": "Catacombs",
+          "nodeid": 578,
+          "nodeName": "South-West Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 183,
+          "roomName": "Ninja Room",
+          "nodeid": 597,
+          "nodeName": "South-East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Catacombs and NOC Save Station South Central",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 177,
+          "roomName": "Catacombs",
+          "nodeid": 579,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 190,
+          "roomName": "NOC Save Station South Central",
+          "nodeid": 611,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ice-X Shaft and Zozoro Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 178,
+          "roomName": "Ice-X Shaft",
+          "nodeid": 580,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 195,
+          "roomName": "Zozoro Crossing",
+          "nodeid": 624,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Ice-X Shaft and Zozoro Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 178,
+          "roomName": "Ice-X Shaft",
+          "nodeid": 582,
+          "nodeName": "West-Upper Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 195,
+          "roomName": "Zozoro Crossing",
+          "nodeid": 626,
+          "nodeName": "South-East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ice-X Shaft and Shiverclimb",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 178,
+          "roomName": "Ice-X Shaft",
+          "nodeid": 583,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 193,
+          "roomName": "Shiverclimb",
+          "nodeid": 618,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Ice-X Shaft and NOC Entrance Lobby South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 178,
+          "roomName": "Ice-X Shaft",
+          "nodeid": 584,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 184,
+          "roomName": "NOC Entrance Lobby South",
+          "nodeid": 600,
+          "nodeName": "East-North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Lower Crane Pit and Warehouse",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 179,
+          "roomName": "Lower Crane Pit",
+          "nodeid": 586,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 194,
+          "roomName": "Warehouse",
+          "nodeid": 620,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Lower Crane Pit and Zozoro Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 179,
+          "roomName": "Lower Crane Pit",
+          "nodeid": 587,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 195,
+          "roomName": "Zozoro Crossing",
+          "nodeid": 623,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Menu Hallway and Nocturnal Crossroads",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 180,
+          "roomName": "Menu Hallway",
+          "nodeid": 588,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 192,
+          "roomName": "Nocturnal Crossroads",
+          "nodeid": 614,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Menu Hallway and Nightmare Arena Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 180,
+          "roomName": "Menu Hallway",
+          "nodeid": 589,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 181,
+          "roomName": "Nightmare Arena Access",
+          "nodeid": 591,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Nightmare Arena Access and Nightmare Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 181,
+          "roomName": "Nightmare Arena Access",
+          "nodeid": 592,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 182,
+          "roomName": "Nightmare Arena",
+          "nodeid": 593,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ninja Room and Warehouse",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 183,
+          "roomName": "Ninja Room",
+          "nodeid": 594,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 194,
+          "roomName": "Warehouse",
+          "nodeid": 621,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Entrance Lobby South and NOC Maintenance Wing Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 184,
+          "roomName": "NOC Entrance Lobby South",
+          "nodeid": 599,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 186,
+          "roomName": "NOC Maintenance Wing Access",
+          "nodeid": 604,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Entrance Lobby South and NOC Save Station South East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 184,
+          "roomName": "NOC Entrance Lobby South",
+          "nodeid": 602,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 191,
+          "roomName": "NOC Save Station South East",
+          "nodeid": 612,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between NOC Etecoon Room and NOC Maintenance Wing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 185,
+          "roomName": "NOC Etecoon Room",
+          "nodeid": 603,
+          "nodeName": "East-Upper Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 187,
+          "roomName": "NOC Maintenance Wing",
+          "nodeid": 608,
+          "nodeName": "South-West Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Maintenance Wing Access and NOC Maintenance Wing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 186,
+          "roomName": "NOC Maintenance Wing Access",
+          "nodeid": 605,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 187,
+          "roomName": "NOC Maintenance Wing",
+          "nodeid": 607,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Maintenance Wing and NOC Mimic Lodge",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 187,
+          "roomName": "NOC Maintenance Wing",
+          "nodeid": 606,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 188,
+          "roomName": "NOC Mimic Lodge",
+          "nodeid": 609,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Save Station Central and Warehouse",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 189,
+          "roomName": "NOC Save Station Central",
+          "nodeid": 610,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 194,
+          "roomName": "Warehouse",
+          "nodeid": 622,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

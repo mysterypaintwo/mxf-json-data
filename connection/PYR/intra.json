@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Lava Dive Room and Sova Processing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 229,
+          "roomName": "Lava Dive Room",
+          "nodeid": 699,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 269,
+          "roomName": "Sova Processing",
+          "nodeid": 797,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Security Room and PYR Data Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 238,
+          "roomName": "PYR Security Room",
+          "nodeid": 718,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 249,
+          "roomName": "PYR Data Room Access",
+          "nodeid": 744,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Navigation Room and Big Red",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 251,
+          "roomName": "PYR Navigation Room",
+          "nodeid": 748,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 764,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

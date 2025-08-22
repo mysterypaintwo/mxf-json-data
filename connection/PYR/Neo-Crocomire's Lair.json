@@ -1,0 +1,330 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between B.O.X. Tutorial Room and PYR Navigation Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 241,
+          "roomName": "B.O.X. Tutorial Room",
+          "nodeid": 724,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 251,
+          "roomName": "PYR Navigation Room",
+          "nodeid": 749,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between B.O.X. Tutorial Room and Checkpoint Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 241,
+          "roomName": "B.O.X. Tutorial Room",
+          "nodeid": 725,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 244,
+          "roomName": "Checkpoint Crossing",
+          "nodeid": 731,
+          "nodeName": "North Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bubble Heights and Bubble Storage",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 242,
+          "roomName": "Bubble Heights",
+          "nodeid": 726,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 243,
+          "roomName": "Bubble Storage",
+          "nodeid": 730,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bubble Heights and Hot Potato",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 242,
+          "roomName": "Bubble Heights",
+          "nodeid": 727,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 245,
+          "roomName": "Hot Potato",
+          "nodeid": 734,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bubble Heights and PYR Save Station East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 242,
+          "roomName": "Bubble Heights",
+          "nodeid": 728,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 252,
+          "roomName": "PYR Save Station East",
+          "nodeid": 750,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bubble Heights and Neo-Crocomire Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 242,
+          "roomName": "Bubble Heights",
+          "nodeid": 729,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 246,
+          "roomName": "Neo-Crocomire Arena",
+          "nodeid": 736,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Checkpoint Crossing and Hot Potato",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 244,
+          "roomName": "Checkpoint Crossing",
+          "nodeid": 732,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 245,
+          "roomName": "Hot Potato",
+          "nodeid": 735,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Checkpoint Crossing and PYR-MDK Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 244,
+          "roomName": "Checkpoint Crossing",
+          "nodeid": 733,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 253,
+          "roomName": "PYR-MDK Access",
+          "nodeid": 751,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Neo-Crocomire Arena and Neo-Crocomire Maintenance Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 246,
+          "roomName": "Neo-Crocomire Arena",
+          "nodeid": 737,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 247,
+          "roomName": "Neo-Crocomire Maintenance Room",
+          "nodeid": 739,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Neo-Crocomire Arena and Phantomire Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 246,
+          "roomName": "Neo-Crocomire Arena",
+          "nodeid": 738,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 248,
+          "roomName": "Phantomire Arena",
+          "nodeid": 741,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Neo-Crocomire Maintenance Room and Phantomire Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 247,
+          "roomName": "Neo-Crocomire Maintenance Room",
+          "nodeid": 740,
+          "nodeName": "South Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 248,
+          "roomName": "Phantomire Arena",
+          "nodeid": 742,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Phantomire Arena and PYR Data Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 248,
+          "roomName": "Phantomire Arena",
+          "nodeid": 743,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 249,
+          "roomName": "PYR Data Room Access",
+          "nodeid": 746,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Data Room Access and PYR Data Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 249,
+          "roomName": "PYR Data Room Access",
+          "nodeid": 745,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 250,
+          "roomName": "PYR Data Room",
+          "nodeid": 747,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

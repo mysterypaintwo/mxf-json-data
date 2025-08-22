@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between DMX Elevator Bottom and DMX Hub",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 100,
+          "roomName": "DMX Elevator Bottom",
+          "nodeid": 384,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 118,
+          "roomName": "DMX Hub",
+          "nodeid": 424,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Metroid Swarm Chase and DMX Hub",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 105,
+          "roomName": "Metroid Swarm Chase",
+          "nodeid": 393,
+          "nodeName": "North Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 118,
+          "roomName": "DMX Hub",
+          "nodeid": 426,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between SA-X Hallway of Death and DMX Hub",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 107,
+          "roomName": "SA-X Hallway of Death",
+          "nodeid": 398,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 118,
+          "roomName": "DMX Hub",
+          "nodeid": 423,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Winding SA-X Chase and Hornoad Sewer",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 110,
+          "roomName": "Winding SA-X Chase",
+          "nodeid": 404,
+          "nodeName": "East-South Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 113,
+          "roomName": "Hornoad Sewer",
+          "nodeid": 410,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ventilation B and DMX Entrance",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 115,
+          "roomName": "Ventilation B",
+          "nodeid": 416,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 116,
+          "roomName": "DMX Entrance",
+          "nodeid": 417,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bull Reserve X Room and NOC Auxiliary Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 199,
+          "roomName": "Bull Reserve X Room",
+          "nodeid": 633,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 207,
+          "roomName": "NOC Auxiliary Room Access",
+          "nodeid": 655,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bull Reserve X Room and Gravityclimb",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 199,
+          "roomName": "Bull Reserve X Room",
+          "nodeid": 634,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 203,
+          "roomName": "Gravityclimb",
+          "nodeid": 643,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Central Turbo Tube Access and Mochtroid Trench",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 200,
+          "roomName": "Central Turbo Tube Access",
+          "nodeid": 635,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 206,
+          "roomName": "Mochtroid Trench",
+          "nodeid": 654,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between East Turbo Tube Access and Mochtroid Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 201,
+          "roomName": "East Turbo Tube Access",
+          "nodeid": 637,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 205,
+          "roomName": "Mochtroid Tower",
+          "nodeid": 651,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between East Turbo Tube Access and NOC Save Station North East",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 201,
+          "roomName": "East Turbo Tube Access",
+          "nodeid": 638,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 212,
+          "roomName": "NOC Save Station North East",
+          "nodeid": 667,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Glowcap Grotto and NOC Entrance Lobby North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 202,
+          "roomName": "Glowcap Grotto",
+          "nodeid": 640,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 210,
+          "roomName": "NOC Entrance Lobby North",
+          "nodeid": 661,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Glowcap Grotto and Mochtroid Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 202,
+          "roomName": "Glowcap Grotto",
+          "nodeid": 641,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 205,
+          "roomName": "Mochtroid Tower",
+          "nodeid": 648,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Glowcap Grotto and NOC Entrance Lobby North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 202,
+          "roomName": "Glowcap Grotto",
+          "nodeid": 642,
+          "nodeName": "West-Upper Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 210,
+          "roomName": "NOC Entrance Lobby North",
+          "nodeid": 663,
+          "nodeName": "East-Upper Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Gravityclimb and Upper Crane Pit",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 203,
+          "roomName": "Gravityclimb",
+          "nodeid": 644,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 220,
+          "roomName": "Upper Crane Pit",
+          "nodeid": 682,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Gravityclimb and Stabilizer Shaft",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 203,
+          "roomName": "Gravityclimb",
+          "nodeid": 645,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 219,
+          "roomName": "Stabilizer Shaft",
+          "nodeid": 679,
+          "nodeName": "North Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Mochtroid Tower Closet and Mochtroid Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 204,
+          "roomName": "Mochtroid Tower Closet",
+          "nodeid": 646,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 205,
+          "roomName": "Mochtroid Tower",
+          "nodeid": 647,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Mochtroid Tower and Upper Crane Pit",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 205,
+          "roomName": "Mochtroid Tower",
+          "nodeid": 649,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 220,
+          "roomName": "Upper Crane Pit",
+          "nodeid": 681,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Mochtroid Tower and Ripper Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 205,
+          "roomName": "Mochtroid Tower",
+          "nodeid": 650,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 218,
+          "roomName": "Ripper Tower",
+          "nodeid": 677,
+          "nodeName": "North Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Mochtroid Trench and NOC Entrance Lobby North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 206,
+          "roomName": "Mochtroid Trench",
+          "nodeid": 652,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 210,
+          "roomName": "NOC Entrance Lobby North",
+          "nodeid": 664,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Mochtroid Trench and NOC Data Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 206,
+          "roomName": "Mochtroid Trench",
+          "nodeid": 653,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 209,
+          "roomName": "NOC Data Room",
+          "nodeid": 658,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Auxiliary Room Access and NOC Auxiliary Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 207,
+          "roomName": "NOC Auxiliary Room Access",
+          "nodeid": 656,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 208,
+          "roomName": "NOC Auxiliary Room",
+          "nodeid": 657,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Entrance Lobby North and NOC Save Station North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 210,
+          "roomName": "NOC Entrance Lobby North",
+          "nodeid": 660,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 213,
+          "roomName": "NOC Save Station North",
+          "nodeid": 670,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Entrance Lobby North and West Turbo Tube Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 210,
+          "roomName": "NOC Entrance Lobby North",
+          "nodeid": 662,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 221,
+          "roomName": "West Turbo Tube Access",
+          "nodeid": 684,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Navigation Room and NOC-SRX Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 211,
+          "roomName": "NOC Navigation Room",
+          "nodeid": 665,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 216,
+          "roomName": "NOC-SRX Elevator",
+          "nodeid": 675,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Navigation Room and NOC Save Station North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 211,
+          "roomName": "NOC Navigation Room",
+          "nodeid": 666,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 213,
+          "roomName": "NOC Save Station North",
+          "nodeid": 669,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC Save Station North East and Stabilizer Shaft",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 212,
+          "roomName": "NOC Save Station North East",
+          "nodeid": 668,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 219,
+          "roomName": "Stabilizer Shaft",
+          "nodeid": 680,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC-LX0 Tube Access and Ripper Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 214,
+          "roomName": "NOC-LX0 Tube Access",
+          "nodeid": 671,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 218,
+          "roomName": "Ripper Tower",
+          "nodeid": 678,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between NOC-LX0 Tube Access and NOC-LX0 Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 214,
+          "roomName": "NOC-LX0 Tube Access",
+          "nodeid": 672,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 215,
+          "roomName": "NOC-LX0 Tube",
+          "nodeid": 673,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Pillar Highway and West Turbo Tube Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 217,
+          "roomName": "Pillar Highway",
+          "nodeid": 676,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 221,
+          "roomName": "West Turbo Tube Access",
+          "nodeid": 683,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

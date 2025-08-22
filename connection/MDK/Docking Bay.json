@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Access and Docking Bay Climb",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 139,
+          "roomName": "Docking Bay Access",
+          "nodeid": 473,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 140,
+          "roomName": "Docking Bay Climb",
+          "nodeid": 479,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Access and Docking Bay",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 139,
+          "roomName": "Docking Bay Access",
+          "nodeid": 474,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 142,
+          "roomName": "Docking Bay",
+          "nodeid": 481,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Climb and Docking Bay Supply Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 140,
+          "roomName": "Docking Bay Climb",
+          "nodeid": 476,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 141,
+          "roomName": "Docking Bay Supply Room",
+          "nodeid": 480,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between DMX Entrance and DMX Hallway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 116,
+          "roomName": "DMX Entrance",
+          "nodeid": 418,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 117,
+          "roomName": "DMX Hallway",
+          "nodeid": 420,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between DMX Hallway and DMX Hub",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 117,
+          "roomName": "DMX Hallway",
+          "nodeid": 421,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 118,
+          "roomName": "DMX Hub",
+          "nodeid": 422,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between DMX Hub and Xenometroid Birthplace",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 118,
+          "roomName": "DMX Hub",
+          "nodeid": 425,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 125,
+          "roomName": "Xenometroid Birthplace",
+          "nodeid": 442,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Dusty Arachnus and Omega Queen\u0027s Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 119,
+          "roomName": "Dusty Arachnus",
+          "nodeid": 427,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 123,
+          "roomName": "Omega Queen\u0027s Room",
+          "nodeid": 435,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Dusty Arachnus and Metroid Nest",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 119,
+          "roomName": "Dusty Arachnus",
+          "nodeid": 428,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 120,
+          "roomName": "Metroid Nest",
+          "nodeid": 429,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Metroid Nest and Ventilation A",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 120,
+          "roomName": "Metroid Nest",
+          "nodeid": 430,
+          "nodeName": "South-East Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Ventilation A",
+          "nodeid": 437,
+          "nodeName": "North Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Metroid Room 1 and Xenometroid Birthplace",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 121,
+          "roomName": "Metroid Room 1",
+          "nodeid": 431,
+          "nodeName": "West-North Door",
+          "position": "top"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 125,
+          "roomName": "Xenometroid Birthplace",
+          "nodeid": 443,
+          "nodeName": "East-South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Metroid Room 1 and Metroid Room 2",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 121,
+          "roomName": "Metroid Room 1",
+          "nodeid": 432,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "Metroid Room 2",
+          "nodeid": 434,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Metroid Room 2 and Ventilation A",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "Metroid Room 2",
+          "nodeid": 433,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Ventilation A",
+          "nodeid": 440,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Omega Queen\u0027s Room and Xenometroid Birthplace",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 123,
+          "roomName": "Omega Queen\u0027s Room",
+          "nodeid": 436,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 125,
+          "roomName": "Xenometroid Birthplace",
+          "nodeid": 441,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ventilation A and Ventilation A",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Ventilation A",
+          "nodeid": 438,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Ventilation A",
+          "nodeid": 438,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ventilation A and Ventilation A",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Ventilation A",
+          "nodeid": 439,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Ventilation A",
+          "nodeid": 439,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

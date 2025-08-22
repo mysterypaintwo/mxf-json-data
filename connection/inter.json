@@ -1,0 +1,530 @@
+{
+  "$schema": "../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between AQA-MDK Elevator and MDK-AQA Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 10,
+          "roomName": "AQA-MDK Elevator",
+          "nodeid": 142,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "MDK-AQA Elevator",
+          "nodeid": 557,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between East Tunnel and ARC-AQA Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 16,
+          "roomName": "East Tunnel",
+          "nodeid": 168,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 66,
+          "roomName": "ARC-AQA Elevator",
+          "nodeid": 296,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between West Tunnel and ARC-AQA Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 26,
+          "roomName": "West Tunnel",
+          "nodeid": 191,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 65,
+          "roomName": "ARC-AQA Access",
+          "nodeid": 293,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between AQA-ARC Elevator and ARC-AQA Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 33,
+          "roomName": "AQA-ARC Elevator",
+          "nodeid": 208,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 66,
+          "roomName": "ARC-AQA Elevator",
+          "nodeid": 298,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between AQA-NOC Access and NOC Entrance Lobby South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 34,
+          "roomName": "AQA-NOC Access",
+          "nodeid": 212,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 184,
+          "roomName": "NOC Entrance Lobby South",
+          "nodeid": 601,
+          "nodeName": "South Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between ARC-NOC Access and Nocturnal Crossroads",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 81,
+          "roomName": "ARC-NOC Access",
+          "nodeid": 335,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 192,
+          "roomName": "Nocturnal Crossroads",
+          "nodeid": 616,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between ARC-PYR Access and PYR-ARC Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 82,
+          "roomName": "ARC-PYR Access",
+          "nodeid": 339,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 266,
+          "roomName": "PYR-ARC Access",
+          "nodeid": 785,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Weapons Testing Grounds and Turbo Tunnel",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 87,
+          "roomName": "Weapons Testing Grounds",
+          "nodeid": 354,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 281,
+          "roomName": "Turbo Tunnel",
+          "nodeid": 821,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Freezer Shaft West and Silo Scaffolding",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 98,
+          "roomName": "Freezer Shaft West",
+          "nodeid": 378,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 153,
+          "roomName": "Silo Scaffolding",
+          "nodeid": 513,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between DMX Entrance and DMX Security Gate",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 116,
+          "roomName": "DMX Entrance",
+          "nodeid": 419,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 163,
+          "roomName": "DMX Security Gate",
+          "nodeid": 544,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Sector 0 Hard Exit and Just Don\u0027t Die Bend",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 136,
+          "roomName": "Sector 0 Hard Exit",
+          "nodeid": 467,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 289,
+          "roomName": "Just Don\u0027t Die Bend",
+          "nodeid": 845,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Sector 0 Normal Exit and Moto Towerway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 137,
+          "roomName": "Sector 0 Normal Exit",
+          "nodeid": 470,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 292,
+          "roomName": "Moto Towerway",
+          "nodeid": 850,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Sector 0 Omega Exit and Omega Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 138,
+          "roomName": "Sector 0 Omega Exit",
+          "nodeid": 471,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 312,
+          "roomName": "Omega Lobby",
+          "nodeid": 918,
+          "nodeName": "North Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Crew Quarters Hallway and SRX Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 143,
+          "roomName": "Crew Quarters Hallway",
+          "nodeid": 484,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 296,
+          "roomName": "SRX Entrance Lobby",
+          "nodeid": 857,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Crew Quarters NOC Access and Nocturnal Crossroads",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 144,
+          "roomName": "Crew Quarters NOC Access",
+          "nodeid": 486,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 192,
+          "roomName": "Nocturnal Crossroads",
+          "nodeid": 613,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Silo Tunnel and Overgrown Entrance",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 154,
+          "roomName": "Silo Tunnel",
+          "nodeid": 516,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 336,
+          "roomName": "Overgrown Entrance",
+          "nodeid": 968,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Habitation Deck and PYR-MDK Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Upper Main Deck",
+          "roomid": 159,
+          "roomName": "Habitation Deck",
+          "nodeid": 528,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 253,
+          "roomName": "PYR-MDK Access",
+          "nodeid": 752,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between MDK-TRO Access and TRO Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 170,
+          "roomName": "MDK-TRO Access",
+          "nodeid": 558,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 322,
+          "roomName": "TRO Entrance Lobby",
+          "nodeid": 939,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between NOC-SRX Elevator and SRX-NOC Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 216,
+          "roomName": "NOC-SRX Elevator",
+          "nodeid": 674,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 280,
+          "roomName": "SRX-NOC Elevator",
+          "nodeid": 820,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "TransitionTube",
+      "description": "Transition Tube connection between Chute Pit and Cruciform Hall",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 258,
+          "roomName": "Chute Pit",
+          "nodeid": 769,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 271,
+          "roomName": "Cruciform Hall",
+          "nodeid": 804,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between PYR-TRO Elevator / PYR Entrance Lobby and TRO-PYR Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 786,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 330,
+          "roomName": "TRO-PYR Elevator",
+          "nodeid": 954,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    }
+  ]
+}

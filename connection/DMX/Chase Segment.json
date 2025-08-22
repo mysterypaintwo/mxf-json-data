@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between DMX Elevator Bottom and DMX Elevator Top",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 100,
+          "roomName": "DMX Elevator Bottom",
+          "nodeid": 383,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 101,
+          "roomName": "DMX Elevator Top",
+          "nodeid": 386,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between DMX Elevator Top and DMX Missile Check",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 101,
+          "roomName": "DMX Elevator Top",
+          "nodeid": 385,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 102,
+          "roomName": "DMX Missile Check",
+          "nodeid": 388,
+          "nodeName": "South Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between DMX Missile Check and Winding SA-X Chase",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 102,
+          "roomName": "DMX Missile Check",
+          "nodeid": 387,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 110,
+          "roomName": "Winding SA-X Chase",
+          "nodeid": 403,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Frozen Metroid Climb and Metroid Chase with Dev Exit",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 103,
+          "roomName": "Frozen Metroid Climb",
+          "nodeid": 389,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 104,
+          "roomName": "Metroid Chase with Dev Exit",
+          "nodeid": 392,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Frozen Metroid Climb and Serpentine Break",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 103,
+          "roomName": "Frozen Metroid Climb",
+          "nodeid": 390,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 108,
+          "roomName": "Serpentine Break",
+          "nodeid": 400,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Metroid Chase with Dev Exit and Unavoidable SA-X Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 104,
+          "roomName": "Metroid Chase with Dev Exit",
+          "nodeid": 391,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 109,
+          "roomName": "Unavoidable SA-X Room",
+          "nodeid": 402,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Metroid Swarm Chase and Serpentine Break",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 105,
+          "roomName": "Metroid Swarm Chase",
+          "nodeid": 394,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 108,
+          "roomName": "Serpentine Break",
+          "nodeid": 399,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between SA-X Grapple Climb and SA-X Hallway of Death",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 106,
+          "roomName": "SA-X Grapple Climb",
+          "nodeid": 395,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 107,
+          "roomName": "SA-X Hallway of Death",
+          "nodeid": 397,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between SA-X Grapple Climb and Unavoidable SA-X Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 106,
+          "roomName": "SA-X Grapple Climb",
+          "nodeid": 396,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 109,
+          "roomName": "Unavoidable SA-X Room",
+          "nodeid": 401,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

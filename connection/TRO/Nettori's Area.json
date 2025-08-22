@@ -1,0 +1,305 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Double Helix and Overgrown Checkpoint",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 331,
+          "roomName": "Double Helix",
+          "nodeid": 956,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 335,
+          "roomName": "Overgrown Checkpoint",
+          "nodeid": 964,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Needlepoint and Overgrown Pipeway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 332,
+          "roomName": "Needlepoint",
+          "nodeid": 957,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 337,
+          "roomName": "Overgrown Pipeway",
+          "nodeid": 971,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Nettori Arena Access and Thornvault",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 333,
+          "roomName": "Nettori Arena Access",
+          "nodeid": 958,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 341,
+          "roomName": "Thornvault",
+          "nodeid": 981,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Nettori Arena Access and Overgrown Spire",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 333,
+          "roomName": "Nettori Arena Access",
+          "nodeid": 959,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 339,
+          "roomName": "Overgrown Spire",
+          "nodeid": 977,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Nettori Arena Access and Nettori Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 333,
+          "roomName": "Nettori Arena Access",
+          "nodeid": 960,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 334,
+          "roomName": "Nettori Arena",
+          "nodeid": 961,
+          "nodeName": "North Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Nettori Arena and Overgrown Spire",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 334,
+          "roomName": "Nettori Arena",
+          "nodeid": 962,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 339,
+          "roomName": "Overgrown Spire",
+          "nodeid": 978,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Nettori Arena and Overgrown Entrance",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 334,
+          "roomName": "Nettori Arena",
+          "nodeid": 963,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 336,
+          "roomName": "Overgrown Entrance",
+          "nodeid": 967,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Overgrown Checkpoint and Overgrown Entrance",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 335,
+          "roomName": "Overgrown Checkpoint",
+          "nodeid": 965,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 336,
+          "roomName": "Overgrown Entrance",
+          "nodeid": 969,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Overgrown Checkpoint and TRO Auxiliary Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 335,
+          "roomName": "Overgrown Checkpoint",
+          "nodeid": 966,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 342,
+          "roomName": "TRO Auxiliary Room",
+          "nodeid": 982,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Overgrown Speedway and Overgrown Spire",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 338,
+          "roomName": "Overgrown Speedway",
+          "nodeid": 973,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 339,
+          "roomName": "Overgrown Spire",
+          "nodeid": 974,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Overgrown Spire and Thornvault",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 339,
+          "roomName": "Overgrown Spire",
+          "nodeid": 975,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 341,
+          "roomName": "Thornvault",
+          "nodeid": 980,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Overgrown Spire and Overgrown Vineyard",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 339,
+          "roomName": "Overgrown Spire",
+          "nodeid": 976,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 340,
+          "roomName": "Overgrown Vineyard",
+          "nodeid": 979,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

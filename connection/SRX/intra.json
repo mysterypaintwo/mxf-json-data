@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Cruciform Hall and Fool\u0027s Dead End",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 271,
+          "roomName": "Cruciform Hall",
+          "nodeid": 800,
+          "nodeName": "North Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 287,
+          "roomName": "Fool\u0027s Dead End",
+          "nodeid": 841,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Lava Lake and Lava Tornado",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 274,
+          "roomName": "Lava Lake",
+          "nodeid": 810,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 291,
+          "roomName": "Lava Tornado",
+          "nodeid": 849,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between West Spike Tower and Fool\u0027s Dead End",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 284,
+          "roomName": "West Spike Tower",
+          "nodeid": 828,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 287,
+          "roomName": "Fool\u0027s Dead End",
+          "nodeid": 840,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

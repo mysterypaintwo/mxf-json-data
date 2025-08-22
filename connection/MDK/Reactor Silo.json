@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Central Reactor Core and Silo Entry",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 150,
+          "roomName": "Central Reactor Core",
+          "nodeid": 502,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 152,
+          "roomName": "Silo Entry",
+          "nodeid": 511,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Central Reactor Core and Silo Tunnel",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 150,
+          "roomName": "Central Reactor Core",
+          "nodeid": 503,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 154,
+          "roomName": "Silo Tunnel",
+          "nodeid": 517,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Central Reactor Core and Silo Scaffolding",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 150,
+          "roomName": "Central Reactor Core",
+          "nodeid": 504,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 153,
+          "roomName": "Silo Scaffolding",
+          "nodeid": 512,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Central Reactor Core and Silo Scaffolding",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 150,
+          "roomName": "Central Reactor Core",
+          "nodeid": 505,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 153,
+          "roomName": "Silo Scaffolding",
+          "nodeid": 514,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between MDK Save Station South and Yakuza Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 151,
+          "roomName": "MDK Save Station South",
+          "nodeid": 507,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 155,
+          "roomName": "Yakuza Arena",
+          "nodeid": 519,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Silo Scaffolding and Yakuza Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 153,
+          "roomName": "Silo Scaffolding",
+          "nodeid": 515,
+          "nodeName": "East-South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 155,
+          "roomName": "Yakuza Arena",
+          "nodeid": 518,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    }
+  ]
+}

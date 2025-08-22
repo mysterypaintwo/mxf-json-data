@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Gold Gadora-X Arena and Golden Four Containment",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 111,
+          "roomName": "Gold Gadora-X Arena",
+          "nodeid": 405,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 112,
+          "roomName": "Golden Four Containment",
+          "nodeid": 407,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Gold Gadora-X Arena and Hornoad Sewer",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 111,
+          "roomName": "Gold Gadora-X Arena",
+          "nodeid": 406,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 113,
+          "roomName": "Hornoad Sewer",
+          "nodeid": 409,
+          "nodeName": "West-North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Golden Four Containment and Karid-X Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 112,
+          "roomName": "Golden Four Containment",
+          "nodeid": 408,
+          "nodeName": "West-South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 114,
+          "roomName": "Karid-X Arena",
+          "nodeid": 411,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Karid-X Arena and Ventilation B",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 114,
+          "roomName": "Karid-X Arena",
+          "nodeid": 412,
+          "nodeName": "West-Upper Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 115,
+          "roomName": "Ventilation B",
+          "nodeid": 414,
+          "nodeName": "North-West Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Karid-X Arena and Ventilation B",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 114,
+          "roomName": "Karid-X Arena",
+          "nodeid": 413,
+          "nodeName": "East-Upper Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 115,
+          "roomName": "Ventilation B",
+          "nodeid": 415,
+          "nodeName": "North-East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

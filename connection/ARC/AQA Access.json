@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between ARC Etecoon Room Access and ARC-AQA Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 63,
+          "roomName": "ARC Etecoon Room Access",
+          "nodeid": 288,
+          "nodeName": "North-West Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 66,
+          "roomName": "ARC-AQA Elevator",
+          "nodeid": 295,
+          "nodeName": "North-East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between ARC Etecoon Room Access and ARC Etecoon Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 63,
+          "roomName": "ARC Etecoon Room Access",
+          "nodeid": 289,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 64,
+          "roomName": "ARC Etecoon Room",
+          "nodeid": 291,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between ARC Etecoon Room Access and ARC-AQA Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 63,
+          "roomName": "ARC Etecoon Room Access",
+          "nodeid": 290,
+          "nodeName": "West Morph Ball Hole",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 66,
+          "roomName": "ARC-AQA Elevator",
+          "nodeid": 297,
+          "nodeName": "East Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Not 58 Escape Room and Not Dead Scientist Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 126,
+          "roomName": "Not 58 Escape Room",
+          "nodeid": 444,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 129,
+          "roomName": "Not Dead Scientist Room",
+          "nodeid": 453,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Not 58 Escape Room and Not Ceres Ridley\u0027s Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 126,
+          "roomName": "Not 58 Escape Room",
+          "nodeid": 445,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 128,
+          "roomName": "Not Ceres Ridley\u0027s Arena",
+          "nodeid": 450,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Not Ceres Elevator and Sector 0 Hard Exit",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 127,
+          "roomName": "Not Ceres Elevator",
+          "nodeid": 446,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 136,
+          "roomName": "Sector 0 Hard Exit",
+          "nodeid": 468,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Not Ceres Elevator and Revival Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 127,
+          "roomName": "Not Ceres Elevator",
+          "nodeid": 447,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 134,
+          "roomName": "Revival Room",
+          "nodeid": 463,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Not Ceres Elevator and Not Falling Tile Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 127,
+          "roomName": "Not Ceres Elevator",
+          "nodeid": 448,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 130,
+          "roomName": "Not Falling Tile Room",
+          "nodeid": 454,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Not Ceres Ridley\u0027s Arena and Sector 0 Normal Exit",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 128,
+          "roomName": "Not Ceres Ridley\u0027s Arena",
+          "nodeid": 449,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 137,
+          "roomName": "Sector 0 Normal Exit",
+          "nodeid": 469,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Not Ceres Ridley\u0027s Arena and Omega Metroid Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 128,
+          "roomName": "Not Ceres Ridley\u0027s Arena",
+          "nodeid": 451,
+          "nodeName": "East-South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 132,
+          "roomName": "Omega Metroid Arena",
+          "nodeid": 459,
+          "nodeName": "East-North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Not Dead Scientist Room and Not Magnet Stairs",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 129,
+          "roomName": "Not Dead Scientist Room",
+          "nodeid": 452,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 131,
+          "roomName": "Not Magnet Stairs",
+          "nodeid": 458,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Not Falling Tile Room and Not Magnet Stairs",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 130,
+          "roomName": "Not Falling Tile Room",
+          "nodeid": 455,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 131,
+          "roomName": "Not Magnet Stairs",
+          "nodeid": 456,
+          "nodeName": "North Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Not Magnet Stairs and Sector 0 Escape",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 131,
+          "roomName": "Not Magnet Stairs",
+          "nodeid": 457,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 135,
+          "roomName": "Sector 0 Escape",
+          "nodeid": 464,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Omega Metroid Arena and Omega Metroid Escape",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 132,
+          "roomName": "Omega Metroid Arena",
+          "nodeid": 460,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 133,
+          "roomName": "Omega Metroid Escape",
+          "nodeid": 462,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Omega Metroid Escape and Sector 0 Escape",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 133,
+          "roomName": "Omega Metroid Escape",
+          "nodeid": 461,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 135,
+          "roomName": "Sector 0 Escape",
+          "nodeid": 466,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Sector 0 Escape and Sector 0 Omega Exit",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 135,
+          "roomName": "Sector 0 Escape",
+          "nodeid": 465,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 138,
+          "roomName": "Sector 0 Omega Exit",
+          "nodeid": 472,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

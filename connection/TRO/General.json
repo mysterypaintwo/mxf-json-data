@@ -1,0 +1,855 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cloister and TRO Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 303,
+          "roomName": "Cloister",
+          "nodeid": 878,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 322,
+          "roomName": "TRO Entrance Lobby",
+          "nodeid": 941,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cloister and TRO Save Station North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 303,
+          "roomName": "Cloister",
+          "nodeid": 879,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 325,
+          "roomName": "TRO Save Station North",
+          "nodeid": 945,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cloister and Fusion Cathedral",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 303,
+          "roomName": "Cloister",
+          "nodeid": 880,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 308,
+          "roomName": "Fusion Cathedral",
+          "nodeid": 900,
+          "nodeName": "East-North Morph Ball Hole",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Crum-Ball Tower and Fusion Cathedral",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 304,
+          "roomName": "Crum-Ball Tower",
+          "nodeid": 884,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 308,
+          "roomName": "Fusion Cathedral",
+          "nodeid": 902,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Crum-Ball Tower and TRO Save Station South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 304,
+          "roomName": "Crum-Ball Tower",
+          "nodeid": 886,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 326,
+          "roomName": "TRO Save Station South",
+          "nodeid": 947,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Crum-Ball Tower and Overgrown Cache",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 304,
+          "roomName": "Crum-Ball Tower",
+          "nodeid": 887,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 313,
+          "roomName": "Overgrown Cache",
+          "nodeid": 921,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Crumble City and Crumble Crossing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 305,
+          "roomName": "Crumble City",
+          "nodeid": 888,
+          "nodeName": "East-North Door",
+          "position": "top"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 306,
+          "roomName": "Crumble Crossing",
+          "nodeid": 893,
+          "nodeName": "East-South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Crumble City and Cultivation Station",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 305,
+          "roomName": "Crumble City",
+          "nodeid": 889,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 307,
+          "roomName": "Cultivation Station",
+          "nodeid": 895,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Crumble City and Oasis",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 305,
+          "roomName": "Crumble City",
+          "nodeid": 890,
+          "nodeName": "East-South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 311,
+          "roomName": "Oasis",
+          "nodeid": 916,
+          "nodeName": "East-North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Crumble Crossing and Puyo Palace",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 306,
+          "roomName": "Crumble Crossing",
+          "nodeid": 891,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 315,
+          "roomName": "Puyo Palace",
+          "nodeid": 925,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Crumble Crossing and Fusion Cathedral",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 306,
+          "roomName": "Crumble Crossing",
+          "nodeid": 892,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 308,
+          "roomName": "Fusion Cathedral",
+          "nodeid": 899,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Cultivation Station and Reo Courtyard",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 307,
+          "roomName": "Cultivation Station",
+          "nodeid": 894,
+          "nodeName": "West-North Door",
+          "position": "top"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 316,
+          "roomName": "Reo Courtyard",
+          "nodeid": 928,
+          "nodeName": "West-South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cultivation Station and TRO Save Station West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 307,
+          "roomName": "Cultivation Station",
+          "nodeid": 896,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 327,
+          "roomName": "TRO Save Station West",
+          "nodeid": 948,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cultivation Station and TRO Navigation Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 307,
+          "roomName": "Cultivation Station",
+          "nodeid": 897,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 323,
+          "roomName": "TRO Navigation Room",
+          "nodeid": 942,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Cultivation Station and Moldy Bridge",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 307,
+          "roomName": "Cultivation Station",
+          "nodeid": 898,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 309,
+          "roomName": "Moldy Bridge",
+          "nodeid": 907,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Fusion Cathedral and Oasis",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 308,
+          "roomName": "Fusion Cathedral",
+          "nodeid": 901,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 311,
+          "roomName": "Oasis",
+          "nodeid": 915,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Fusion Cathedral and TRO Save Station South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 308,
+          "roomName": "Fusion Cathedral",
+          "nodeid": 903,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 326,
+          "roomName": "TRO Save Station South",
+          "nodeid": 946,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Fusion Cathedral and TRO Data Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 308,
+          "roomName": "Fusion Cathedral",
+          "nodeid": 904,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 319,
+          "roomName": "TRO Data Room Access",
+          "nodeid": 935,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Moldy Bridge and Sanctum Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 309,
+          "roomName": "Moldy Bridge",
+          "nodeid": 908,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 317,
+          "roomName": "Sanctum Access",
+          "nodeid": 929,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Moldy Bridge and TRO Reserve X Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 309,
+          "roomName": "Moldy Bridge",
+          "nodeid": 909,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 324,
+          "roomName": "TRO Reserve X Room",
+          "nodeid": 944,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Moldy Bridge and Owtch Office",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 309,
+          "roomName": "Moldy Bridge",
+          "nodeid": 910,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 314,
+          "roomName": "Owtch Office",
+          "nodeid": 922,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Oasis Storage and TRO Security Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 310,
+          "roomName": "Oasis Storage",
+          "nodeid": 911,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 328,
+          "roomName": "TRO Security Room",
+          "nodeid": 950,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Oasis Storage and Oasis",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 310,
+          "roomName": "Oasis Storage",
+          "nodeid": 912,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 311,
+          "roomName": "Oasis",
+          "nodeid": 914,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Oasis Storage and Oasis",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 310,
+          "roomName": "Oasis Storage",
+          "nodeid": 913,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 311,
+          "roomName": "Oasis",
+          "nodeid": 917,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Omega Lobby and Puyo Palace",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 312,
+          "roomName": "Omega Lobby",
+          "nodeid": 919,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 315,
+          "roomName": "Puyo Palace",
+          "nodeid": 923,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Omega Lobby and TRO Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 312,
+          "roomName": "Omega Lobby",
+          "nodeid": 920,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 322,
+          "roomName": "TRO Entrance Lobby",
+          "nodeid": 938,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Puyo Palace and Reo Courtyard",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 315,
+          "roomName": "Puyo Palace",
+          "nodeid": 924,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 316,
+          "roomName": "Reo Courtyard",
+          "nodeid": 926,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Reo Courtyard and TRO-PYR Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 316,
+          "roomName": "Reo Courtyard",
+          "nodeid": 927,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 329,
+          "roomName": "TRO-PYR Access",
+          "nodeid": 952,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Sanctum Access and Sanctum",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 317,
+          "roomName": "Sanctum Access",
+          "nodeid": 930,
+          "nodeName": "East-South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 318,
+          "roomName": "Sanctum",
+          "nodeid": 931,
+          "nodeName": "East-North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Sanctum and TRO Data Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 318,
+          "roomName": "Sanctum",
+          "nodeid": 932,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 319,
+          "roomName": "TRO Data Room Access",
+          "nodeid": 933,
+          "nodeName": "North Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between TRO Data Room Access and TRO Data Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 319,
+          "roomName": "TRO Data Room Access",
+          "nodeid": 934,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 320,
+          "roomName": "TRO Data Room",
+          "nodeid": 936,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between TRO Entrance Lobby Storage and TRO Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 321,
+          "roomName": "TRO Entrance Lobby Storage",
+          "nodeid": 937,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 322,
+          "roomName": "TRO Entrance Lobby",
+          "nodeid": 940,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between TRO Navigation Room and TRO Security Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 323,
+          "roomName": "TRO Navigation Room",
+          "nodeid": 943,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 328,
+          "roomName": "TRO Security Room",
+          "nodeid": 949,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between TRO-PYR Access and TRO-PYR Elevator",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 329,
+          "roomName": "TRO-PYR Access",
+          "nodeid": 951,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 330,
+          "roomName": "TRO-PYR Elevator",
+          "nodeid": 953,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Boiler Room and Yameba Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 222,
+          "roomName": "Boiler Room",
+          "nodeid": 686,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 240,
+          "roomName": "Yameba Tower",
+          "nodeid": 721,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Deceptive Station and Neo-Ridley Gauntlet Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 223,
+          "roomName": "Deceptive Station",
+          "nodeid": 687,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 231,
+          "roomName": "Neo-Ridley Gauntlet Access",
+          "nodeid": 703,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Elevator Passage to Neo-Ridley and Elevator to Neo-Ridley",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 224,
+          "roomName": "Elevator Passage to Neo-Ridley",
+          "nodeid": 688,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 225,
+          "roomName": "Elevator to Neo-Ridley",
+          "nodeid": 691,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Elevator Passage to Neo-Ridley and Neo-Ridley Arena",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 224,
+          "roomName": "Elevator Passage to Neo-Ridley",
+          "nodeid": 689,
+          "nodeName": "South Door",
+          "position": "bottom"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 230,
+          "roomName": "Neo-Ridley Arena",
+          "nodeid": 701,
+          "nodeName": "North Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between Elevator to Neo-Ridley and PYR Auxiliary Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 225,
+          "roomName": "Elevator to Neo-Ridley",
+          "nodeid": 690,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 232,
+          "roomName": "PYR Auxiliary Room Access",
+          "nodeid": 707,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Fune Tower and Yameba Gauntlet",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 226,
+          "roomName": "Fune Tower",
+          "nodeid": 692,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 239,
+          "roomName": "Yameba Gauntlet",
+          "nodeid": 719,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Fune Tower and PYR Green Navigation Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 226,
+          "roomName": "Fune Tower",
+          "nodeid": 693,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 235,
+          "roomName": "PYR Green Navigation Room",
+          "nodeid": 711,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Hopping Barricade and Yameba Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 227,
+          "roomName": "Hopping Barricade",
+          "nodeid": 694,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 240,
+          "roomName": "Yameba Tower",
+          "nodeid": 723,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Hopping Barricade and Neo-Ridley Gauntlet Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 227,
+          "roomName": "Hopping Barricade",
+          "nodeid": 695,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 231,
+          "roomName": "Neo-Ridley Gauntlet Access",
+          "nodeid": 704,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ironway and Yameba Tower",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 228,
+          "roomName": "Ironway",
+          "nodeid": 696,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 240,
+          "roomName": "Yameba Tower",
+          "nodeid": 722,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Ironway and Lava Dive Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 228,
+          "roomName": "Ironway",
+          "nodeid": 697,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 229,
+          "roomName": "Lava Dive Room",
+          "nodeid": 700,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Ironway and PYR Etecoon Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 228,
+          "roomName": "Ironway",
+          "nodeid": 698,
+          "nodeName": "South Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 234,
+          "roomName": "PYR Etecoon Room",
+          "nodeid": 710,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Neo-Ridley Gauntlet Access and PYR Green Navigation Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 231,
+          "roomName": "Neo-Ridley Gauntlet Access",
+          "nodeid": 702,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 235,
+          "roomName": "PYR Green Navigation Room",
+          "nodeid": 712,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Neo-Ridley Gauntlet Access and PYR Save Station South",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 231,
+          "roomName": "Neo-Ridley Gauntlet Access",
+          "nodeid": 705,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 236,
+          "roomName": "PYR Save Station South",
+          "nodeid": 713,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Auxiliary Room Access and Yameba Gauntlet",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 232,
+          "roomName": "PYR Auxiliary Room Access",
+          "nodeid": 706,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 239,
+          "roomName": "Yameba Gauntlet",
+          "nodeid": 720,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Auxiliary Room Access and PYR Auxiliary Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 232,
+          "roomName": "PYR Auxiliary Room Access",
+          "nodeid": 708,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 233,
+          "roomName": "PYR Auxiliary Room",
+          "nodeid": 709,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Save Station South and PYR Security Room Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 236,
+          "roomName": "PYR Save Station South",
+          "nodeid": 714,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 237,
+          "roomName": "PYR Security Room Access",
+          "nodeid": 715,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Security Room Access and PYR Security Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 237,
+          "roomName": "PYR Security Room Access",
+          "nodeid": 716,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 238,
+          "roomName": "PYR Security Room",
+          "nodeid": 717,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

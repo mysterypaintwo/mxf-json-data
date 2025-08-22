@@ -1,0 +1,530 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red Geron Gate Room and Big Red",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 254,
+          "roomName": "Big Red Geron Gate Room",
+          "nodeid": 753,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 762,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red Geron Gate Room and Geron\u0027s Treasure",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 254,
+          "roomName": "Big Red Geron Gate Room",
+          "nodeid": 754,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 262,
+          "roomName": "Geron\u0027s Treasure",
+          "nodeid": 779,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Big Red Maintenance Storage and Big Red",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 255,
+          "roomName": "Big Red Maintenance Storage",
+          "nodeid": 755,
+          "nodeName": "North-East Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 761,
+          "nodeName": "West Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red Maintenance Storage and Overthinking Chamber",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 255,
+          "roomName": "Big Red Maintenance Storage",
+          "nodeid": 756,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 263,
+          "roomName": "Overthinking Chamber",
+          "nodeid": 781,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red Maintenance Storage and Big Red",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 255,
+          "roomName": "Big Red Maintenance Storage",
+          "nodeid": 757,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 763,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red and PYR Save Station North",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 758,
+          "nodeName": "North-West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 264,
+          "roomName": "PYR Save Station North",
+          "nodeid": 782,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red and PYR-ARC Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 759,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 266,
+          "roomName": "PYR-ARC Access",
+          "nodeid": 784,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Big Red and Deserted Runway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 256,
+          "roomName": "Big Red",
+          "nodeid": 760,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 259,
+          "roomName": "Deserted Runway",
+          "nodeid": 771,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Bob\u0027s Abode and Deserted Runway",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 257,
+          "roomName": "Bob\u0027s Abode",
+          "nodeid": 765,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 259,
+          "roomName": "Deserted Runway",
+          "nodeid": 772,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bob\u0027s Abode and PYR-TRO Elevator / PYR Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 257,
+          "roomName": "Bob\u0027s Abode",
+          "nodeid": 766,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 791,
+          "nodeName": "East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Bob\u0027s Abode and Overthinking Chamber",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 257,
+          "roomName": "Bob\u0027s Abode",
+          "nodeid": 767,
+          "nodeName": "East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 263,
+          "roomName": "Overthinking Chamber",
+          "nodeid": 780,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Chute Pit and Garbage Chute",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 258,
+          "roomName": "Chute Pit",
+          "nodeid": 768,
+          "nodeName": "West-North Door",
+          "position": "top"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 261,
+          "roomName": "Garbage Chute",
+          "nodeid": 777,
+          "nodeName": "West-South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Deserted Runway and PYR-TRO Elevator / PYR Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 259,
+          "roomName": "Deserted Runway",
+          "nodeid": 770,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 787,
+          "nodeName": "North-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Garbage Chute Runway and Garbage Chute",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 260,
+          "roomName": "Garbage Chute Runway",
+          "nodeid": 773,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 261,
+          "roomName": "Garbage Chute",
+          "nodeid": 776,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Garbage Chute Runway and PYR-TRO Elevator / PYR Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 260,
+          "roomName": "Garbage Chute Runway",
+          "nodeid": 774,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 789,
+          "nodeName": "West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Garbage Chute and Trash Gap",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 261,
+          "roomName": "Garbage Chute",
+          "nodeid": 775,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 270,
+          "roomName": "Trash Gap",
+          "nodeid": 798,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Garbage Chute and Sova Processing Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 261,
+          "roomName": "Garbage Chute",
+          "nodeid": 778,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 268,
+          "roomName": "Sova Processing Access",
+          "nodeid": 793,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between PYR Save Station West and PYR-TRO Elevator / PYR Entrance Lobby",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 265,
+          "roomName": "PYR Save Station West",
+          "nodeid": 783,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 790,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between PYR-TRO Elevator / PYR Entrance Lobby and Trash Gap",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 788,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 270,
+          "roomName": "Trash Gap",
+          "nodeid": 799,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between PYR-TRO Elevator / PYR Entrance Lobby and Sova Processing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 267,
+          "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
+          "nodeid": 792,
+          "nodeName": "South-East Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 269,
+          "roomName": "Sova Processing",
+          "nodeid": 795,
+          "nodeName": "North-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Sova Processing Access and Sova Processing",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 268,
+          "roomName": "Sova Processing Access",
+          "nodeid": 794,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 269,
+          "roomName": "Sova Processing",
+          "nodeid": 796,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        }
+      ]
+    }
+  ]
+}

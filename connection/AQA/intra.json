@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schema/mxf-connection.schema.json",
+  "connections": [
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between Cheddar Bay and AQA Security Room North Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 157,
+          "nodeName": "North Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 46,
+          "roomName": "AQA Security Room North Access",
+          "nodeid": 242,
+          "nodeName": "South-East Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalMorphBallHole",
+      "description": "Horizontal Morph Ball Hole connection between Cheddar Bay and Hydrospark",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 14,
+          "roomName": "Cheddar Bay",
+          "nodeid": 160,
+          "nodeName": "East-Upper Morph Ball Hole",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 36,
+          "roomName": "Hydrospark",
+          "nodeid": 216,
+          "nodeName": "South-West Morph Ball Hole",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Drowned Junction and Resevoir West",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 15,
+          "roomName": "Drowned Junction",
+          "nodeid": 164,
+          "nodeName": "North-East Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 58,
+          "roomName": "Resevoir West",
+          "nodeid": 275,
+          "nodeName": "South-West Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Central Hub and Triple Gate Room",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 28,
+          "roomName": "AQA Central Hub",
+          "nodeid": 196,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 62,
+          "roomName": "Triple Gate Room",
+          "nodeid": 287,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Central Hub and Construction Site Checkpoint",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 28,
+          "roomName": "AQA Central Hub",
+          "nodeid": 197,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 51,
+          "roomName": "Construction Site Checkpoint",
+          "nodeid": 254,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA Central Hub and Owtch Atrium",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 28,
+          "roomName": "AQA Central Hub",
+          "nodeid": 199,
+          "nodeName": "South-West Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper West AQA",
+          "roomid": 56,
+          "roomName": "Owtch Atrium",
+          "nodeid": 270,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        }
+      ]
+    }
+  ]
+}
