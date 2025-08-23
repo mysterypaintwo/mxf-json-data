@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mxf-enemies.schema.json",
+  "enemies": [
+    {
+      "id": 1,
+      "name": "Hornoad",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 50
+        },
+        {
+          "name": "fireball",
+          "baseDamage": 20
+        }
+      ],
+      "hp": 200,
+      "amountOfDrops": 1,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0.4,
+        "greenX": 0,
+        "redX": 101.6
+      },    
+      "dims": {
+        "w": 8,
+        "h": 24
+      },
+      "freezable": true,
+      "grapplable": false,
+      "damageMultipliers": [
+        { "weapon": "Missile",  "value": 2 },
+        { "weapon": "Super",    "value": 2 }
+      ],
+      "invul": ["Grapple"],
+      "areas": [
+        "crateria",
+        "norfair"
+      ]
+    }
+  ]
+}
