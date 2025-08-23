@@ -13,15 +13,15 @@
       "maxAmount": 99
     },
     {
-      "resource": "reserveEnergy",
+      "resource": "reserveXEnergy",
+      "maxAmount": 0
+    },
+    {
+      "resource": "reserveXAmmo",
       "maxAmount": 0
     },
     {
       "resource": "missile",
-      "maxAmount": 0
-    },
-    {
-      "resource": "super",
       "maxAmount": 0
     },
     {
