@@ -18,7 +18,7 @@
   },
 
   "type": "object",
-  "title": "Super Metroid Items and Flags Schema",
+  "title": "Metroid: X-Fusion - Items and Flags Schema",
   "additionalProperties": false,
   "properties": {
     "$schema": {
