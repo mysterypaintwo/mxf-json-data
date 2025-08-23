@@ -22,7 +22,7 @@
     },
     {
       "resource": "missile",
-      "maxAmount": 0
+      "maxAmount": 5
     },
     {
       "resource": "powerBomb",
@@ -36,103 +36,103 @@
     {
       "name": "Varia",
       "data": "0x80",
-      "wram": "0x7EFE80",
+      "wram": "0x7E09A4",
       "bitmask": "0x0001"
     },
     {
       "name": "Gravity",
       "data": "0x82",
-      "wram": "0x7EFE82",
+      "wram": "0x7E09A4",
       "bitmask": "0x0020"
     },
     {
       "name": "Morph",
       "data": "0x84",
-      "wram": "0x7EFE84",
+      "wram": "0x7E09A4",
       "bitmask": "0x0004"
     },
     {
       "name": "Bombs",
       "data": "0x86",
-      "wram": "0x7EFE86",
+      "wram": "0x7E09A4",
       "bitmask": "0x1000"
     },
     {
       "name": "ScrewAttack",
       "data": "0x88",
-      "wram": "0x7EFE88",
+      "wram": "0x7E09A4",
       "bitmask": "0x0008"
     },
     {
       "name": "SuperJump",
       "data": "0x8C",
-      "wram": "0x7EFE8C",
+      "wram": "0x7E09A4",
       "bitmask": "0x0100"
     },
     {
       "name": "SpaceJump",
       "data": "0x8E",
-      "wram": "0x7EFE8E",
+      "wram": "0x7E09A4",
       "bitmask": "0x0200"
     },
     {
       "name": "SpeedBooster",
       "data": "0x90",
-      "wram": "0x7EFE90",
+      "wram": "0x7E09A4",
       "bitmask": "0x2000"
     },
     {
       "name": "SpeedBoosterLv2",
       "data": "0x92",
-      "wram": "0x7EFE92",
+      "wram": "0x7E09A4",
       "bitmask": "0x0800"
     },
     {
       "name": "SpikeBreaker",
       "data": "0x8A",
-      "wram": "0x7EFE8A",
+      "wram": "0x7E09A4",
       "bitmask": "0x0080"
     },
     {
       "name": "MissileLv2",
       "data": "0x9C",
-      "wram": "0x7EFE9C",
+      "wram": "0x7E09A4",
       "bitmask": "0x0002"
     },
     {
       "name": "MissileLv3",
       "data": "0x9E",
-      "wram": "0x7EFE9E",
+      "wram": "0x7E09A4",
       "bitmask": "0x8000"
     },
     {
       "name": "MissileLv4",
       "data": "0xA0",
-      "wram": "0x7EFEA0",
+      "wram": "0x7E09A4",
       "bitmask": "0x0010"
     },
     {
       "name": "ChargeBeam",
       "data": "0x94",
-      "wram": "0x7EFE94",
+      "wram": "0x7E09A8",
       "bitmask": "0x1000"
     },
     {
       "name": "WaveBeam",
       "data": "0x98",
-      "wram": "0x7EFE98",
+      "wram": "0x7E09A8",
       "bitmask": "0x0001"
     },
     {
       "name": "WideBeam",
       "data": "0x96",
-      "wram": "0x7EFE96",
+      "wram": "0x7E09A8",
       "bitmask": "0x0004"
     },
     {
       "name": "PlasmaBeam",
       "data": "0x9A",
-      "wram": "0x7EFE9A",
+      "wram": "0x7E09A8",
       "bitmask": "0x0002"
     }
   ],
