@@ -1,0 +1,206 @@
+{
+  "$schema": "./schema/mxf-items.schema.json",
+  "startingRoom": "Revival Room",
+  "startingNode": 1,
+  "startingItems": [
+    "PowerBeam"
+  ],
+  "startingFlags": [ ],
+  "startingLocks": [ ],
+  "startingResources": [
+    {
+      "resource": "regularEnergy",
+      "maxAmount": 99
+    },
+    {
+      "resource": "reserveEnergy",
+      "maxAmount": 0
+    },
+    {
+      "resource": "missile",
+      "maxAmount": 0
+    },
+    {
+      "resource": "super",
+      "maxAmount": 0
+    },
+    {
+      "resource": "powerBomb",
+      "maxAmount": 0
+    }
+  ],
+  "implicitItems": [
+    "PowerBeam"
+  ],
+  "upgradeItems": [
+    {
+      "name": "Morph",
+      "data": "0xB4"
+    },
+    {
+      "name": "Bombs",
+      "data": "0xB9"
+    },
+    {
+      "name": "Charge",
+      "data": "0x8B"
+    },
+    {
+      "name": "HiJump",
+      "data": "0xB7"
+    },
+    {
+      "name": "Spazer",
+      "data": "0xBE"
+    },
+    {
+      "name": "Varia",
+      "data": "0xB2"
+    },
+    {
+      "name": "SpeedBooster",
+      "data": "0xBA"
+    },
+    {
+      "name": "Ice",
+      "data": "0xBC"
+    },
+    {
+      "name": "Grapple",
+      "data": "0xB0"
+    },
+    {
+      "name": "Wave",
+      "data": "0xBD"
+    },
+    {
+      "name": "XRayScope",
+      "data": "0xB1"
+    },
+    {
+      "name": "Gravity",
+      "data": "0xB6"
+    },
+    {
+      "name": "SpaceJump",
+      "data": "0xB8"
+    },
+    {
+      "name": "SpringBall",
+      "data": "0xB3"
+    },
+    {
+      "name": "Plasma",
+      "data": "0xBF"
+    },
+    {
+      "name": "ScrewAttack",
+      "data": "0xB5"
+    }
+  ],
+  "expansionItems": [
+    {
+      "name": "ETank",
+      "data": "0xC0",
+      "resource": "regularEnergy",
+      "resourceAmount": 100
+    },
+    {
+      "name": "Super",
+      "data": "0xC3",
+      "resource": "super",
+      "resourceAmount": 5
+    },
+    {
+      "name": "Missile",
+      "data": "0xC2",
+      "resource": "missile",
+      "resourceAmount": 5
+    },
+    {
+      "name": "ReserveTank",
+      "data": "0xC1",
+      "resource": "reserveEnergy",
+      "resourceAmount": 100
+    },
+    {
+      "name": "PowerBomb",
+      "data": "0xC4",
+      "resource": "powerBomb",
+      "resourceAmount": 5
+    }
+  ],
+  "gameFlags": [
+    "f_Undocumented_7ED800_Bit0",
+    "f_Undocumented_7ED800_Bit1",
+    "f_Undocumented_7ED800_Bit2",
+    "f_Undocumented_7ED800_Bit3",
+    "f_Undocumented_7ED800_Bit4",
+    "f_Undocumented_7ED800_Bit5",
+    "f_Undocumented_7ED800_Bit6",
+    "f_Undocumented_7ED800_Bit7",
+
+    "f_Undocumented_7ED801_Bit0",
+    "f_Undocumented_7ED801_Bit1",
+    "f_Undocumented_7ED801_Bit2",
+    "f_Undocumented_7ED801_Bit3",
+    "f_Undocumented_7ED801_Bit4",
+    "f_Undocumented_7ED801_Bit5",
+    "f_Undocumented_7ED801_Bit6",
+    "f_Undocumented_7ED801_Bit7",
+
+    "f_Undocumented_7ED802_Bit0",
+    "f_Undocumented_7ED802_Bit1",
+    "f_Undocumented_7ED802_Bit2",
+    "f_Undocumented_7ED802_Bit3",
+    "f_Undocumented_7ED802_Bit4",
+    "f_Undocumented_7ED802_Bit5",
+    "f_Undocumented_7ED802_Bit6",
+    "f_Undocumented_7ED802_Bit7",
+
+    "f_Undocumented_7ED803_Bit0",
+    "f_Undocumented_7ED803_Bit1",
+    "f_Undocumented_7ED803_Bit2",
+    "f_Undocumented_7ED803_Bit3",
+    "f_Undocumented_7ED803_Bit4",
+    "f_Undocumented_7ED803_Bit5",
+    "f_Undocumented_7ED803_Bit6",
+    "f_Undocumented_7ED803_Bit7",
+
+    "f_Undocumented_7ED804_Bit0",
+    "f_Undocumented_7ED804_Bit1",
+    "f_Undocumented_7ED804_Bit2",
+    "f_Undocumented_7ED804_Bit3",
+    "f_Undocumented_7ED804_Bit4",
+    "f_Undocumented_7ED804_Bit5",
+    "f_Undocumented_7ED804_Bit6",
+    "f_Undocumented_7ED804_Bit7",
+
+    "f_Undocumented_7ED805_Bit0",
+    "f_Undocumented_7ED805_Bit1",
+    "f_Undocumented_7ED805_Bit2",
+    "f_Undocumented_7ED805_Bit3",
+    "f_Undocumented_7ED805_Bit4",
+    "f_Undocumented_7ED805_Bit5",
+    "f_Undocumented_7ED805_Bit6",
+    "f_Undocumented_7ED805_Bit7",
+
+    "f_Undocumented_7ED806_Bit0",
+    "f_Undocumented_7ED806_Bit1",
+    "f_Undocumented_7ED806_Bit2",
+    "f_Undocumented_7ED806_Bit3",
+    "f_Undocumented_7ED806_Bit4",
+    "f_Undocumented_7ED806_Bit5",
+    "f_Undocumented_7ED806_Bit6",
+    "f_Undocumented_7ED806_Bit7",
+
+    "f_Undocumented_7ED807_Bit0",
+    "f_Undocumented_7ED807_Bit1",
+    "f_Undocumented_7ED807_Bit2",
+    "f_Undocumented_7ED807_Bit3",
+    "f_Undocumented_7ED807_Bit4",
+    "f_Undocumented_7ED807_Bit5",
+    "f_Undocumented_7ED807_Bit6",
+    "f_Undocumented_7ED807_Bit7"
+  ]
+}
