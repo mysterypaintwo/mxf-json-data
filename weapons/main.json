@@ -3,278 +3,363 @@
   "weapons": [
     {
       "id": 1,
-      "name": "PowerBeam",
-      "damage": 20,
+      "name": "Charge",
+      "damage": 120,
       "cooldownFrames": 15,
-      "useRequires": ["PowerBeam"],
+      "useRequires": [
+        "Charge"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All"
+      ],
+      "additionalComments": ""
     },
     {
       "id": 2,
-      "name": "Charge",
-      "damage": 60,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "PowerBeam"],
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"],
+      "name": "ChargePlasma",
+      "damage": 150,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "ChargePlasma"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "note": "A charged Power Beam attack"
+      "categories": [
+        "All"
+      ],
+      "additionalComments": "Startup: [16x16] for 2 frames \u2192 [32x16] until it dies."
     },
     {
       "id": 3,
-      "name": "Ice",
-      "damage": 30,
+      "name": "ChargeWave",
+      "damage": 300,
       "cooldownFrames": 15,
-      "useRequires": ["Ice"],
+      "useRequires": [
+        "ChargeWave"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "UnchargedIceBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All"
+      ],
+      "additionalComments": ""
     },
     {
       "id": 4,
-      "name": "Charge+Ice",
-      "damage": 90,
-      "cooldownFrames": 60,
-      "useRequires": ["Ice", "Charge"],
+      "name": "ChargeWide",
+      "damage": 300,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "ChargeWide"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All"
+      ],
+      "additionalComments": "Startup: [16x16] for 10 frames \u2192 [16x32] until it dies."
     },
     {
       "id": 5,
-      "name": "WideBeam",
-      "damage": 40,
+      "name": "ChargeWidePlasma",
+      "damage": 400,
       "cooldownFrames": 15,
-      "useRequires": ["WideBeam"],
+      "useRequires": [
+        "ChargeWidePlasma"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "UnchargedSpazerBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All"
+      ],
+      "additionalComments": "Startup: [16x24] for 6 frames \u2192 [16x32] until it dies."
     },
     {
       "id": 6,
-      "name": "Charge+WideBeam",
-      "damage": 120,
-      "cooldownFrames": 60,
-      "useRequires": ["WideBeam", "Charge"],
+      "name": "ChargeWideWave",
+      "damage": 400,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "ChargeWideWave"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All"
+      ],
+      "additionalComments": "Startup: [16x16] for 2 frames \u2192 [24x24] until it dies."
     },
     {
       "id": 7,
-      "name": "Wave",
-      "damage": 50,
+      "name": "Disruptor Beam",
+      "damage": 1000,
       "cooldownFrames": 15,
-      "useRequires": ["Wave"],
+      "useRequires": [
+        "Disruptor Beam"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All",
+        "Beam",
+        "UnchargedBeam",
+        "BeamNoPlasma",
+        "UnchargedBeamNoPlasma"
+      ],
+      "additionalComments": "It deals 1000 Damage, but all the SA-X are scripted to die after a single shot"
     },
     {
       "id": 8,
-      "name": "Charge+Wave",
-      "damage": 150,
-      "cooldownFrames": 60,
-      "useRequires": ["Wave", "Charge"],
+      "name": "EverythingBeam,Charge",
+      "damage": 640,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "EverythingBeam,Charge"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All",
+        "Beam",
+        "BeamNoPlasma",
+        "ChargedBeam"
+      ]
     },
     {
       "id": 9,
-      "name": "Plasma",
-      "damage": 150,
+      "name": "",
+      "damage": 0,
       "cooldownFrames": 15,
-      "useRequires": ["Plasma"],
+      "useRequires": [
+        ""
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam"]
+      "categories": [
+        "All"
+      ]
     },
     {
       "id": 10,
-      "name": "Charge+Plasma",
-      "damage": 450,
-      "cooldownFrames": 60,
-      "useRequires": ["Plasma", "Charge"],
+      "name": "Loop: cycles between heights 40 \u2192 36 \u2192 32 \u2192 24 \u2192 16 \u2192 24 \u2192 32 with corresponding frame durations.",
+      "damage": 0,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "Loop: cycles between heights 40 \u2192 36 \u2192 32 \u2192 24 \u2192 16 \u2192 24 \u2192 32 with corresponding frame durations."
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "ChargedBeam", "Beam"]
+      "categories": [
+        "All"
+      ]
     },
     {
       "id": 11,
-      "name": "Ice+WideBeam",
-      "damage": 60,
+      "name": "MissileAll",
+      "damage": 588,
       "cooldownFrames": 15,
-      "useRequires": ["Ice", "WideBeam", "PowerBeam"],
+      "useRequires": [
+        "MissileAll"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "UnchargedIceBeam", "UnchargedSpazerBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact \u2192 [24x24] at peak impact."
     },
     {
       "id": 12,
-      "name": "Charge+Ice+WideBeam",
-      "damage": 180,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Ice", "WideBeam", "PowerBeam"],
+      "name": "MissileAllParticles",
+      "damage": 144,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "MissileAllParticles"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Loop: cycles hitbox ([16x16] 3 frames \u2192 [24x24] 3 frames \u2192 [32x32] 14 frames)."
     },
     {
       "id": 13,
-      "name": "Ice+Wave",
-      "damage": 60,
+      "name": "MissileLv1",
+      "damage": 100,
       "cooldownFrames": 15,
-      "useRequires": ["Ice", "Wave", "PowerBeam"],
+      "useRequires": [
+        "MissileLv1"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "UnchargedIceBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact."
     },
     {
       "id": 14,
-      "name": "Charge+Ice+Wave",
-      "damage": 180,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Ice", "Wave", "PowerBeam"],
+      "name": "MissileLv2",
+      "damage": 200,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "MissileLv2"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact \u2192 [24x24] at peak impact."
     },
     {
       "id": 15,
-      "name": "Wave+WideBeam",
-      "damage": 70,
+      "name": "MissileLv2\u002BMissileLv3",
+      "damage": 300,
       "cooldownFrames": 15,
-      "useRequires": ["Wave", "WideBeam", "PowerBeam"],
+      "useRequires": [
+        "MissileLv2\u002BMissileLv3"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "UnchargedSpazerBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact \u2192 [24x24] at peak impact."
     },
     {
       "id": 16,
-      "name": "Charge+Wave+WideBeam",
-      "damage": 210,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Wave", "WideBeam", "PowerBeam"],
+      "name": "MissileLv2\u002BMissileLv4",
+      "damage": 200,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "MissileLv2\u002BMissileLv4"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact \u2192 [24x24] at peak impact."
     },
     {
       "id": 17,
-      "name": "Ice+Wave+WideBeam",
-      "damage": 100,
+      "name": "MissileLv3",
+      "damage": 300,
       "cooldownFrames": 15,
-      "useRequires": ["Ice", "Wave", "WideBeam", "PowerBeam"],
+      "useRequires": [
+        "MissileLv3"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam", "UnchargedIceBeam", "UnchargedSpazerBeam", "BeamNoPlasma", "UnchargedBeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact."
     },
     {
       "id": 18,
-      "name": "Charge+Ice+Wave+WideBeam",
-      "damage": 300,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Ice", "Wave", "WideBeam", "PowerBeam"],
+      "name": "MissileLv3\u002BMissileLv4",
+      "damage": 100,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "MissileLv3\u002BMissileLv4"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam", "BeamNoPlasma"]
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact."
     },
     {
       "id": 19,
-      "name": "Ice+Plasma",
-      "damage": 200,
-      "cooldownFrames": 12,
-      "useRequires": ["Ice", "Plasma", "PowerBeam"],
+      "name": "MissileLv4",
+      "damage": 100,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "MissileLv4"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedIceBeam", "UnchargedBeam"],
-      "note": "Special case of extra fast cooldown"
+      "categories": [
+        "All",
+        "Missile"
+      ],
+      "additionalComments": "Startup: [8x8] while travelling \u2192 [16x16] on impact."
     },
     {
       "id": 20,
-      "name": "Charge+Ice+Plasma",
-      "damage": 600,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Ice", "Plasma", "PowerBeam"],
+      "name": "PowerBeam",
+      "damage": 20,
+      "cooldownFrames": 15,
+      "useRequires": [
+        "PowerBeam"
+      ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam" ]
+      "categories": [
+        "All",
+        "Beam",
+        "UnchargedBeam",
+        "BeamNoPlasma",
+        "UnchargedBeamNoPlasma"
+      ],
+      "additionalComments": "(Seems to be 30 for intro Omega Metroid!?)"
     },
     {
       "id": 21,
-      "name": "Wave+Plasma",
-      "damage": 250,
+      "name": "WideBeam",
+      "damage": 60,
       "cooldownFrames": 15,
-      "useRequires": ["Wave", "Plasma", "PowerBeam"],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedBeam"]
-    },
-    {
-      "id": 22,
-      "name": "Charge+Wave+Plasma",
-      "damage": 750,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Wave", "Plasma", "PowerBeam"],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam" ]
-    },
-    {
-      "id": 23,
-      "name": "Ice+Wave+Plasma",
-      "damage": 300,
-      "cooldownFrames": 15,
-      "useRequires": ["Ice", "Wave", "Plasma", "PowerBeam"],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All", "Beam", "UnchargedIceBeam", "UnchargedBeam"]
-    },
-    {
-      "id": 24,
-      "name": "Charge+Ice+Wave+Plasma",
-      "damage": 900,
-      "cooldownFrames": 60,
-      "useRequires": ["Charge", "Ice", "Wave", "Plasma", "PowerBeam"],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All", "Beam", "ChargedBeam" ]
-    },
-    {
-      "id": 25,
-      "name": "Missile",
-      "damage": 100,
-      "cooldownFrames": 10,
-      "useRequires": ["Missile"],
-      "shotRequires": [
-        {"ammo": {
-          "type": "Missile",
-          "count": 1
-        }}
+      "useRequires": [
+        "WideBeam"
       ],
+      "shotRequires": [],
       "situational": false,
       "hitsGroup": false,
-      "categories": ["All"]
-    },
-    {
-      "id": 26,
-      "name": "Super",
-      "damage": 300,
-      "cooldownFrames": 20,
-      "useRequires": ["Super"],
-      "shotRequires": [
-        {"ammo": {
-          "type": "Super",
-          "count": 1
-        }}
+      "categories": [
+        "All",
+        "Beam",
+        "UnchargedBeam",
+        "BeamNoPlasma",
+        "UnchargedBeamNoPlasma",
+        "UnchargedWideBeam"
       ],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All"]
+      "additionalComments": "Startup: [16x16] for 10 frames \u2192 [16x32] until it dies."
     },
+
     {
       "id": 27,
       "name": "Bombs",
@@ -387,75 +472,6 @@
       "situational": false,
       "hitsGroup": false,
       "note": "The damage of 200 is a pure guess. It's the most HP an enemy vulnerable to it has (Scizer)."
-    },
-    {
-      "id": 36,
-      "name": "Wave Shield",
-      "damage": 1200,
-      "cooldownFrames": 400,
-      "useRequires": ["canSpecialBeamAttack", "Wave", "PowerBomb", "Charge"],
-      "shotRequires": [
-        {"ammo": {
-          "type": "PowerBomb",
-          "count": 1
-        }}
-      ],
-      "situational": true,
-      "hitsGroup": false,
-      "categories": ["All", "SpecialBeamAttack"],
-      "note": "4 particles that under optimal conditions can be fired once per roughly 170 frames but it's unconcievable to be able to line it up that perfectly"
-    },
-    {
-      "id": 37,
-      "name": "Ice Shield",
-      "damage": 360,
-      "cooldownFrames": 200,
-      "useRequires": ["canSpecialBeamAttack", "Ice", "PowerBomb", "Charge"],
-      "shotRequires": [
-        {"ammo": {
-          "type": "PowerBomb",
-          "count": 1
-        }}
-      ],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All", "SpecialBeamAttack"]
-    },
-    {
-      "id": 38,
-      "name": "WideBeam Shield",
-      "damage": 600,
-      "cooldownFrames": 230,
-      "useRequires": ["canSpecialBeamAttack", "WideBeam", "PowerBomb", "Charge"],
-      "shotRequires": [
-        {"ammo": {
-          "type": "PowerBomb",
-          "count": 1
-        }}
-      ],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": ["All", "SpecialBeamAttack"]
-    },
-    {
-      "id": 39,
-      "name": "Plasma Shield",
-      "damage": 600,
-      "cooldownFrames": 400,
-      "useRequires": ["canSpecialBeamAttack", "Plasma", "PowerBomb", "Charge"],
-      "shotRequires": [
-        {"ammo": {
-          "type": "PowerBomb",
-          "count": 1
-        }}
-      ],
-      "situational": false,
-      "hitsGroup": true,
-      "categories": ["All", "SpecialBeamAttack"],
-      "note": [
-        "4 particles that under optimal conditions can be fired once per roughly 230 frames but it's unconcievable to be able to line it up that perfectly",
-        "4 particles are fired but only 2 are expected to hit any individual enemy for 300 damage each."
-      ]
     }
   ],
   "categories": [
@@ -463,11 +479,9 @@
     "Beam",
     "BeamNoPlasma",
     "ChargedBeam",
-    "PowerBombBlast",
-    "SpecialBeamAttack",
+    "Missile",
     "UnchargedBeam",
     "UnchargedBeamNoPlasma",
-    "UnchargedIceBeam",
-    "UnchargedSpazerBeam"
+    "UnchargedWideBeam"
   ]
 }

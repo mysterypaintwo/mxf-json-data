@@ -3,40 +3,1821 @@
   "enemies": [
     {
       "id": 1,
+      "name": "Aqua Zebesian",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 904,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 40,
+        "h": 40
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 2,
+      "name": "Baby Metroid",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 56,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": "They appear in other parts of the game, but they only hurt Samus in DMX (Maybe after a certain flag is set, all of them hurt her?)"
+    },
+    {
+      "id": 3,
+      "name": "Bull",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 273,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 28,
+        "h": 28
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 4,
+      "name": "Choot",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 291,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 26,
+        "h": 10
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 5,
+      "name": "ClawGrip-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 384,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 12
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 6,
+      "name": "Dessgeega",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 100,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 26
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 7,
+      "name": "Elephant Bird",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 1,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": "(This is the fake Varia Suit item)"
+    },
+    {
+      "id": 8,
+      "name": "Fake E-Tank",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 200,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 9,
+      "name": "Fireflea",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 16,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 10,
+      "name": "Fune / Naminhe",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 544,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 28,
+        "h": 28
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": "Horizontal increases/decreases by 4px every frame when contracting/expanding; holds at 116 (sometimes 118) for 26 frames"
+    },
+    {
+      "id": 11,
+      "name": "Gadora",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 256,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 40,
+        "h": 64
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX",
+        "TRO",
+        "PYR",
+        "AQA",
+        "ARC",
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 12,
+      "name": "Geega-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 17,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 13,
+      "name": "Geemer-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 64,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "MDK"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 14,
+      "name": "Genesis",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 15,
+      "name": "Geron (Green)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 18,
+        "h": 64
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 16,
+      "name": "Geron (Red)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 256,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 18,
+        "h": 64
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX",
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 17,
+      "name": "Gerubus",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 40,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 18,
+      "name": "Geruta",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 128,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 28,
+        "h": 28
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 19,
+      "name": "Gold Space Pirate",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 1365,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 52
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 20,
+      "name": "Golden Bull-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 1092,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 28,
+        "h": 28
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC",
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 21,
+      "name": "Golden Gerubus-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 1280,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 40,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 22,
+      "name": "Golden Moto-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 1092,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 24
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 23,
+      "name": "Golden Sciser-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 819,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 24,
+      "name": "Golden Zero-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 25,
+      "name": "Halzyn",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 187,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 40,
+        "h": 20
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 26,
       "name": "Hornoad",
       "attacks": [
         {
           "name": "contact",
-          "baseDamage": 50
-        },
+          "baseDamage": 0
+        }
+      ],
+      "hp": 51,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 26
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 27,
+      "name": "Kago",
+      "attacks": [
         {
-          "name": "fireball",
-          "baseDamage": 20
+          "name": "contact",
+          "baseDamage": 0
         }
       ],
       "hp": 200,
-      "amountOfDrops": 1,
+      "amountOfDrops": 0,
       "drops": {
         "noDrop": 0,
-        "yellowX": 0.4,
+        "yellowX": 0,
         "greenX": 0,
-        "redX": 101.6
-      },    
+        "redX": 0
+      },
       "dims": {
-        "w": 8,
+        "w": 0,
+        "h": 0
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": "10 PowerBeam Shots... must be 200 HP?"
+    },
+    {
+      "id": 28,
+      "name": "Kago-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32767,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 80
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": "Dies in exactly 11 shots, regardless of beam"
+    },
+    {
+      "id": 29,
+      "name": "Kihunter",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 584,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 30,
+      "name": "Kihunter Cocoon",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 15,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
         "h": 24
       },
-      "freezable": true,
+      "freezable": false,
       "grapplable": false,
-      "damageMultipliers": [
-        { "weapon": "Missile",  "value": 2 },
-        { "weapon": "Super",    "value": 2 }
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
       ],
-      "invul": ["Grapple"],
+      "additionalComments": ""
+    },
+    {
+      "id": 31,
+      "name": "Menu",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 64,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 14,
+        "h": 14
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 32,
+      "name": "Metroid",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 500,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 24,
+        "h": 30
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 33,
+      "name": "Mini B.O.X.",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 655,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 38
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 34,
+      "name": "Mochtroid-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 35,
+      "name": "Moto",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 204,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 24
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 36,
+      "name": "Owtch",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 100,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA",
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 37,
+      "name": "Powamp",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 128,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 20
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": "[16,20] when small; [16,48] when expanded"
+    },
+    {
+      "id": 38,
+      "name": "Puyo",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 64,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 10
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 39,
+      "name": "Reo",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 54,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 40,
+      "name": "Ripper",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 228,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 20,
+        "h": 14
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC",
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 41,
+      "name": "SA-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 8192,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 42
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO",
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 42,
+      "name": "Samus Eater Bud Particles",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 0,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 8,
+        "h": 8
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 43,
+      "name": "Sciser",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 256,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 44,
+      "name": "Sidehopper",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 100,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 26
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 45,
+      "name": "Skultera",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 192,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 26,
+        "h": 22
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA",
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 46,
+      "name": "Skultera-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 384,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 28,
+        "h": 30
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 47,
+      "name": "Soldier-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 176,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 24,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
       "areas": [
         "SRX",
-        "DMX"
-      ]
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 48,
+      "name": "Sova",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 100,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 49,
+      "name": "Waver",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 192,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC",
+        "SRX"
+      ],
+      "additionalComments": "187 HP in SRX?"
+    },
+    {
+      "id": 50,
+      "name": "Work Robot",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 15,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 24,
+        "h": 64
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR",
+        "AQA"
+      ],
+      "additionalComments": "Dies to PBs and pushed into water tiles"
+    },
+    {
+      "id": 51,
+      "name": "Yameba (Large)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 2048,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 52,
+        "h": 52
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 52,
+      "name": "Yameba (Medium)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 1281024,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 28,
+        "h": 28
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "MDK",
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 53,
+      "name": "Yameba (Small)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32256,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "MDK",
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 54,
+      "name": "Yard",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 55,
+      "name": "Zebesian",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 904,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 52
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 56,
+      "name": "Zebetite",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 57,
+      "name": "Zeela-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 336,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": "Freezer Shaft West"
+    },
+    {
+      "id": 58,
+      "name": "Zero",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 100,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 59,
+      "name": "Zombie Researcher",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 24,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX",
+        "NOC",
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 60,
+      "name": "Zozoro",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 168,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "MDK"
+      ],
+      "additionalComments": ""
     }
   ]
 }

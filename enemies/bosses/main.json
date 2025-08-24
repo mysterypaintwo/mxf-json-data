@@ -1,0 +1,997 @@
+{
+  "$schema": "../../schema/mxf-enemies.schema.json",
+  "enemies": [
+    {
+      "id": 1,
+      "name": "Arachnus-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 640,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 36,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 2,
+      "name": "Arachnus-X core",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 256,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 3,
+      "name": "Barrier Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32767,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": "Phase 1: 6 Charge shots, Phase 2: 10 Shots; Beam probably doesn\u0027t matter? [Needs verification/further testing]"
+    },
+    {
+      "id": 4,
+      "name": "Gold Gadora Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 384,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 5,
+      "name": "Gold Gadora-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 819,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 40,
+        "h": 64
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 6,
+      "name": "Golden Arachnus-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 3968,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 36,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 7,
+      "name": "Golden Arachnus-X Core",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 8,
+      "name": "Kraid-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 6548,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 96,
+        "h": 96
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 9,
+      "name": "Kraid-X Belly Particle",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 153,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 24
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 10,
+      "name": "Kraid-X Mouth Particle",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 38,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 11,
+      "name": "Neo-Crocomire",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32767,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 96,
+        "h": 96
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": "Doesn\u0027t have a health bar; dies when knocked off into the pit on the right side of the room"
+    },
+    {
+      "id": 12,
+      "name": "Neo-Ridley",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 20480,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [
+        "PowerBeam"
+      ],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 13,
+      "name": "Nettori",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 9216,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 80,
+        "h": 136
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 14,
+      "name": "Nettori Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 15,
+      "name": "Nightmare Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 16,
+      "name": "Nightmare-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 87042304,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "additionalComments": "Tail is [56,32] hitbox w/2304 HP, head is [32,32] w/8704 HP"
+    },
+    {
+      "id": 17,
+      "name": "Omega Metroid",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32767,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 0,
+        "h": 0
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "LX-0"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 18,
+      "name": "Phantomire",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 2184,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 64,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 19,
+      "name": "Phantomire Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 256,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 20,
+      "name": "SA-X True Form",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 29583,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 96
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "DMX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 21,
+      "name": "Security Robot B.O.X.",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 10240,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 72,
+        "h": 64
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 22,
+      "name": "Security Robot B.O.X. Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 23,
+      "name": "Serris-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 2304,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 24,
+      "name": "Serris-X Core",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "AQA"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 25,
+      "name": "Spikespawn",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 4660,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 64,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 26,
+      "name": "Spikespawn Minions",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "SRX"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 27,
+      "name": "Sucker Plant",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 32767,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 68,
+        "h": 80
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 28,
+      "name": "Wide Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 512,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "ARC"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 29,
+      "name": "Yakuza",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 5632,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "MDK"
+      ],
+      "additionalComments": "Second phase begins at ~2428 HP"
+    },
+    {
+      "id": 30,
+      "name": "Yakuza Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "MDK"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 31,
+      "name": "Zazabi Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 384,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 32,
+      "name": "Zazabi-X (Blue)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 288,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 44,
+        "h": 100
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": ""
+    },
+    {
+      "id": 33,
+      "name": "Zazabi-X (Red)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 288,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 44,
+        "h": 30
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "additionalComments": "[44,30] (Lower Half) | [44,100] (Upper Half)"
+    }
+  ]
+}
