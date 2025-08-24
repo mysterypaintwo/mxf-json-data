@@ -29,7 +29,7 @@
       "areas": [
         "AQA"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
       "id": 2,
@@ -59,7 +59,7 @@
       "areas": [
         "DMX"
       ],
-      "additionalComments": "They appear in other parts of the game, but they only hurt Samus in DMX (Maybe after a certain flag is set, all of them hurt her?)"
+      "note": "They appear in other parts of the game, but they only hurt Samus in DMX (Maybe after a certain flag is set, all of them hurt her?)"
     },
     {
       "id": 3,
@@ -89,7 +89,7 @@
       "areas": [
         "NOC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
       "id": 4,
@@ -119,40 +119,10 @@
       "areas": [
         "ARC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
       "id": 5,
-      "name": "ClawGrip-X",
-      "attacks": [
-        {
-          "name": "contact",
-          "baseDamage": 0
-        }
-      ],
-      "hp": 384,
-      "amountOfDrops": 0,
-      "drops": {
-        "noDrop": 0,
-        "yellowX": 0,
-        "greenX": 0,
-        "redX": 0
-      },
-      "dims": {
-        "w": 32,
-        "h": 12
-      },
-      "freezable": false,
-      "grapplable": false,
-      "damageMultipliers": [],
-      "invul": [],
-      "areas": [
-        "NOC"
-      ],
-      "additionalComments": ""
-    },
-    {
-      "id": 6,
       "name": "Dessgeega",
       "attacks": [
         {
@@ -179,10 +149,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Elephant Bird",
       "attacks": [
         {
@@ -209,10 +179,10 @@
       "areas": [
         "NOC"
       ],
-      "additionalComments": "(This is the fake Varia Suit item)"
+      "note": "(This is the fake Varia Suit item)"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Fake E-Tank",
       "attacks": [
         {
@@ -239,10 +209,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Fireflea",
       "attacks": [
         {
@@ -269,10 +239,10 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Fune / Naminhe",
       "attacks": [
         {
@@ -299,10 +269,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": "Horizontal increases/decreases by 4px every frame when contracting/expanding; holds at 116 (sometimes 118) for 26 frames"
+      "note": "Horizontal increases/decreases by 4px every frame when contracting/expanding; holds at 116 (sometimes 118) for 26 frames"
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Gadora",
       "attacks": [
         {
@@ -334,40 +304,10 @@
         "ARC",
         "NOC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 12,
-      "name": "Geega-X",
-      "attacks": [
-        {
-          "name": "contact",
-          "baseDamage": 0
-        }
-      ],
-      "hp": 17,
-      "amountOfDrops": 0,
-      "drops": {
-        "noDrop": 0,
-        "yellowX": 0,
-        "greenX": 0,
-        "redX": 0
-      },
-      "dims": {
-        "w": 16,
-        "h": 16
-      },
-      "freezable": false,
-      "grapplable": false,
-      "damageMultipliers": [],
-      "invul": [],
-      "areas": [
-        "PYR"
-      ],
-      "additionalComments": ""
-    },
-    {
-      "id": 13,
+      "id": 11,
       "name": "Geemer-X",
       "attacks": [
         {
@@ -394,10 +334,10 @@
       "areas": [
         "MDK"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "Genesis",
       "attacks": [
         {
@@ -424,10 +364,10 @@
       "areas": [
         "AQA"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 15,
+      "id": 13,
       "name": "Geron (Green)",
       "attacks": [
         {
@@ -454,10 +394,10 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "Geron (Red)",
       "attacks": [
         {
@@ -485,10 +425,10 @@
         "SRX",
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "Gerubus",
       "attacks": [
         {
@@ -515,10 +455,10 @@
       "areas": [
         "ARC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 18,
+      "id": 16,
       "name": "Geruta",
       "attacks": [
         {
@@ -545,10 +485,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 19,
+      "id": 17,
       "name": "Gold Space Pirate",
       "attacks": [
         {
@@ -575,10 +515,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 20,
+      "id": 18,
       "name": "Golden Bull-X",
       "attacks": [
         {
@@ -606,10 +546,10 @@
         "NOC",
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 21,
+      "id": 19,
       "name": "Golden Gerubus-X",
       "attacks": [
         {
@@ -636,10 +576,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 22,
+      "id": 20,
       "name": "Golden Moto-X",
       "attacks": [
         {
@@ -666,10 +606,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 23,
+      "id": 21,
       "name": "Golden Sciser-X",
       "attacks": [
         {
@@ -696,10 +636,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 24,
+      "id": 22,
       "name": "Golden Zero-X",
       "attacks": [
         {
@@ -726,10 +666,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 25,
+      "id": 23,
       "name": "Halzyn",
       "attacks": [
         {
@@ -756,10 +696,10 @@
       "areas": [
         "SRX"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 26,
+      "id": 24,
       "name": "Hornoad",
       "attacks": [
         {
@@ -786,10 +726,10 @@
       "areas": [
         "SRX"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 27,
+      "id": 25,
       "name": "Kago",
       "attacks": [
         {
@@ -816,10 +756,10 @@
       "areas": [
         "SRX"
       ],
-      "additionalComments": "10 PowerBeam Shots... must be 200 HP?"
+      "note": "10 PowerBeam Shots... must be 200 HP?"
     },
     {
-      "id": 28,
+      "id": 26,
       "name": "Kago-X",
       "attacks": [
         {
@@ -846,10 +786,10 @@
       "areas": [
         "AQA"
       ],
-      "additionalComments": "Dies in exactly 11 shots, regardless of beam"
+      "note": "Dies in exactly 11 shots, regardless of beam"
     },
     {
-      "id": 29,
+      "id": 27,
       "name": "Kihunter",
       "attacks": [
         {
@@ -876,10 +816,10 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 30,
+      "id": 28,
       "name": "Kihunter Cocoon",
       "attacks": [
         {
@@ -906,10 +846,40 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 31,
+      "id": 29,
+      "name": "Kzan-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 384,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 12
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "NOC"
+      ],
+      "note": ""
+    },
+    {
+      "id": 30,
       "name": "Menu",
       "attacks": [
         {
@@ -936,10 +906,10 @@
       "areas": [
         "NOC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "Metroid",
       "attacks": [
         {
@@ -966,10 +936,10 @@
       "areas": [
         "DMX"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "Mini B.O.X.",
       "attacks": [
         {
@@ -996,10 +966,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "Mochtroid-X",
       "attacks": [
         {
@@ -1026,10 +996,10 @@
       "areas": [
         "NOC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "Moto",
       "attacks": [
         {
@@ -1056,10 +1026,10 @@
       "areas": [
         "SRX"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Owtch",
       "attacks": [
         {
@@ -1087,10 +1057,10 @@
         "AQA",
         "NOC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Powamp",
       "attacks": [
         {
@@ -1117,10 +1087,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": "[16,20] when small; [16,48] when expanded"
+      "note": "[16,20] when small; [16,48] when expanded"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Puyo",
       "attacks": [
         {
@@ -1147,10 +1117,10 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "Reo",
       "attacks": [
         {
@@ -1177,10 +1147,10 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "Ripper",
       "attacks": [
         {
@@ -1208,10 +1178,10 @@
         "NOC",
         "ARC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "SA-X",
       "attacks": [
         {
@@ -1239,10 +1209,10 @@
         "TRO",
         "ARC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "Samus Eater Bud Particles",
       "attacks": [
         {
@@ -1269,10 +1239,10 @@
       "areas": [
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "Sciser",
       "attacks": [
         {
@@ -1299,10 +1269,10 @@
       "areas": [
         "AQA"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "Sidehopper",
       "attacks": [
         {
@@ -1329,10 +1299,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "Skultera",
       "attacks": [
         {
@@ -1360,10 +1330,10 @@
         "AQA",
         "TRO"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "Skultera-X",
       "attacks": [
         {
@@ -1390,10 +1360,10 @@
       "areas": [
         "AQA"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "Soldier-X",
       "attacks": [
         {
@@ -1421,10 +1391,10 @@
         "SRX",
         "NOC"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "Sova",
       "attacks": [
         {
@@ -1451,10 +1421,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 49,
+      "id": 48,
       "name": "Waver",
       "attacks": [
         {
@@ -1482,10 +1452,10 @@
         "ARC",
         "SRX"
       ],
-      "additionalComments": "187 HP in SRX?"
+      "note": "187 HP in SRX?"
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "Work Robot",
       "attacks": [
         {
@@ -1513,10 +1483,10 @@
         "PYR",
         "AQA"
       ],
-      "additionalComments": "Dies to PBs and pushed into water tiles"
+      "note": "Dies to PBs and pushed into water tiles"
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Yameba (Large)",
       "attacks": [
         {
@@ -1543,10 +1513,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Yameba (Medium)",
       "attacks": [
         {
@@ -1574,10 +1544,10 @@
         "MDK",
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "Yameba (Small)",
       "attacks": [
         {
@@ -1605,10 +1575,10 @@
         "MDK",
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "Yard",
       "attacks": [
         {
@@ -1635,10 +1605,10 @@
       "areas": [
         "AQA"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Zebesian",
       "attacks": [
         {
@@ -1665,10 +1635,10 @@
       "areas": [
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
     },
     {
-      "id": 56,
+      "id": 55,
       "name": "Zebetite",
       "attacks": [
         {
@@ -1695,7 +1665,37 @@
       "areas": [
         "ARC"
       ],
-      "additionalComments": ""
+      "note": ""
+    },
+    {
+      "id": 56,
+      "name": "Zeebo-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 17,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "PYR"
+      ],
+      "note": ""
     },
     {
       "id": 57,
@@ -1725,40 +1725,10 @@
       "areas": [
         "ARC"
       ],
-      "additionalComments": "Freezer Shaft West"
+      "note": "Freezer Shaft West"
     },
     {
       "id": 58,
-      "name": "Zero",
-      "attacks": [
-        {
-          "name": "contact",
-          "baseDamage": 0
-        }
-      ],
-      "hp": 100,
-      "amountOfDrops": 0,
-      "drops": {
-        "noDrop": 0,
-        "yellowX": 0,
-        "greenX": 0,
-        "redX": 0
-      },
-      "dims": {
-        "w": 16,
-        "h": 16
-      },
-      "freezable": false,
-      "grapplable": false,
-      "damageMultipliers": [],
-      "invul": [],
-      "areas": [
-        "TRO"
-      ],
-      "additionalComments": ""
-    },
-    {
-      "id": 59,
       "name": "Zombie Researcher",
       "attacks": [
         {
@@ -1787,7 +1757,37 @@
         "NOC",
         "PYR"
       ],
-      "additionalComments": ""
+      "note": ""
+    },
+    {
+      "id": 59,
+      "name": "Zoro",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 100,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "areas": [
+        "TRO"
+      ],
+      "note": ""
     },
     {
       "id": 60,
@@ -1817,7 +1817,7 @@
       "areas": [
         "MDK"
       ],
-      "additionalComments": ""
+      "note": ""
     }
   ]
 }
