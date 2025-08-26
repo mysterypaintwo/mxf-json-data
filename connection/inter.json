@@ -320,7 +320,7 @@
           "subarea": "General",
           "roomid": 312,
           "roomName": "Omega Lobby",
-          "nodeid": 918,
+          "nodeid": 919,
           "nodeName": "North Door",
           "position": "right"
         }
@@ -395,7 +395,7 @@
           "subarea": "Nettori\u0027s Area",
           "roomid": 336,
           "roomName": "Overgrown Entrance",
-          "nodeid": 968,
+          "nodeid": 969,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -445,7 +445,7 @@
           "subarea": "General",
           "roomid": 322,
           "roomName": "TRO Entrance Lobby",
-          "nodeid": 939,
+          "nodeid": 940,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -520,7 +520,7 @@
           "subarea": "General",
           "roomid": 330,
           "roomName": "TRO-PYR Elevator",
-          "nodeid": 954,
+          "nodeid": 955,
           "nodeName": "South Door",
           "position": "bottom"
         }

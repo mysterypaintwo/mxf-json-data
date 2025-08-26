@@ -20,7 +20,7 @@
           "subarea": "Nettori\u0027s Area",
           "roomid": 338,
           "roomName": "Overgrown Speedway",
-          "nodeid": 972,
+          "nodeid": 974,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -45,7 +45,7 @@
           "subarea": "Nettori\u0027s Area",
           "roomid": 337,
           "roomName": "Overgrown Pipeway",
-          "nodeid": 970,
+          "nodeid": 971,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -70,7 +70,7 @@
           "subarea": "Nettori\u0027s Area",
           "roomid": 331,
           "roomName": "Double Helix",
-          "nodeid": 955,
+          "nodeid": 956,
           "nodeName": "North Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "General",
           "roomid": 308,
           "roomName": "Fusion Cathedral",
-          "nodeid": 905,
+          "nodeid": 906,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -95,7 +95,7 @@
           "subarea": "Zazabi\u0027s Area",
           "roomid": 344,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 984,
+          "nodeid": 987,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -111,7 +111,7 @@
           "subarea": "General",
           "roomid": 308,
           "roomName": "Fusion Cathedral",
-          "nodeid": 906,
+          "nodeid": 907,
           "nodeName": "East-South Door",
           "position": "right"
         },
@@ -120,7 +120,7 @@
           "subarea": "Zazabi\u0027s Area",
           "roomid": 343,
           "roomName": "TRO Etecoon Room",
-          "nodeid": 983,
+          "nodeid": 986,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
