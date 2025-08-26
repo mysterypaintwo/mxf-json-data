@@ -90,9 +90,9 @@
     },
     {
       "id": 882,
-      "name": "South-West Door",
+      "name": "South-West Morph Ball Hole",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
       "nodeItem": null,
       "nodeAddress": "0x0",
       "doorOrientation": "left",
