@@ -53,6 +53,23 @@
       ],
       "mapTileMask": [],
       "comment": ""
+    },
+    {
+      "id": 972,
+      "name": "East Morph Ball Hole",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
     }
   ],
   "enemies": [],
