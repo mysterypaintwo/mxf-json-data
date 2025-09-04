@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 111,
+  "id": 117,
   "name": "Gold Gadora-X Arena",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 405,
+      "id": 417,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 406,
+      "id": 418,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

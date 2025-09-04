@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 74,
+  "id": 75,
   "name": "Frostbite Hall",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -57,7 +57,7 @@
       "comment": "Run along the bottom towards the left, using Speedbooster and Spike Breaker"
     },
     {
-      "id": 319,
+      "id": 321,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 320,
+      "id": 322,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -91,7 +91,7 @@
       "comment": ""
     },
     {
-      "id": 321,
+      "id": 323,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

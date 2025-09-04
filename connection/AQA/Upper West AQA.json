@@ -9,18 +9,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 42,
+          "roomid": 43,
           "roomName": "AQA Etecoon Room",
-          "nodeid": 233,
+          "nodeid": 235,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 62,
+          "roomid": 63,
           "roomName": "Triple Gate Room",
-          "nodeid": 285,
+          "nodeid": 287,
           "nodeName": "North Door",
           "position": "left"
         }
@@ -34,18 +34,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 43,
+          "roomid": 44,
           "roomName": "AQA Mimic Colony",
-          "nodeid": 234,
+          "nodeid": 236,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 52,
+          "roomid": 53,
           "roomName": "Construction Site",
-          "nodeid": 255,
+          "nodeid": 257,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -59,18 +59,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 44,
+          "roomid": 45,
           "roomName": "AQA Save Station North Central",
-          "nodeid": 235,
+          "nodeid": 237,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 59,
+          "roomid": 60,
           "roomName": "Sciser Shaft",
-          "nodeid": 278,
+          "nodeid": 280,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -84,18 +84,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 44,
+          "roomid": 45,
           "roomName": "AQA Save Station North Central",
-          "nodeid": 236,
+          "nodeid": 238,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 52,
+          "roomid": 53,
           "roomName": "Construction Site",
-          "nodeid": 256,
+          "nodeid": 258,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -109,18 +109,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 45,
+          "roomid": 46,
           "roomName": "AQA Save Station West",
-          "nodeid": 237,
+          "nodeid": 239,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 49,
+          "roomid": 50,
           "roomName": "Buoyant Bridge",
-          "nodeid": 249,
+          "nodeid": 251,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -134,18 +134,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 45,
+          "roomid": 46,
           "roomName": "AQA Save Station West",
-          "nodeid": 238,
+          "nodeid": 240,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 53,
+          "roomid": 54,
           "roomName": "Deathcrab Spire",
-          "nodeid": 260,
+          "nodeid": 262,
           "nodeName": "West Door",
           "position": "left"
         }
@@ -159,18 +159,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 46,
+          "roomid": 47,
           "roomName": "AQA Security Room North Access",
-          "nodeid": 239,
+          "nodeid": 241,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 54,
+          "roomid": 55,
           "roomName": "Drain Pipe",
-          "nodeid": 264,
+          "nodeid": 266,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -184,18 +184,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 46,
+          "roomid": 47,
           "roomName": "AQA Security Room North Access",
-          "nodeid": 240,
+          "nodeid": 242,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 54,
+          "roomid": 55,
           "roomName": "Drain Pipe",
-          "nodeid": 266,
+          "nodeid": 268,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -209,18 +209,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 46,
+          "roomid": 47,
           "roomName": "AQA Security Room North Access",
-          "nodeid": 241,
+          "nodeid": 243,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 56,
+          "roomid": 57,
           "roomName": "Owtch Atrium",
-          "nodeid": 269,
+          "nodeid": 271,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -234,18 +234,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 47,
+          "roomid": 48,
           "roomName": "Booster Barrier",
-          "nodeid": 243,
+          "nodeid": 245,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 48,
+          "roomid": 49,
           "roomName": "Broken Bridge",
-          "nodeid": 245,
+          "nodeid": 247,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -259,18 +259,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 47,
+          "roomid": 48,
           "roomName": "Booster Barrier",
-          "nodeid": 244,
+          "nodeid": 246,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 59,
+          "roomid": 60,
           "roomName": "Sciser Shaft",
-          "nodeid": 277,
+          "nodeid": 279,
           "nodeName": "West Door",
           "position": "left"
         }
@@ -284,18 +284,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 48,
+          "roomid": 49,
           "roomName": "Broken Bridge",
-          "nodeid": 246,
+          "nodeid": 248,
           "nodeName": "South-West Morph Ball Hole",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 53,
+          "roomid": 54,
           "roomName": "Deathcrab Spire",
-          "nodeid": 261,
+          "nodeid": 263,
           "nodeName": "East Morph Ball Hole",
           "position": "right"
         }
@@ -309,18 +309,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 48,
+          "roomid": 49,
           "roomName": "Broken Bridge",
-          "nodeid": 247,
+          "nodeid": 249,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 57,
+          "roomid": 58,
           "roomName": "Owtch Corridor",
-          "nodeid": 271,
+          "nodeid": 273,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -334,18 +334,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 49,
+          "roomid": 50,
           "roomName": "Buoyant Bridge",
-          "nodeid": 248,
+          "nodeid": 250,
           "nodeName": "North-East Morph Ball Hole",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 53,
+          "roomid": 54,
           "roomName": "Deathcrab Spire",
-          "nodeid": 259,
+          "nodeid": 261,
           "nodeName": "West-Upper Morph Ball Hole",
           "position": "left"
         }
@@ -359,18 +359,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 50,
+          "roomid": 51,
           "roomName": "Construction Site Access",
-          "nodeid": 250,
+          "nodeid": 252,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 52,
+          "roomid": 53,
           "roomName": "Construction Site",
-          "nodeid": 257,
+          "nodeid": 259,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -384,18 +384,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 50,
+          "roomid": 51,
           "roomName": "Construction Site Access",
-          "nodeid": 251,
+          "nodeid": 253,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 62,
+          "roomid": 63,
           "roomName": "Triple Gate Room",
-          "nodeid": 286,
+          "nodeid": 288,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -409,18 +409,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 50,
+          "roomid": 51,
           "roomName": "Construction Site Access",
-          "nodeid": 252,
+          "nodeid": 254,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 51,
+          "roomid": 52,
           "roomName": "Construction Site Checkpoint",
-          "nodeid": 253,
+          "nodeid": 255,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -434,18 +434,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 53,
+          "roomid": 54,
           "roomName": "Deathcrab Spire",
-          "nodeid": 258,
+          "nodeid": 260,
           "nodeName": "North-East Morph Ball Hole",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 61,
+          "roomid": 62,
           "roomName": "Serris Speedway",
-          "nodeid": 283,
+          "nodeid": 285,
           "nodeName": "North-West Morph Ball Hole",
           "position": "left"
         }
@@ -459,18 +459,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 53,
+          "roomid": 54,
           "roomName": "Deathcrab Spire",
-          "nodeid": 262,
+          "nodeid": 264,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 55,
+          "roomid": 56,
           "roomName": "Floodbot Quarters",
-          "nodeid": 267,
+          "nodeid": 269,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -484,18 +484,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 54,
+          "roomid": 55,
           "roomName": "Drain Pipe",
-          "nodeid": 263,
+          "nodeid": 265,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 59,
+          "roomid": 60,
           "roomName": "Sciser Shaft",
-          "nodeid": 280,
+          "nodeid": 282,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -509,18 +509,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 54,
+          "roomid": 55,
           "roomName": "Drain Pipe",
-          "nodeid": 265,
+          "nodeid": 267,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 58,
+          "roomid": 59,
           "roomName": "Resevoir West",
-          "nodeid": 274,
+          "nodeid": 276,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -534,18 +534,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 55,
+          "roomid": 56,
           "roomName": "Floodbot Quarters",
-          "nodeid": 268,
+          "nodeid": 270,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 58,
+          "roomid": 59,
           "roomName": "Resevoir West",
-          "nodeid": 273,
+          "nodeid": 275,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -559,18 +559,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 57,
+          "roomid": 58,
           "roomName": "Owtch Corridor",
-          "nodeid": 272,
+          "nodeid": 274,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 59,
+          "roomid": 60,
           "roomName": "Sciser Shaft",
-          "nodeid": 279,
+          "nodeid": 281,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -584,18 +584,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 59,
+          "roomid": 60,
           "roomName": "Sciser Shaft",
-          "nodeid": 276,
+          "nodeid": 278,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 60,
+          "roomid": 61,
           "roomName": "Serris Arena",
-          "nodeid": 281,
+          "nodeid": 283,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -609,18 +609,18 @@
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 60,
+          "roomid": 61,
           "roomName": "Serris Arena",
-          "nodeid": 282,
+          "nodeid": 284,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 61,
+          "roomid": 62,
           "roomName": "Serris Speedway",
-          "nodeid": 284,
+          "nodeid": 286,
           "nodeName": "East-Upper Door",
           "position": "right"
         }

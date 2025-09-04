@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 153,
+  "id": 163,
   "name": "Silo Scaffolding",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 512,
+      "id": 532,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 513,
+      "id": 533,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 514,
+      "id": 534,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 515,
+      "id": 535,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 114,
+  "id": 120,
   "name": "Karid-X Arena",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 411,
+      "id": 423,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 412,
+      "id": 424,
       "name": "West-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 413,
+      "id": 425,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

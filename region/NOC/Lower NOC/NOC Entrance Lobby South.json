@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 184,
+  "id": 196,
   "name": "NOC Entrance Lobby South",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -39,7 +39,7 @@
       "comment": "Start from NOC Entrance Lobby North to get to Central Turbo Tube Access, or use Screw Attack on the blocks directly to the right of the Missile Tank"
     },
     {
-      "id": 598,
+      "id": 622,
       "name": "West-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 599,
+      "id": 623,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 600,
+      "id": 624,
       "name": "East-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 601,
+      "id": 625,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -107,7 +107,7 @@
       "comment": ""
     },
     {
-      "id": 602,
+      "id": 626,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

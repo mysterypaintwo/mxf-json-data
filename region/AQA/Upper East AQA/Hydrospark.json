@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 36,
+  "id": 37,
   "name": "Hydrospark",
   "area": "AQA",
   "subarea": "Upper East AQA",
@@ -39,7 +39,7 @@
       "comment": "Lure all the ceiling enemies down to the floor, then run across them and Machball into the crevice to break the speedblocks"
     },
     {
-      "id": 215,
+      "id": 217,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 216,
+      "id": 218,
       "name": "South-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

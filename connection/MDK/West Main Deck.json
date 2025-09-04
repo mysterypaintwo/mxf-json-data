@@ -9,18 +9,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 161,
+          "roomid": 172,
           "roomName": "Central Nexus / Concourse",
-          "nodeid": 533,
+          "nodeid": 555,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 170,
+          "roomid": 181,
           "roomName": "MDK-TRO Access",
-          "nodeid": 559,
+          "nodeid": 581,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 161,
+          "roomid": 172,
           "roomName": "Central Nexus / Concourse",
-          "nodeid": 534,
+          "nodeid": 556,
           "nodeName": "North Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 164,
+          "roomid": 175,
           "roomName": "Elevator to Habitation Deck",
-          "nodeid": 547,
+          "nodeid": 569,
           "nodeName": "West Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 161,
+          "roomid": 172,
           "roomName": "Central Nexus / Concourse",
-          "nodeid": 536,
+          "nodeid": 558,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 165,
+          "roomid": 176,
           "roomName": "MDK Navigation Room",
-          "nodeid": 549,
+          "nodeid": 571,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 161,
+          "roomid": 172,
           "roomName": "Central Nexus / Concourse",
-          "nodeid": 537,
+          "nodeid": 559,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 172,
+          "roomid": 184,
           "roomName": "Quarantine Bay",
-          "nodeid": 564,
+          "nodeid": 588,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -109,18 +109,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 161,
+          "roomid": 172,
           "roomName": "Central Nexus / Concourse",
-          "nodeid": 538,
+          "nodeid": 560,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 166,
+          "roomid": 177,
           "roomName": "MDK Save Station West",
-          "nodeid": 551,
+          "nodeid": 573,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -134,18 +134,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 161,
+          "roomid": 172,
           "roomName": "Central Nexus / Concourse",
-          "nodeid": 539,
+          "nodeid": 561,
           "nodeName": "South Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 171,
+          "roomid": 183,
           "roomName": "Nexus Crossing",
-          "nodeid": 560,
+          "nodeid": 584,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -159,18 +159,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 162,
+          "roomid": 173,
           "roomName": "Concourse Tower",
-          "nodeid": 542,
+          "nodeid": 564,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 172,
+          "roomid": 184,
           "roomName": "Quarantine Bay",
-          "nodeid": 565,
+          "nodeid": 589,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -184,18 +184,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 162,
+          "roomid": 173,
           "roomName": "Concourse Tower",
-          "nodeid": 543,
+          "nodeid": 565,
           "nodeName": "South Door",
           "position": "bottom"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 173,
+          "roomid": 185,
           "roomName": "Wrecked Storage",
-          "nodeid": 566,
+          "nodeid": 590,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -209,18 +209,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 163,
+          "roomid": 174,
           "roomName": "DMX Security Gate",
-          "nodeid": 545,
+          "nodeid": 567,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 165,
+          "roomid": 176,
           "roomName": "MDK Navigation Room",
-          "nodeid": 550,
+          "nodeid": 572,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -234,18 +234,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 167,
+          "roomid": 178,
           "roomName": "MDK-AQA Access",
-          "nodeid": 552,
+          "nodeid": 574,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 169,
+          "roomid": 180,
           "roomName": "MDK-AQA Elevator",
-          "nodeid": 556,
+          "nodeid": 578,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -259,18 +259,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 167,
+          "roomid": 178,
           "roomName": "MDK-AQA Access",
-          "nodeid": 553,
+          "nodeid": 575,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 171,
+          "roomid": 183,
           "roomName": "Nexus Crossing",
-          "nodeid": 562,
+          "nodeid": 586,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -284,20 +284,45 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 168,
+          "roomid": 179,
           "roomName": "MDK-AQA Elevator Cache",
-          "nodeid": 554,
+          "nodeid": 576,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 169,
+          "roomid": 180,
           "roomName": "MDK-AQA Elevator",
-          "nodeid": 555,
+          "nodeid": 577,
           "nodeName": "West-Upper Door",
           "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between MDK-TRO Access and MDK-TRO Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 181,
+          "roomName": "MDK-TRO Access",
+          "nodeid": 580,
+          "nodeName": "West-Upper Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 182,
+          "roomName": "MDK-TRO Tube",
+          "nodeid": 583,
+          "nodeName": "East-Upper Door",
+          "position": "right"
         }
       ]
     },
@@ -309,18 +334,18 @@
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 171,
+          "roomid": 183,
           "roomName": "Nexus Crossing",
-          "nodeid": 561,
+          "nodeid": 585,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 173,
+          "roomid": 185,
           "roomName": "Wrecked Storage",
-          "nodeid": 567,
+          "nodeid": 591,
           "nodeName": "West Door",
           "position": "left"
         }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 144,
+  "id": 151,
   "name": "Crew Quarters NOC Access",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 485,
+      "id": 499,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 486,
+      "id": 500,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 49,
+  "id": 50,
   "name": "Buoyant Bridge",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -39,7 +39,7 @@
       "comment": "Set the Water level to 1, and then Morph Ball across the buoyant bridge"
     },
     {
-      "id": 248,
+      "id": 250,
       "name": "North-East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 249,
+      "id": 251,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

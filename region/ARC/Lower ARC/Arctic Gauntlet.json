@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 72,
+  "id": 73,
   "name": "Arctic Gauntlet",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -39,7 +39,7 @@
       "comment": "Coming from Freezer Shaft East, using Morph Ball to get in an invisible hole in the wall, elevated off the ground"
     },
     {
-      "id": 311,
+      "id": 313,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 312,
+      "id": 314,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 313,
+      "id": 315,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 314,
+      "id": 316,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

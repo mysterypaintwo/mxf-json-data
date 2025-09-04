@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 87,
+  "id": 91,
   "name": "Weapons Testing Grounds",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 352,
+      "id": 360,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 353,
+      "id": 361,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 354,
+      "id": 362,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 121,
+  "id": 127,
   "name": "Metroid Room 1",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 431,
+      "id": 443,
       "name": "West-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 432,
+      "id": 444,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

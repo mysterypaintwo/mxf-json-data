@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 124,
+  "id": 130,
   "name": "Ventilation A",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 437,
+      "id": 449,
       "name": "North Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 438,
+      "id": 450,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 439,
+      "id": 451,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 440,
+      "id": 452,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

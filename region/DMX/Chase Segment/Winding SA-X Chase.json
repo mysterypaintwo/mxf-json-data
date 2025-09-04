@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 110,
+  "id": 116,
   "name": "Winding SA-X Chase",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 403,
+      "id": 415,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 404,
+      "id": 416,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

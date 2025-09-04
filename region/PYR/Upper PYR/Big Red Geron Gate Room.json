@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 254,
+  "id": 270,
   "name": "Big Red Geron Gate Room",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 753,
+      "id": 781,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 754,
+      "id": 782,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

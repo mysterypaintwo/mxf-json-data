@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 83,
+  "id": 87,
   "name": "Blue Tower",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 340,
+      "id": 348,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 341,
+      "id": 349,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 342,
+      "id": 350,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 343,
+      "id": 351,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 344,
+      "id": 352,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -106,7 +106,7 @@
       "comment": ""
     },
     {
-      "id": 345,
+      "id": 353,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -123,7 +123,7 @@
       "comment": ""
     },
     {
-      "id": 346,
+      "id": 354,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

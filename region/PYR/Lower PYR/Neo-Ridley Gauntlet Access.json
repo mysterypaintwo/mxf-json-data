@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 231,
+  "id": 246,
   "name": "Neo-Ridley Gauntlet Access",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 702,
+      "id": 728,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 703,
+      "id": 729,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 704,
+      "id": 730,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 705,
+      "id": 731,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 314,
+  "id": 334,
   "name": "Owtch Office",
   "area": "TRO",
   "subarea": "General",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 111,
+      "id": 110,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 923,
+      "id": 960,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

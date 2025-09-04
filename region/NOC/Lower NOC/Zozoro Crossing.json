@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 195,
+  "id": 210,
   "name": "Zozoro Crossing",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 623,
+      "id": 653,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 624,
+      "id": 654,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 625,
+      "id": 655,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 626,
+      "id": 656,
       "name": "South-East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

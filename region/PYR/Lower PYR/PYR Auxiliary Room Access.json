@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 232,
+  "id": 247,
   "name": "PYR Auxiliary Room Access",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 706,
+      "id": 732,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 707,
+      "id": 733,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 708,
+      "id": 734,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

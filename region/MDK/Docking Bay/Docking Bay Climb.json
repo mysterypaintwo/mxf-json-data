@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 140,
+  "id": 147,
   "name": "Docking Bay Climb",
   "area": "MDK",
   "subarea": "Docking Bay",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 475,
+      "id": 489,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 476,
+      "id": 490,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 477,
+      "id": 491,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 478,
+      "id": 492,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 479,
+      "id": 493,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

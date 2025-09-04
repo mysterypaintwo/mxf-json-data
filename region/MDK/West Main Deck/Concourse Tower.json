@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 162,
+  "id": 173,
   "name": "Concourse Tower",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 540,
+      "id": 562,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 541,
+      "id": 563,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 542,
+      "id": 564,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 543,
+      "id": 565,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

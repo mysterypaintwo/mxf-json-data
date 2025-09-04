@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 141,
+  "id": 148,
   "name": "Docking Bay Supply Room",
   "area": "MDK",
   "subarea": "Docking Bay",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 480,
+      "id": 494,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

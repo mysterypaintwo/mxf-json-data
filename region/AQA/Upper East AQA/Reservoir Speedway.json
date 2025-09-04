@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 39,
+  "id": 40,
   "name": "Reservoir Speedway",
   "area": "AQA",
   "subarea": "Upper East AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 224,
+      "id": 226,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 225,
+      "id": 227,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 226,
+      "id": 228,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

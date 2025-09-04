@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 259,
+  "id": 275,
   "name": "Deserted Runway",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 770,
+      "id": 798,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 771,
+      "id": 799,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 772,
+      "id": 800,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

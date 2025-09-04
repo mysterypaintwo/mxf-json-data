@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 137,
-  "name": "Sector 0 Normal Exit",
-  "area": "L-X",
-  "subarea": "General",
-  "roomImageFile": "L-X Room 79100.jpg",
-  "roomAddress": "0x79100",
+  "id": 171,
+  "name": "MDK-PYR Tube",
+  "area": "MDK",
+  "subarea": "Upper Main Deck",
+  "roomImageFile": "Misc Room Reusable 2.jpg",
+  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "physics": "air",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 469,
+      "id": 553,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 470,
+      "id": 554,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 171,
+  "id": 183,
   "name": "Nexus Crossing",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 560,
+      "id": 584,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 561,
+      "id": 585,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 562,
+      "id": 586,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 563,
+      "id": 587,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 12,
+  "id": 13,
   "name": "Aquarium Hub West",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 150,
+      "id": 151,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 151,
+      "id": 152,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 152,
+      "id": 153,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 153,
+      "id": 154,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 154,
+      "id": 155,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

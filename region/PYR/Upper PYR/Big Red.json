@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 256,
+  "id": 272,
   "name": "Big Red",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 758,
+      "id": 786,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 759,
+      "id": 787,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 760,
+      "id": 788,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 761,
+      "id": 789,
       "name": "West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 762,
+      "id": 790,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -106,7 +106,7 @@
       "comment": ""
     },
     {
-      "id": 763,
+      "id": 791,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -123,7 +123,7 @@
       "comment": ""
     },
     {
-      "id": 764,
+      "id": 792,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

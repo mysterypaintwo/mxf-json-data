@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 179,
+  "id": 191,
   "name": "Lower Crane Pit",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 585,
+      "id": 609,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 586,
+      "id": 610,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 587,
+      "id": 611,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

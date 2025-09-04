@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 217,
+  "id": 232,
   "name": "Pillar Highway",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 65,
+      "id": 64,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 676,
+      "id": 703,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

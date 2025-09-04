@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 130,
+  "id": 137,
   "name": "Not Falling Tile Room",
   "area": "L-X",
   "subarea": "General",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 454,
+      "id": 468,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 455,
+      "id": 469,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

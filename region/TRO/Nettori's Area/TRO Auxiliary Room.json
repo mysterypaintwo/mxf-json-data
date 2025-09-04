@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 342,
+  "id": 364,
   "name": "TRO Auxiliary Room",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 985,
+      "id": 1027,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -9,18 +9,18 @@
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 344,
+          "roomid": 366,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 988,
+          "nodeid": 1030,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 345,
+          "roomid": 367,
           "roomName": "Zazabi Arena",
-          "nodeid": 990,
+          "nodeid": 1032,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -34,18 +34,18 @@
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 344,
+          "roomid": 366,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 989,
+          "nodeid": 1031,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 345,
+          "roomid": 367,
           "roomName": "Zazabi Arena",
-          "nodeid": 992,
+          "nodeid": 1034,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 345,
+          "roomid": 367,
           "roomName": "Zazabi Arena",
-          "nodeid": 991,
+          "nodeid": 1033,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 346,
+          "roomid": 368,
           "roomName": "Zazabi Speedway Access",
-          "nodeid": 993,
+          "nodeid": 1035,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 346,
+          "roomid": 368,
           "roomName": "Zazabi Speedway Access",
-          "nodeid": 994,
+          "nodeid": 1036,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 347,
+          "roomid": 369,
           "roomName": "Zazabi Speedway",
-          "nodeid": 995,
+          "nodeid": 1037,
           "nodeName": "North-West Door",
           "position": "left"
         }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 345,
+  "id": 367,
   "name": "Zazabi Arena",
   "area": "TRO",
   "subarea": "Zazabi\u0027s Area",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 123,
+      "id": 122,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 990,
+      "id": 1032,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 991,
+      "id": 1033,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 992,
+      "id": 1034,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

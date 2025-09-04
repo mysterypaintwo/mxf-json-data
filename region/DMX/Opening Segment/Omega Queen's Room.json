@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 123,
+  "id": 129,
   "name": "Omega Queen\u0027s Room",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 435,
+      "id": 447,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 436,
+      "id": 448,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

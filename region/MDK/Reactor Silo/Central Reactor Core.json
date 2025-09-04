@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 150,
+  "id": 159,
   "name": "Central Reactor Core",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 502,
+      "id": 520,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 503,
+      "id": 521,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 504,
+      "id": 522,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 505,
+      "id": 523,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

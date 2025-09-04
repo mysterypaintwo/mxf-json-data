@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 207,
+  "id": 223,
   "name": "NOC Auxiliary Room Access",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -21,24 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 655,
-      "name": "North-East Door",
-      "nodeType": "door",
-      "nodeSubType": "blue",
-      "nodeItem": null,
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
-      "doorEnvironments": [
-        {
-          "physics": "air",
-          "heated": false
-        }
-      ],
-      "mapTileMask": [],
-      "comment": ""
-    },
-    {
-      "id": 656,
+      "id": 686,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

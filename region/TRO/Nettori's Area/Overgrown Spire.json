@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 339,
+  "id": 361,
   "name": "Overgrown Spire",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 976,
+      "id": 1018,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 977,
+      "id": 1019,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 978,
+      "id": 1020,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 979,
+      "id": 1021,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 980,
+      "id": 1022,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

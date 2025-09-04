@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 278,
+  "id": 295,
   "name": "SRX Save Station South East",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 816,
+      "id": 846,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

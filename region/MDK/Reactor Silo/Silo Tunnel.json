@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 154,
+  "id": 164,
   "name": "Silo Tunnel",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 516,
+      "id": 536,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 517,
+      "id": 537,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

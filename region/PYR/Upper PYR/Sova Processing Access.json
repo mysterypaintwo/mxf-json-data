@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 268,
+  "id": 285,
   "name": "Sova Processing Access",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 87,
+      "id": 86,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 793,
+      "id": 823,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 794,
+      "id": 824,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

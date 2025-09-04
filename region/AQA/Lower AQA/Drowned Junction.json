@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 15,
+  "id": 16,
   "name": "Drowned Junction",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 164,
+      "id": 165,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 165,
+      "id": 166,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 166,
+      "id": 167,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

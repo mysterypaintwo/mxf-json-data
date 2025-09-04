@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 143,
+  "id": 150,
   "name": "Crew Quarters Hallway",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 482,
+      "id": 496,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 483,
+      "id": 497,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 484,
+      "id": 498,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

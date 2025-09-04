@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 105,
+  "id": 111,
   "name": "Metroid Swarm Chase",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 393,
+      "id": 405,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 394,
+      "id": 406,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

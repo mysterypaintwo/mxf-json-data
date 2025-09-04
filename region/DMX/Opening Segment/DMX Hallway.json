@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 117,
+  "id": 123,
   "name": "DMX Hallway",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 420,
+      "id": 432,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 421,
+      "id": 433,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 48,
+  "id": 49,
   "name": "Broken Bridge",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 245,
+      "id": 247,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 246,
+      "id": 248,
       "name": "South-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 247,
+      "id": 249,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 273,
+  "id": 290,
   "name": "Golden Arachnus-X Arena",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 808,
+      "id": 838,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 809,
+      "id": 839,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 253,
+  "id": 268,
   "name": "PYR-MDK Access",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 79,
+      "id": 78,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 751,
+      "id": 777,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 752,
+      "id": 778,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 40,
+  "id": 41,
   "name": "Reservoir Vault",
   "area": "AQA",
   "subarea": "Upper East AQA",
@@ -39,7 +39,7 @@
       "comment": "Top-left"
     },
     {
-      "id": 227,
+      "id": 229,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 228,
+      "id": 230,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 229,
+      "id": 231,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

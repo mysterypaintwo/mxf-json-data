@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 17,
+  "id": 18,
   "name": "Gamepad Room",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -39,7 +39,7 @@
       "comment": "Shoot the top button on the right side of the controller"
     },
     {
-      "id": 169,
+      "id": 170,
       "name": "West-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

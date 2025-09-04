@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 93,
+  "id": 98,
   "name": "Brain Freezer",
   "area": "ARC",
   "subarea": "West ARC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 365,
+      "id": 375,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 366,
+      "id": 376,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

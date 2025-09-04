@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 301,
+  "id": 321,
   "name": "Twin Junctions West",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 872,
+      "id": 909,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 873,
+      "id": 910,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 874,
+      "id": 911,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 875,
+      "id": 912,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

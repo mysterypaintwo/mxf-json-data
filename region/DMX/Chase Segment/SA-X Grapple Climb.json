@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 106,
+  "id": 112,
   "name": "SA-X Grapple Climb",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 395,
+      "id": 407,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 396,
+      "id": 408,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

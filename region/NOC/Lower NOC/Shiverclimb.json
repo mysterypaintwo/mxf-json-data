@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 193,
+  "id": 208,
   "name": "Shiverclimb",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -39,7 +39,7 @@
       "comment": "Bottom-left, use Bombs and Super Jump"
     },
     {
-      "id": 617,
+      "id": 647,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 618,
+      "id": 648,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

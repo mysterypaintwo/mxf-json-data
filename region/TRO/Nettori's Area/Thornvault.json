@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 341,
+  "id": 363,
   "name": "Thornvault",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 120,
+      "id": 119,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 983,
+      "id": 1025,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 984,
+      "id": 1026,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

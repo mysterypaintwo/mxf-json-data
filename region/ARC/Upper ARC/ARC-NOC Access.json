@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 81,
+  "id": 82,
   "name": "ARC-NOC Access",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 335,
+      "id": 337,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 336,
+      "id": 338,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

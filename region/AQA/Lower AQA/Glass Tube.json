@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 18,
+  "id": 19,
   "name": "Glass Tube",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 170,
+      "id": 171,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 171,
+      "id": 172,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 172,
+      "id": 173,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 173,
+      "id": 174,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -107,7 +107,7 @@
       "comment": ""
     },
     {
-      "id": 174,
+      "id": 175,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

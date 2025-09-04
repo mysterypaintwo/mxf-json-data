@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 47,
+  "id": 48,
   "name": "Booster Barrier",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 243,
+      "id": 245,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 244,
+      "id": 246,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

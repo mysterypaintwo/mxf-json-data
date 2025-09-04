@@ -9,18 +9,18 @@
         {
           "area": "MDK",
           "subarea": "Docking Bay",
-          "roomid": 139,
+          "roomid": 146,
           "roomName": "Docking Bay Access",
-          "nodeid": 473,
+          "nodeid": 487,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "Docking Bay",
-          "roomid": 140,
+          "roomid": 147,
           "roomName": "Docking Bay Climb",
-          "nodeid": 479,
+          "nodeid": 493,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "MDK",
           "subarea": "Docking Bay",
-          "roomid": 139,
+          "roomid": 146,
           "roomName": "Docking Bay Access",
-          "nodeid": 474,
+          "nodeid": 488,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Docking Bay",
-          "roomid": 142,
+          "roomid": 149,
           "roomName": "Docking Bay",
-          "nodeid": 481,
+          "nodeid": 495,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "MDK",
           "subarea": "Docking Bay",
-          "roomid": 140,
+          "roomid": 147,
           "roomName": "Docking Bay Climb",
-          "nodeid": 476,
+          "nodeid": 490,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Docking Bay",
-          "roomid": 141,
+          "roomid": 148,
           "roomName": "Docking Bay Supply Room",
-          "nodeid": 480,
+          "nodeid": 494,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

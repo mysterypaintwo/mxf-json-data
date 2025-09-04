@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 69,
+  "id": 70,
   "name": "ARC Reserve X Room",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 303,
+      "id": 305,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

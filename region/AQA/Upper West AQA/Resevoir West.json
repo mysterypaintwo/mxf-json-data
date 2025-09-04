@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 58,
+  "id": 59,
   "name": "Resevoir West",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 273,
+      "id": 275,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 274,
+      "id": 276,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 275,
+      "id": 277,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 112,
+  "id": 118,
   "name": "Golden Four Containment",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 407,
+      "id": 419,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 408,
+      "id": 420,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

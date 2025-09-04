@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 19,
-  "name": "LX-0-AQA-Tube",
+  "id": 35,
+  "name": "AQA-NOC Tube",
   "area": "AQA",
-  "subarea": "Lower AQA",
-  "roomImageFile": "AQA Room 78900.jpg",
-  "roomAddress": "0x78900",
+  "subarea": "Upper East AQA",
+  "roomImageFile": "Misc Room Reusable 1.jpg",
+  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "physics": "air",
@@ -21,7 +21,24 @@
   ],
   "nodes": [
     {
-      "id": 175,
+      "id": 213,
+      "name": "West-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 214,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

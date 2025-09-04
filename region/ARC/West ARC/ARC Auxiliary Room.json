@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 90,
+  "id": 94,
   "name": "ARC Auxiliary Room",
   "area": "ARC",
   "subarea": "West ARC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 360,
+      "id": 368,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

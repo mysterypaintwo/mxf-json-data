@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 59,
+  "id": 60,
   "name": "Sciser Shaft",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 276,
+      "id": 278,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 277,
+      "id": 279,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 278,
+      "id": 280,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 279,
+      "id": 281,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 280,
+      "id": 282,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

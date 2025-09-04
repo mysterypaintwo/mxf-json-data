@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 16,
+  "id": 17,
   "name": "East Tunnel",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 167,
+      "id": 168,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 168,
+      "id": 169,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

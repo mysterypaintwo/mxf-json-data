@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 10,
+  "id": 11,
   "name": "AQA-MDK Elevator",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 142,
+      "id": 143,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 143,
+      "id": 144,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

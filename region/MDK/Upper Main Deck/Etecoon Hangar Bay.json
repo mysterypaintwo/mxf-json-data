@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 157,
+  "id": 167,
   "name": "Etecoon Hangar Bay",
   "area": "MDK",
   "subarea": "Upper Main Deck",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 523,
+      "id": 543,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 524,
+      "id": 544,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 525,
+      "id": 545,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 526,
+      "id": 546,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

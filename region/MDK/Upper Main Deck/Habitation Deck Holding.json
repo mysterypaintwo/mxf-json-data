@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 158,
+  "id": 168,
   "name": "Habitation Deck Holding",
   "area": "MDK",
   "subarea": "Upper Main Deck",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 527,
+      "id": 547,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

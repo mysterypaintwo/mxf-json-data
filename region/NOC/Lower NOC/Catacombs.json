@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 177,
+  "id": 189,
   "name": "Catacombs",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 575,
+      "id": 599,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 576,
+      "id": 600,
       "name": "West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 577,
+      "id": 601,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 578,
+      "id": 602,
       "name": "South-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 579,
+      "id": 603,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

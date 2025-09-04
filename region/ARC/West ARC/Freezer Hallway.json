@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 96,
+  "id": 101,
   "name": "Freezer Hallway",
   "area": "ARC",
   "subarea": "West ARC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 371,
+      "id": 381,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 372,
+      "id": 382,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

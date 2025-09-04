@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 214,
-  "name": "NOC-LX0 Tube Access",
-  "area": "NOC",
-  "subarea": "Upper NOC",
-  "roomImageFile": "NOC Room 79700.jpg",
-  "roomAddress": "0x79700",
+  "id": 83,
+  "name": "ARC-NOC Tube",
+  "area": "ARC",
+  "subarea": "Upper ARC",
+  "roomImageFile": "Misc Room Reusable 1.jpg",
+  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "physics": "air",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 671,
+      "id": 339,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 672,
+      "id": 340,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

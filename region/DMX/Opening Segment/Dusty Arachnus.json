@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 119,
+  "id": 125,
   "name": "Dusty Arachnus",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 427,
+      "id": 439,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 428,
+      "id": 440,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

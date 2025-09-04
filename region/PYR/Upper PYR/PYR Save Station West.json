@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 265,
+  "id": 281,
   "name": "PYR Save Station West",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 783,
+      "id": 811,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

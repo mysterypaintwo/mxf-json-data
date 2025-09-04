@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 173,
+  "id": 185,
   "name": "Wrecked Storage",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 566,
+      "id": 590,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 567,
+      "id": 591,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

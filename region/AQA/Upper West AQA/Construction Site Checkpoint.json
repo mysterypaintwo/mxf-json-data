@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 51,
+  "id": 52,
   "name": "Construction Site Checkpoint",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 253,
+      "id": 255,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 254,
+      "id": 256,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

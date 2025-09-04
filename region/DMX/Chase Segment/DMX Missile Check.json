@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 102,
+  "id": 108,
   "name": "DMX Missile Check",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 387,
+      "id": 399,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 388,
+      "id": 400,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

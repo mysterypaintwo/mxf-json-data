@@ -18,9 +18,9 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 35,
+          "roomid": 36,
           "roomName": "Assembly Line",
-          "nodeid": 213,
+          "nodeid": 215,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -68,9 +68,9 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 39,
+          "roomid": 40,
           "roomName": "Reservoir Speedway",
-          "nodeid": 224,
+          "nodeid": 226,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -93,9 +93,9 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 41,
+          "roomid": 42,
           "roomName": "Spark Shaft Runway",
-          "nodeid": 232,
+          "nodeid": 234,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -143,9 +143,9 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 40,
+          "roomid": 41,
           "roomName": "Reservoir Vault",
-          "nodeid": 228,
+          "nodeid": 230,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -193,9 +193,9 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 37,
+          "roomid": 38,
           "roomName": "Reservoir Access",
-          "nodeid": 218,
+          "nodeid": 220,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -218,9 +218,9 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 40,
+          "roomid": 41,
           "roomName": "Reservoir Vault",
-          "nodeid": 227,
+          "nodeid": 229,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -243,11 +243,36 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 38,
+          "roomid": 39,
           "roomName": "Reservoir East",
-          "nodeid": 222,
+          "nodeid": 224,
           "nodeName": "East-Upper Door",
           "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between AQA-NOC Access and AQA-NOC Tube",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 34,
+          "roomName": "AQA-NOC Access",
+          "nodeid": 212,
+          "nodeName": "East-Upper Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 35,
+          "roomName": "AQA-NOC Tube",
+          "nodeid": 213,
+          "nodeName": "West-Upper Door",
+          "position": "left"
         }
       ]
     },
@@ -259,18 +284,18 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 35,
+          "roomid": 36,
           "roomName": "Assembly Line",
-          "nodeid": 214,
+          "nodeid": 216,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 41,
+          "roomid": 42,
           "roomName": "Spark Shaft Runway",
-          "nodeid": 230,
+          "nodeid": 232,
           "nodeName": "North Door",
           "position": "left"
         }
@@ -284,18 +309,18 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 36,
+          "roomid": 37,
           "roomName": "Hydrospark",
-          "nodeid": 215,
+          "nodeid": 217,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 39,
+          "roomid": 40,
           "roomName": "Reservoir Speedway",
-          "nodeid": 226,
+          "nodeid": 228,
           "nodeName": "South Door",
           "position": "left"
         }
@@ -309,18 +334,18 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 37,
+          "roomid": 38,
           "roomName": "Reservoir Access",
-          "nodeid": 217,
+          "nodeid": 219,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 38,
+          "roomid": 39,
           "roomName": "Reservoir East",
-          "nodeid": 221,
+          "nodeid": 223,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -334,18 +359,18 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 38,
+          "roomid": 39,
           "roomName": "Reservoir East",
-          "nodeid": 219,
+          "nodeid": 221,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 41,
+          "roomid": 42,
           "roomName": "Spark Shaft Runway",
-          "nodeid": 231,
+          "nodeid": 233,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -359,18 +384,18 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 38,
+          "roomid": 39,
           "roomName": "Reservoir East",
-          "nodeid": 220,
+          "nodeid": 222,
           "nodeName": "North Door",
           "position": "top"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 40,
+          "roomid": 41,
           "roomName": "Reservoir Vault",
-          "nodeid": 229,
+          "nodeid": 231,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -384,18 +409,18 @@
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 38,
+          "roomid": 39,
           "roomName": "Reservoir East",
-          "nodeid": 223,
+          "nodeid": 225,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 39,
+          "roomid": 40,
           "roomName": "Reservoir Speedway",
-          "nodeid": 225,
+          "nodeid": 227,
           "nodeName": "East-Upper Door",
           "position": "right"
         }

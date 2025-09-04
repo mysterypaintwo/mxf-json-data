@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 126,
+  "id": 133,
   "name": "Not 58 Escape Room",
   "area": "L-X",
   "subarea": "General",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 444,
+      "id": 458,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 445,
+      "id": 459,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 215,
-  "name": "NOC-LX0 Tube",
-  "area": "NOC",
-  "subarea": "Upper NOC",
-  "roomImageFile": "NOC Room 78700.jpg",
-  "roomAddress": "0x78700",
+  "id": 106,
+  "name": "DMX Elevator Middle",
+  "area": "DMX",
+  "subarea": "Chase Segment",
+  "roomImageFile": "DMX Elevator Middle.png",
+  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "physics": "air",
@@ -21,13 +21,30 @@
   ],
   "nodes": [
     {
-      "id": 673,
-      "name": "West-Upper Door",
+      "id": 395,
+      "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeItem": null,
       "nodeAddress": "0x0",
-      "doorOrientation": "left",
+      "doorOrientation": "top",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 396,
+      "name": "South Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "bottom",
       "doorEnvironments": [
         {
           "physics": "air",

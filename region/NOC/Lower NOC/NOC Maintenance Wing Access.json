@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 186,
+  "id": 198,
   "name": "NOC Maintenance Wing Access",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 604,
+      "id": 628,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 605,
+      "id": 629,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

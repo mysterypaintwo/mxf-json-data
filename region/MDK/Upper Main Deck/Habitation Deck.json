@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 159,
+  "id": 169,
   "name": "Habitation Deck",
   "area": "MDK",
   "subarea": "Upper Main Deck",
@@ -57,7 +57,7 @@
       "comment": ""
     },
     {
-      "id": 528,
+      "id": 548,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 529,
+      "id": 549,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -91,7 +91,7 @@
       "comment": ""
     },
     {
-      "id": 530,
+      "id": 550,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

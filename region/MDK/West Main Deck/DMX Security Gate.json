@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 163,
+  "id": 174,
   "name": "DMX Security Gate",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 544,
+      "id": 566,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 545,
+      "id": 567,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

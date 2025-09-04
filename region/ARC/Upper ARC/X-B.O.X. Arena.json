@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 88,
+  "id": 92,
   "name": "X-B.O.X. Arena",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 355,
+      "id": 363,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 356,
+      "id": 364,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

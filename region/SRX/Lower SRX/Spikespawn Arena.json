@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 276,
+  "id": 293,
   "name": "Spikespawn Arena",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 91,
+      "id": 90,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 814,
+      "id": 844,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 86,
+  "id": 90,
   "name": "Tactical Evasion Course",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 351,
+      "id": 359,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

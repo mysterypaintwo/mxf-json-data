@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schema/mxf-room.schema.json",
+  "id": 228,
+  "name": "NOC Reserve X Room",
+  "area": "NOC",
+  "subarea": "Upper NOC",
+  "roomImageFile": "",
+  "roomAddress": "0x0",
+  "roomEnvironments": [
+    {
+      "physics": "air",
+      "heated": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      [
+        1
+      ]
+    ]
+  ],
+  "nodes": [],
+  "enemies": [],
+  "links": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

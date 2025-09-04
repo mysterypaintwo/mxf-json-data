@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 188,
+  "id": 200,
   "name": "NOC Mimic Lodge",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 609,
+      "id": 633,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

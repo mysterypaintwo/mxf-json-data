@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 330,
+  "id": 352,
   "name": "TRO-PYR Elevator",
   "area": "TRO",
   "subarea": "General",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 954,
+      "id": 996,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 955,
+      "id": 997,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

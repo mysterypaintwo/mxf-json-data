@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 291,
+  "id": 310,
   "name": "Lava Tornado",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 847,
+      "id": 882,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 848,
+      "id": 883,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 849,
+      "id": 884,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

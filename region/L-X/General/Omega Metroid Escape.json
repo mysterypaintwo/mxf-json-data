@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 133,
+  "id": 140,
   "name": "Omega Metroid Escape",
   "area": "L-X",
   "subarea": "General",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 461,
+      "id": 475,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 462,
+      "id": 476,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

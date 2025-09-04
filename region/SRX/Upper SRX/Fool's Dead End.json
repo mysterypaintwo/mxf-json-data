@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 287,
+  "id": 305,
   "name": "Fool\u0027s Dead End",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 96,
+      "id": 95,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 839,
+      "id": 871,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 840,
+      "id": 872,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 841,
+      "id": 873,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

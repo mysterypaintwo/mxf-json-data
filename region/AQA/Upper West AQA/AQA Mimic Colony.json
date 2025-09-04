@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 43,
+  "id": 44,
   "name": "AQA Mimic Colony",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 234,
+      "id": 236,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 295,
+  "id": 314,
   "name": "SRX Data Room",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 102,
+      "id": 101,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 856,
+      "id": 891,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

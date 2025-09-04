@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 136,
-  "name": "Sector 0 Hard Exit",
-  "area": "L-X",
-  "subarea": "General",
-  "roomImageFile": "L-X Room 79200.jpg",
-  "roomAddress": "0x79200",
+  "id": 86,
+  "name": "ARC-SRX Tube",
+  "area": "ARC",
+  "subarea": "Upper ARC",
+  "roomImageFile": "Misc Room Reusable 1.jpg",
+  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "physics": "air",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 467,
+      "id": 346,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 468,
+      "id": 347,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

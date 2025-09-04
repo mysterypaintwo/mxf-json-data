@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 71,
+  "id": 72,
   "name": "Arctic Containment",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 305,
+      "id": 307,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 306,
+      "id": 308,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 307,
+      "id": 309,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 308,
+      "id": 310,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 309,
+      "id": 311,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -106,7 +106,7 @@
       "comment": ""
     },
     {
-      "id": 310,
+      "id": 312,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
