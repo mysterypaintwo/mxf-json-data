@@ -1,5 +1,5 @@
 {
-  "$schema": "./schema/m3-helpers.schema.json",
+  "$schema": "./schema/mxf-helpers.schema.json",
   "helperCategories": [
     {
       "name": "Randomizer Dependent",
@@ -378,18 +378,6 @@
           "devNote": "1 Power Bomb leniency per attempt, 8 leniency attempts."
         },
         {
-          "name": "h_XModeSpikeHitLeniency",
-          "requires": [
-            {"spikeHits": 1}
-          ]
-        },
-        {
-          "name": "h_XModeThornHitLeniency",
-          "requires": [
-            {"thornHits": 1}
-          ]
-        },
-        {
           "name": "h_spikeSuitSpikeHitLeniency",
           "requires": [
             {"spikeHits": 2}
@@ -406,27 +394,6 @@
           "requires": [
             {"samusEaterFrames": 320}
           ]
-        },
-        {
-          "name": "h_speedKeepSpikeHitLeniency",
-          "requires": [
-            "h_XModeSpikeHitLeniency"
-          ],
-          "devNote": [
-            "Since a (spike) speed keep requires a frame-perfect unmorph with the same timing as spike X-mode,",
-            "it is a reasonable default to have them share the same lenience."
-          ]
-        },
-        {
-          "name": "h_extendedMoondanceBeetomLeniency",
-          "requires": [
-            {"enemyDamage": {
-              "enemy": "Beetom",
-              "type": "contact",
-              "hits": 3
-            }}
-          ],
-          "devNote": "Moving carefully while switching weapons makes it more likely to take random damage."
         },
         {
           "name": "h_IBJFromThorns",
@@ -948,39 +915,10 @@
           "devNote": "All heat frames before and after the refill are added on the strats that use the helper."
         },
         {
-          "name": "h_XModeSpikeHit",
-          "requires": [
-            {"spikeHits": 1},
-            "h_XModeSpikeHitLeniency"
-          ],
-          "devNote": [
-            "Some strats require multiple spike hits, in which case h_canSpikeXMode will be included multiple times.",
-            "In this case, the total leniency is the base leniency h_XModeSpikeHitLeniency multiplied by the number of hits."
-          ]
-        },
-        {
-          "name": "h_XModeThornHit",
-          "requires": [
-            {"thornHits": 1},
-            "h_XModeThornHitLeniency"
-          ],
-          "devNote": [
-            "Some strats require multiple thorn hits, in which case h_canThornXMode will be included multiple times.",
-            "In this case, the total leniency is the base leniency h_XModeThornHitLeniency multiplied by the number of hits."
-          ]
-        },
-        {
           "name": "h_speedKeepSpikeHit",
           "requires": [
             {"spikeHits": 1},
             "h_speedKeepSpikeHitLeniency"
-          ]
-        },
-        {
-          "name": "h_XRayMorphIceClip",
-          "requires": [
-            "canXRayCeilingClip",
-            "canTrickyUseFrozenEnemies"
           ]
         },
         {
@@ -1001,7 +939,6 @@
           "name": "h_iceClip",
           "requires": [
             {"or":[
-              "h_XRayMorphIceClip",
               "h_preciseIceClip",
               "h_highPixelIceClip"
             ]}
@@ -1037,12 +974,11 @@
           "requires": [
             {"or": [
               "canMorphTurnaround",
-              "canXRayTurnaround",
               "canMoonwalk"
             ]}
           ],
           "note": [
-            "Back into a corner with Moonwalk, an X-Ray turnaround, or a precise Morph turnaround.",
+            "Back into a corner with Moonwalk or a precise Morph turnaround.",
             "It is possible to turn around with Morph without moving at all, which requires a very short input."
           ],
           "devNote": "FIXME: Turning around with Morph could use another tech, but strats requiring pixel precision typically already require more tech."
@@ -1141,68 +1077,6 @@
               {"ammo": {"type": "Super", "count": 1}}
             ]}
           ]
-        },
-        {
-          "name": "h_heatedGMode",
-          "requires": [
-            "canEnterGMode",
-            {"or": [
-              "h_heatProof",
-              "canHeatedGMode"
-            ]}
-          ]
-        },
-        {
-          "name": "h_heatedGModePauseAbuse",
-          "requires": [
-            "canEnterGMode",
-            "canPauseAbuse",
-            {"or": [
-              "h_heatProof",
-              {"and": [
-                "canComplexGMode",
-                "canHeatedGMode"
-              ]}
-            ]}
-          ]
-        },
-        {
-          "name": "h_heatedDirectGModeLeaveSameDoor",
-          "requires": [
-            "h_heatedGMode",
-            {"heatFrames": 1}
-          ],
-          "note": "Leaving the same door only adds one heat frame. This is likely only useful if remote acquiring an item or opening a yellow door."
-        },
-        {
-          "name": "h_heatedIndirectGModeOpenSameDoor",
-          "requires": [
-            "h_heatedGMode",
-            {"heatFrames": 70}
-          ],
-          "note": "This requires extra frames, because the door needs to close fully before it can be shot open."
-        },
-        {
-          "name": "h_heatedGModeOpenDifferentDoor",
-          "requires": [
-            "h_heatedGMode",
-            {"heatFrames": 35}
-          ],
-          "note": "There is a delay after using X-Ray before shooting. If PLMs are already overloaded, Samus can crouch next to the door, shoot up and very quickly use X-Ray."
-        },
-        {
-          "name": "h_heatedGModeOffCameraDoor",
-          "requires": [
-            "h_heatedGMode",
-            {"or": [
-              {"heatFrames": 70},
-              {"and": [
-                "canUseGrapple",
-                {"heatFrames": 40}
-              ]}
-            ]}
-          ],
-          "note": "There is a delay after using X-Ray before shooting, but the shot cannot be buffered, as it instantly despawns. Grapple can bypass this cooldown."
         }
       ]
     },
