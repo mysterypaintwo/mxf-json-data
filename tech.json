@@ -641,8 +641,7 @@
               "otherRequires": [],
               "note": [
                 "Moving along a 2-tile-high passage while standing up by repeatedly spin-jumping and then pressing down.",
-                "The tech comes with softlock risks without Morph Ball or a way to wiggle to the right with canTurnaroundAimCancel",
-                "With X-Ray, it may be easier to wiggle with canXRayTurnaround."
+                "The tech comes with softlock risks without Morph Ball or a way to wiggle to the right with canTurnaroundAimCancel."
               ]
             }
           ]
@@ -1708,7 +1707,6 @@
                           "otherRequires": [],
                           "note": [
                             "Collision will prioritize frozen enemies before walls which allows Samus to clip 1 pixel into a wall if an enemy is there.",
-                            "This can be used to get Samus into position to X-Ray Climb.",
                             "Additionally, enemies that fly through walls may be repeatedly frozen to advance 1 pixel at a time to eventually push Samus through a wall or touch a door transition."
                           ]
                         },
@@ -1951,7 +1949,7 @@
           "techRequires": [],
           "otherRequires": [],
           "note": [
-            "The ability to set a HUD equipment item (Missile, Super, Power Bomb, Grapple, XRay Scope) to be single use.",
+            "The ability to set a HUD equipment item (Missiles, Power Bomb, Grapple) to be single use.",
             "Doing this allows for a fast beam shot following the item use, or can reduce button input complexity.",
             "The button combination is 'Item Select' + 'Item Cancel' pressed together."
           ]
@@ -2117,8 +2115,7 @@
               "otherRequires": [],
               "note": [
                 "The ability to clip into a slope-type wall by shinesparking into it.",
-                "In some cases this may require activating the spark at a precise horizontal position.",
-                "Clipping into a wall in this way can be used to set up an X-Ray climb."
+                "In some cases this may require activating the spark at a precise horizontal position."
               ]
             }
           ]
@@ -2236,7 +2233,6 @@
                 "In particular, forward must still be held when starting to unmorph",
                 "but must be released before the unmorph animation finishes (a 7-frame window, in air physics);",
                 "alternatively, if both angle-up and angle-down are held while landing, then there is no need to release forward before the unmorph animation finishes.",
-                "It is possible to use X-Ray to turn around during a temporary blue chain.",
                 "If enough fall speed can be gained to bounce when hitting the ground morphed,",
                 "then it is possible to unmorph after the bounce, providing a larger frame window compared to soft unmorphing directly;",
                 "this also allows Samus to travel a greater horizontal distance with each jump.",
@@ -2333,367 +2329,6 @@
       ]
     },
     {
-      "name": "XRay",
-      "description": "Techs related to use of X-Ray Scope",
-      "techs": [
-        {
-          "id": 152,
-          "name": "canXRayWaitForIFrames",
-          "techRequires": [],
-          "otherRequires": [
-            "XRayScope",
-            {"noFlashSuit": {}}
-          ],
-          "note": [
-            "Use X-Ray to pause time until invulnerability frames are finished.",
-            "Combine with Plasma Beam to repeatedly damage enemies with one fired shot, called Microwave.",
-            "If used while inside an enemy projectile or thorns, i-frames will be restarted but no damage will be taken."
-          ]
-        },
-        {
-          "id": 153,
-          "name": "canXRayTurnaround",
-          "techRequires": [],
-          "otherRequires": [
-            "XRayScope",
-            {"noFlashSuit": {}}
-          ],
-          "note": [
-            "Using X-Ray to turn around in place without changing pixel position.",
-            "Alternating X-Ray turnarounds with regular turnarounds enables movement in either direction even while crouched.",
-            "This allows Samus to wiggle through two-tile tall passages, but only if the crouch originated from standing or unmorphing (not spinjumping)."
-          ]
-        },
-        {
-          "id": 154,
-          "name": "canXRayCancelShinecharge",
-          "techRequires": [],
-          "otherRequires": [
-            "XRayScope",
-            {"noFlashSuit": {}}
-          ],
-          "note": [
-            "Using X-Ray to cancel a shinecharge to avoid having to wait for the 180-frame shinecharge timer to expire.",
-            "This allows moving more quickly after gaining temporary blue."
-          ]
-        },
-        {
-          "id": 155,
-          "name": "canXRayStandUp",
-          "techRequires": [],
-          "otherRequires": [
-            "XRayScope",
-            {"noFlashSuit": {}}
-          ],
-          "note": "Force Samus to stand up from a crouching position by canceling the use of the X-Ray Scope while turning around.",
-          "extensionTechs": [
-            {
-              "id": 156,
-              "name": "canXRayClimb",
-              "techRequires": [
-                "canXRayStandUp"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Repeatedly using X-Ray's forced standup trick to climb up through in-bound walls.",
-                "This requires Samus to be partially clipped into the wall to begin climbing, which is often set up by getting stuck in a closing door.",
-                "The simplest setup is getting stuck in a right facing door in order to climb the left wall of a room.",
-                "To do this, enter this room from the room to the left with a stationary spinjump moving away to touch the transition with momentum that will get you stuck in the destination door.",
-                "X-Ray climbs can also be setup by allowing solid blocks to reform on Samus, or by clipping into a wall by some other means."
-              ],
-              "extensionTechs": [
-                {
-                  "id": 202,
-                  "name": "canLongXRayClimb",
-                  "techRequires": [
-                    "canXRayClimb"
-                  ],
-                  "otherRequires": [],
-                  "note": ["Performing an X-Ray climb of distance approximately two screens or more."]
-                },
-                {
-                  "id": 157,
-                  "name": "canRightSideDoorStuck",
-                  "techRequires": [
-                    "canStationarySpinJump"
-                  ],
-                  "otherRequires": [],
-                  "note": [
-                    "Getting stuck in a right side (left facing) door.",
-                    "Starting from the room to the right, perform a dashing stationary spinjump into a doorcheck.",
-                    "Then,  as Samus arrives in the desired room, hold down to automatically fall forward into the closing door.",
-                    "This requires the doorway in the room to the right to not be underwater. This is typically used to start an X-Ray Climb."
-                  ],
-                  "extensionTechs": [
-                    {
-                      "id": 158,
-                      "name": "canRightSideDoorStuckFromWater",
-                      "techRequires": [
-                        "canRightSideDoorStuck",
-                        "canTrickyJump"
-                      ],
-                      "otherRequires": [],
-                      "note": [
-                        "When the adjacent room is underwater it is not possible to gain dash state for the stationary spinjump.",
-                        "Instead, an extremely precise jump is required followed by aiming down to shrink Samus' hitbox.",
-                        "From a full height jump, there are two frames which can touch the transition at the correct height.",
-                        "After entering the next room, hold forward then one frame later aim down.",
-                        "Turning off HiJump may help as it changes which frames work for the trick."
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 159,
-          "name": "canXMode",
-          "techRequires": [],
-          "otherRequires": [
-            "XRayScope",
-            "Morph",
-            "canStationarySpinJump",
-            {"noFlashSuit": {}}
-          ],
-          "note": [
-            "Ability to enter X-Mode using spikes by unmorphing frame perfectly before knockback ends with X-Ray ready to activate.",
-            "This can be used to charge a shinespark or to slowly move forward by armpumping.",
-            "Walking into a solid tile while in X-Mode will crash the game."
-          ],
-          "devNote": [
-            "A flash suit can be used while in X-Mode, but any unused flash suit will be lost when X-Ray is released.",
-            "Using a flash suit during X-Mode should be represented by a `useFlashSuit` immediately before `canXMode`."
-          ],
-          "extensionTechs": [
-            {
-              "id": 160,
-              "name": "canSuperJump",
-              "techRequires": [
-                "canXMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to Shinespark while in XMode in a controlled way.",
-                "A side effect of Super Jumping is that Samus gains a Blue Suit."
-              ]
-            }
-          ]
-        },
-        {
-          "id": 161,
-          "name": "canEnterRMode",
-          "techRequires": [
-            "canUseEnemies"
-          ],
-          "otherRequires": [
-            "XRayScope",
-            "ReserveTank",
-            {"noFlashSuit": {}}
-          ],
-          "note": [
-            "Ability to enter R-mode.",
-            "Have some energy in reserves (set to Auto), take damage while going through a door, use X-Ray while entering the next room, and release X-Ray after reserves have finished filling."
-          ]
-        },
-        {
-          "id": 162,
-          "name": "canEnterGMode",
-          "techRequires": [
-            "canUseEnemies",
-            "canPreciseReserveRefill"
-          ],
-          "otherRequires": [
-            "XRayScope",
-            "ReserveTank",
-            {"noFlashSuit": {}}
-          ],
-          "note": [
-            "Ability to enter G-mode and utilize the unusual behaviors that it enables. This requires X-Ray, Reserve Energy, and reserves set to Auto refill.",
-            "In order to enter G-mode, Samus needs to take damage after touching a room transition so that she immediately takes damage and triggers the refill while entering the next room.",
-            "In addition, she needs to be using X-Ray while entering the room and release X-Ray before reserves have finished filling.",
-            "For the simplest cases, Samus will need to start with 4 (or fewer) Reserve Energy, giving a 4-frame window to release X-Ray in the next room (or fewer: 1-frame per Reserve Energy).",
-            "When successfully entering G-mode, the room will darken and the door will remain open (releasing X-Ray too early, neither of these occur; releasing it too late, the room darkens and the door closes - this is R-mode)."
-          ],
-          "detailNote": [
-            "While in G-mode, many things do not behave as expected until exiting G-mode by using X-Ray - Samus can not open doors, collect items, or break blocks, and enemy drops do not spawn and their projectiles are invisible and do not move.",
-            "If Samus can overload PLMs, many types of blocks change their behavior: bomb, crumble, speed blocks, and sand behave as air (Power Bomb, Super, and shot blocks remain solid).",
-            "The most common ways to overload PLMs include: bombing Power Bomb and speed blocks and the side or bottom of crumble blocks that haven't been stepped on (approximately 40 times),",
-            "grappling grapple blocks, rolling through invisible camera scroll blocks (which often appear in morph tunnels), and touching sand.",
-            "Note that stepping on a crumble block or bombing a bomb block will prevent them from behaving like air after PLMs are overloaded.",
-            "When Samus enters G-mode, this is called direct G-mode; if she leaves that room (for example by going back through the open door), she is instead in indirect G-mode.",
-            "When in indirect G-mode, items and blue and green gates do not spawn, and Samus can freely walk through them."
-          ],
-          "extensionTechs": [
-            {
-              "id": 205,
-              "name": "canComplexGMode",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Doing something precise, risky, or unintuitive while in G-mode or while setting up G-mode.",
-                "This includes: enemy dodging that would not normally be an issue and is unintuitive, such as enemies that deal a small amount of damage and awkward dodging while artificially morphed;",
-                "bypassing door locks while in G-mode to maintain indirect G-mode in the next room;",
-                "exiting direct G-mode while in the open door to get very deep doorstuck and X-Ray climb and doorlock bypass a door above;",
-                "exiting G-mode while inside of overloaded blocks in order to have them solidify and be able to X-Ray climb;",
-                "touching an item in direct G-mode before PLMs are overloaded and obtaining the item remotely when exiting G-mode.",
-                "Getting a usable amount of Energy for G-mode setups where there is a high risk of taking extra damage beforehand can often benefit from getting close to the correct position,",
-                "taking an enemy hit and then using X-ray and waiting for Samus's i-frames to expire in order to be able to take additional hits without the enemy moving very much."
-              ],
-              "extensionTechs": [
-                {
-                  "id": 200,
-                  "name": "canTrickyGMode",
-                  "techRequires": [
-                    "canComplexGMode",
-                    "canInsaneJump"
-                  ],
-                  "otherRequires": [],
-                  "note": [
-                    "Doing something particularly precise, risky, or unintuitive while in G-mode or while setting up G-mode.",
-                    "This includes very precise movement, enemy manipulation, and timings, where a failure may result in soft-lock or death.",
-                    "This also includes complex dodging of invisible projectiles or camera scroll blocks, and it can be paired with complex off-screen movement."
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 198,
-              "name": "canHeatedGMode",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Setting up or using G-mode in a heated environment without heat protection.",
-                "Positioning an enemy to set up G-mode from a heated room requires precise Energy management.",
-                "With slightly too much Energy, Samus can take damage then use X-Ray until her i-frames expire to immediately be able to take damage again.",
-                "While G-mode provides heat protection (sometimes referred to as 'artificial Varia'), entering G-mode in a heated room is risky, as a fail will likely result in death if Samus had only 4 Reserve Energy.",
-                "Exiting G-mode while in a heated environment will remove Samus' artificial heat protection; luring and killing an enemy near the door to collect its drop with a pause abuse is possible."
-              ]
-            },
-            {
-              "id": 163,
-              "name": "canEnterGModeImmobile",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to enter G-mode starting with high reserve energy, resulting in Samus being immobilized.",
-                "Have 5 or more energy in reserves (set to Auto), take damage while going through a door, use X-Ray while entering the next room, and release X-ray immediately before reserves finish filling (a 3-frame window when starting with 12 or more reserve energy, a much larger frame window if you have between 5 and 11).",
-                "Samus will be unable to move until getting hit by an enemy (or until canceling G-mode by using X-Ray)."
-              ],
-              "devNote": "It does not technically require canPreciseReserveRefill to enter immobile, but it is expected to know how to enter G-Mode before learning this."
-            },
-            {
-              "id": 164,
-              "name": "canArtificialMorph",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to obtain artificial morph with G-mode.",
-                "For low-energy G-mode setups, turn around after reserves finish filling but before knockback frames expire (a 4-frame window when entering G-mode with 4 reserve energy).",
-                "For high-energy (immobile) setups, instead turn around while taking knockback from the enemy that returns control to Samus (a 5-frame window)",
-                "This results in Samus entering a morph ball state without needing to have collected or equipped Morph."
-              ]
-            },
-            {
-              "id": 206,
-              "name": "canPowerBombItemOverloadPLMs",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to overload PLMs by having a Power Bomb explosion interact with an item, while being able to optimally place them to overload PLMs with as few Power Bombs as possible.",
-                "The number of PLMs spawned is highly dependent on the distance between the bomb and the item.",
-                "There is a special distance from the item in which two Power Bombs can fully overload PLMs - 16 tiles away horizontally or 12 tiles vertically away from the item.",
-                "This magic distance forms a rectangle around the item, which is approximately one tile thick.",
-                "Slightly outside this rectangle will not spawn any PLMs, slightly inside of it will require dozens of Power Bombs to overload them.",
-                "Without being able to place a Power Bomb within this special region, then the closer to the item, the more the PLMs are spawned - particularly when extremely close to it.",
-                "A Power Bomb placed one pixel from the item requires just two Power Bombs, while placing them two tiles away from the item will typically require 7-8 explosions.",
-                "This requires the item to be uncollected and Samus to be in Direct G-mode for visible and Chozo Ball items, but hidden items can be Power Bombed even if it is collected or in indirect G-mode."
-              ],
-              "devNote": "Note that this tech does not have any Power Bomb requirements - those are all included on the strat, because the number required varies significantly."
-            },
-            {
-              "id": 194,
-              "name": "canSamusEaterTeleport",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to use a Samus Eater to teleport when exiting G-mode, just before touching a door transition,",
-                "modifying where Samus is placed in the next room.",
-                "Exiting G-mode will teleport Samus to position where she touched the Samus Eater.",
-                "At the start of the door transition, Samus' X and Y pixel positions are reduced modulo 256 (the size of a screen),",
-                "so the relative position within the screen is all the matters (not the absolute position in the room).",
-                "The transition must be touched 2 frames after control is regained after releasing X-Ray.",
-                "A normalized method to do this is to position Samus slightly more than 1 pixel from the door (but less than $1.3 pixels away),",
-                "then hold forward toward the door while X-Ray is released.",
-                "Correct subpixels for this method can be obtained in the following way: 1) jump and press against a wall above,",
-                "2) jump and do a mid-air turnaround (making sure not to be in front of a wall when turning), which moves Samus back by half a pixel,",
-                "3) moonwalking back toward the door until 2 pixels away;",
-                "4) jump and do a turnaround mid-air toward the door.",
-                "Moonwalking moves back Samus in half-pixel increments, so in the absence of frame-perfect timing there is a 50% chance of ending in the correct position.",
-                "If Samus is 2 pixels away from the door after the final jump turnaround, then the position is correct;",
-                "if Samus is 1 pixel away from the door, then the position is incorrect, and the setup should be repeated."
-              ]
-            },
-            {
-              "id": 165,
-              "name": "canDownwardGModeSetup",
-              "techRequires": [
-                "canEnterGMode"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to setup an R-mode or G-mode through a downward door or sand transition.",
-                "Samus needs to be in a standing or walking position with no vertical speed on the first frame in the next room, while taking damage through the transition."
-              ],
-              "detailNote": [
-                "There are three known ways to enter a downward transition where X-Ray is usable on entry: 1) Clip into the floor next to the transition, then move forward to touch the transition.",
-                "2) Freeze an enemy on the ground above and near the transition, typically with 1-2 pixels of air horizontally between the enemy and the transition,",
-                "run and fall over the doorframe and hit the opposite wall to wall ice clip Samus into the wall to force a stand up, which will expand her hitbox to touch the transition.",
-                "3) Crouch in quicksand and press forward to stand up to expand Samus' hitbox and touch the transition on the first frame the hitbox expands."
-              ],
-              "devNote": "FIXME: This could be used for entering R-mode, with G-mode disabled. But for now, G-mode is more refined and easier to understand, so it would be somewhat odd to turn this on and not G-mode."
-            },
-            {
-              "id": 166,
-              "name": "canUpwardGModeSetup",
-              "techRequires": [
-                "canEnterGMode",
-                "canTwoTileSqueeze"
-              ],
-              "otherRequires": [],
-              "note": [
-                "Ability to setup an R-mode or G-mode through an upward door.",
-                "Samus needs to be in a standing or walking position with no vertical speed on the first frame in the next room, while taking damage through the transition.",
-                "This is typically done by standing or crouching on an enemy as a platform beneath the transition and pressing forward to activate the transition."
-              ],
-              "detailNote": [
-                "Getting Samus onto the enemy without activating the transition can usually be done by spin jumping against the enemy and quickly releasing jump and forward once on top of it.",
-                "If the vertical space between the enemy and transition is 2 tiles or fewer, Samus needs to aim down before landing to prevent touching the transition as she lands.",
-                "it is also possible to get onto the enemy by jumping and aiming down with horizontal momentum while avoiding hitting the side of the enemy or the transition above.",
-                "This may also be done more easily with Spring Ball or a room geometry that makes it easy to midair morph directly onto the enemy.",
-                "Unmorphing when on top of the enemy will put Samus in a crouch, where a forward press will stand up and activate the transition.",
-                "If Samus is completely against the wall, an X-Ray turnaround or crouch is necessary to be able to activate the transition tiles with a forward press."
-              ],
-              "devNote": "FIXME: This could be used for entering R-mode, with G-mode disabled. But for now, G-mode is more refined and easier to understand, so it would be somewhat odd to turn this on and not G-mode."
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Meta",
       "description": "A tech not referring to gameplay but to the handling of the model itself.",
       "techs": [
@@ -2740,21 +2375,6 @@
           "note": "Basic variant of jumping into a two block high space and performing the actions needed to clip up through a one-tile-thick ceiling.",
           "extensionTechs": [
             {
-              "id": 170,
-              "name": "canXRayCeilingClip",
-              "techRequires": [
-                "canCeilingClip",
-                "canXRayStandUp"
-              ],
-              "otherRequires": [
-                "Morph"
-              ],
-              "note": [
-                "Setting up an enemy positioning to perform a ceiling clip, typically with a frozen enemy. Jump and Morph onto the enemy, perform an X-Ray standup, and then jump through.",
-                "The enemy positioning will require approximately 1.5 to 2 tiles between the enemy and the ceiling. Just enough to unmorph while on top of it."
-              ]
-            },
-            {
               "id": 171,
               "name": "canPreciseCeilingClip",
               "techRequires": [
@@ -2766,7 +2386,7 @@
               ],
               "note": [
                 "Setting up an enemy positioning to perform a very precise ceiling clip, typically with a frozen enemy.",
-                "The enemy positioning will require a 2-3 pixel precision range, several pixels lower than what is possible with an X-Ray standup.",
+                "The enemy positioning will require a 2-3 pixel precision range.",
                 "A crouch jump is then required to clip through."
               ]
             },
