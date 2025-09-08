@@ -11,6 +11,7 @@
           "techRequires": [],
           "otherRequires": [],
           "note": "Executing a strat that requires waiting or doing the same thing over and over again for a substantial amount of time, potentially more than 1.5 minutes, even with good execution.",
+          "devNote": null,
           "extensionTechs": [
             {
               "id": 2,
@@ -20,6 +21,7 @@
               ],
               "otherRequires": [],
               "note": "Executing a strat that requires waiting or doing the same thing over and over again for a long time, potentially more than 3 minutes, even with good execution.",
+              "devNote": null,
               "extensionTechs": [
                 {
                   "id": 3,
@@ -28,7 +30,9 @@
                     "canBeVeryPatient"
                   ],
                   "otherRequires": [],
-                  "note": "Executing a strat that requires waiting or doing the same thing over and over again for a very long time, potentially more than 6 minutes, even with good execution."
+                  "note": "Executing a strat that requires waiting or doing the same thing over and over again for a very long time, potentially more than 6 minutes, even with good execution.",
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
@@ -42,21 +46,27 @@
           "note": [
             "The ability to know which room is coming next and use that information to enter the room in a specific way.",
             "This could be achieved from remembering which rooms Samus has been to, using the map to figure out which room is coming next, etc."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
           "id": 5,
           "name": "canSuitlessLavaDive",
           "techRequires": [],
           "otherRequires": [],
-          "note": "Navigating deep lava without lava immunity, or deep acid. This isn't required for entering shallow lava or acid in which Samus can easily jump out of."
+          "note": "Navigating deep lava without lava immunity, or deep acid. This isn't required for entering shallow lava or acid in which Samus can easily jump out of.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
           "id": 6,
           "name": "canHeatRun",
           "techRequires": [],
           "otherRequires": [],
-          "note": "Navigating heated rooms without immunity to heat damage."
+          "note": "Navigating heated rooms without immunity to heat damage.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
           "id": 7,
@@ -67,6 +77,7 @@
             "Navigating underwater without Gravity.",
             "This is not required for falling down a submerged room or for simple underwater platforming, such as where missing a jump does not leave Samus stuck somewhere."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
               "id": 8,
@@ -79,7 +90,9 @@
               "note": [
                 "Using two walls spaced 1 tile apart to climb upward underwater.",
                 "Samus will not be able to move away from the wall while wall jumping and so will be able to continuously gain height with fast jump presses."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
               "id": 9,
@@ -88,7 +101,9 @@
                 "canSuitlessMaridia"
               ],
               "otherRequires": [],
-              "note": "Using the momentum from jumping through a doorway from normal to water physics."
+              "note": "Using the momentum from jumping through a doorway from normal to water physics.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
               "id": 10,
@@ -100,6 +115,7 @@
                 "SpaceJump"
               ],
               "note": "Using Space Jump to bounce along the water line. It can be used to escape the water with a wall jump, or to get onto low platforms just above the water level.",
+              "devNote": null,
               "extensionTechs": [
                 {
                   "id": 11,
@@ -109,7 +125,8 @@
                   ],
                   "otherRequires": [],
                   "note": "Using HiJump to escape the waterline during a Space Jump Water Bounce.",
-                  "devNote": "Escaping tidal water without HiJump could be added as a more advanced tech."
+                  "devNote": "Escaping tidal water without HiJump could be added as a more advanced tech.",
+                  "extensionTechs": null
                 }
               ]
             }
@@ -132,7 +149,8 @@
             "Instead, it is just listed with alternate options where more items can execute the strat without disabling equipment.",
             "In the logic, this is not applied to switching off beams, as that is usually intuitive enough for players even without this tech.",
             "FIXME: It is also not applied to Speedbooster jumps, as that would require a lot of changes to a lot of rooms."
-          ]
+          ],
+          "extensionTechs": null
         },
         {
           "id": 13,
@@ -147,6 +165,7 @@
             "and to cross on top of sand with no items, by spin jumping from the surface and canceling spin before landing.",
             "This does not include simply falling through sand or touching a negligible sandfall or using Spring Ball to avoid interacting with the sand."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
               "id": 14,
@@ -164,7 +183,9 @@
                 "This also applies to escaping deeper sand pits with HiJump but no sandfall.",
                 "This does not include deep sand pits with a sandfall or 1-tile sand pits with no sandfall.",
                 "This is done by holding down and then crouch jumping to become unstuck, then transitioning to another action to ascend through the sand."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
               "id": 15,
@@ -177,7 +198,8 @@
               "note": [
                 "Breaking the sand line while exiting a sandfall at the same time can be used as a way to gain an irregular amount of height."
               ],
-              "devNote": "Only useful while under the effects of water physics."
+              "devNote": "Only useful while under the effects of water physics.",
+              "extensionTechs": null
             },
             {
               "id": 16,
@@ -199,7 +221,8 @@
               "devNote": [
                 "FIXME: Can be done with Power Bombs instead of Morph Bombs but it usually takes many attempts.",
                 "Only useful while under the effects of water physics."
-              ]
+              ],
+              "extensionTechs": null
             },
             {
               "id": 17,
@@ -215,7 +238,8 @@
                 "Jump while firing grapple and aim down as soon as Grapple hits the enemy.",
                 "This will allow Samus to jump higher than with just a normal jump."
               ],
-              "devNote": "Only useful while under the effects of water physics."
+              "devNote": "Only useful while under the effects of water physics.",
+              "extensionTechs": null
             }
           ]
         },
@@ -276,12 +300,14 @@
                     "Reserves must begin set to Manual and Samus' energy should reach zero with the next enemy hit.",
                     "Returning from the pause screen with Reserves on auto will instantly trigger a refill followed by a second enemy hit.",
                     "Then the screen will remain dark until another pause occurs."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             },
             {
-              "id": 188,
+              "id": 21,
               "name": "canPreciseReserveRefill",
               "techRequires": [
                 "canManageReserves"
@@ -294,7 +320,8 @@
                 "Alternatively, if Samus has items on the right column, pressing down and right on consecutive frames works.",
                 "This can be useful for getting exact Reserve Energy for setting up G-Mode, or to pause abuse multiple times with minimal Energy loss."
               ],
-              "devNote": "In the vanilla/unpatched equipment screen, it is possible to move from Reserves to the right column with any item there except Screw Attack alone."
+              "devNote": "In the vanilla/unpatched equipment screen, it is possible to move from Reserves to the right column with any item there except Screw Attack alone.",
+              "extensionTechs": null
             }
           ]
         }
@@ -305,87 +332,55 @@
       "description": "General movement tech, excluding jumps that have their own category.",
       "techs": [
         {
-          "id": 21,
+          "id": 22,
           "name": "canDownGrab",
           "techRequires": [],
           "otherRequires": [],
-          "note": "The ability to aim down to reduce Samus' hitbox to reach higher ledges. Commonly paired with a Crouch Jump."
-        },
-        {
-          "id": 22,
-          "name": "canDownBack",
-          "techRequires": [],
-          "otherRequires": [],
-          "note": "Holding the direction buttons down and then also backwards in order to move forwards, while in the correct falling state."
+          "note": "The ability to aim down to reduce Samus' hitbox to reach higher ledges. Commonly paired with a Crouch Jump.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
           "id": 23,
+          "name": "canDownBack",
+          "techRequires": [],
+          "otherRequires": [],
+          "note": "Holding the direction buttons down and then also backwards in order to move forwards, while in the correct falling state.",
+          "devNote": null,
+          "extensionTechs": null
+        },
+        {
+          "id": 24,
           "name": "canStopOnADime",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "Holding the angle up or angle down buttons when no directional inputs are held will completely stop Samus in place.",
             "This is used to enter elevators instantly, but can also be used to avoid being carried into some rooms by momentum."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 24,
+          "id": 25,
           "name": "canMoonwalk",
           "techRequires": [],
           "otherRequires": [],
           "note": "This is an option that can be turned on in the special setting mode after selecting a save file. It is required for some tech.",
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 25,
+              "id": 26,
               "name": "canMoonfall",
               "techRequires": [
                 "canMoonwalk"
               ],
               "otherRequires": [],
               "note": "Jumping off a ledge while moonwalking to fall with an uncapped speed.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 26,
-                  "name": "canMoondance",
-                  "techRequires": [
-                    "canMoonfall",
-                    "canBePatient"
-                  ],
-                  "otherRequires": [],
-                  "note": [
-                    "The ability to perform moonfalls a substantial number of times (176) in a row in order to sink through a solid floor.",
-                    "Moondancing requires becoming partially trapped so that the moonfall ends in a crouch state where pressing forward returns Samus to a stand without losing the built up vertical speed.",
-                    "Samus can become trapped inside of solid tiles or frozen enemies for the purposes of moondancing.",
-                    "This tech assumes the enemy can be frozen again without it being killed and without a frame perfect refreeze.",
-                    "The moondance speed value setup area does not necessarily need to be the same as where the clip is performed.",
-                    "But the speed will be reset if Samus falls, jumps, stands up with the Up button, or takes damage.",
-                    "In some situations it is important to stop one moonfall before clipping into the floor, at 175 moonfalls.",
-                    "The solid floor can be many tiles below Samus in which case it may also be necessary to change Samus' hitbox while falling.",
-                    "After 175 moonfalls, Samus' stored vertical speed is $FFE6.F400, while after 176, it is $FFE6.D800."
-                  ],
-                  "extensionTechs": [
-                    {
-                      "id": 27,
-                      "name": "canExtendedMoondance",
-                      "techRequires": [
-                        "canMoondance",
-                        "canBeVeryPatient"
-                      ],
-                      "otherRequires": [
-                        "Grapple"
-                      ],
-                      "note": [
-                        "Continue the moondance an additional 146 times to clip an additional tile into the floor when clipping.",
-                        "Every moonfall will clip Samus 1 tile into the ground and Grapple must be used to return to a standing position.",
-                        "A frozen enemy will need to be repositioned to a lower height at the point when Samus begins clipping into the floor with every moonfall.",
-                        "The final clip may involve clipping into a floor, and from there moonfall clipping again to sink through a total of up to 4 solid tiles.",
-                        "After 145 additional moonfalls, Samus' stored vertical speed is $FFD6.FC00, while after 146, it is $FFD6.E000."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": 28,
+                  "id": 27,
                   "name": "canEnemyStuckMoonfall",
                   "techRequires": [
                     "canMoonfall"
@@ -397,34 +392,39 @@
                     "After enough time has passed, Samus can escape with enough fall speed to clip through a solid floor tile.",
                     "It may be necessary to change Samus' hitbox while falling to clip through the solid tile.",
                     "This is most commonly performed with the help of Ice Beam but can work with non damaging enemies such as snails."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
           ]
         },
         {
-          "id": 29,
+          "id": 28,
           "name": "canFreeFallClip",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to fall with enough speed to clip through solid tiles without a normalized setup.",
             "This can be initiated with either a Moonfall or a Grapple bounce."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 30,
+          "id": 29,
           "name": "canResetFallSpeed",
           "techRequires": [],
           "otherRequires": [
             "Morph"
           ],
           "note": "Using unmorph as a way to reset fall speed.",
-          "devNote": "Taking enemy damage can get the same effect but more situations where this is used would need to be found first."
+          "devNote": "Taking enemy damage can get the same effect but more situations where this is used would need to be found first.",
+          "extensionTechs": null
         },
         {
-          "id": 31,
+          "id": 30,
           "name": "canTrivialMidAirMorph",
           "techRequires": [],
           "otherRequires": [
@@ -434,9 +434,10 @@
             "The ability to enter Morph Ball while in the air.",
             "This is only for simple variants where the vertical space and time in which Samus needs to morph is relatively unconstrained."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 32,
+              "id": 31,
               "name": "canMidAirMorph",
               "techRequires": [
                 "canTrivialMidAirMorph"
@@ -448,9 +449,10 @@
                 "In air physics this includes jumping and morphing in a 4 tile high space, into a morph tunnel that is not at the top of that space.",
                 "In water physics this includes jumping and morphing in a 3 tile high space (Samus takes up 2.625 tiles when standing)."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 33,
+                  "id": 32,
                   "name": "canWallJumpInstantMorph",
                   "techRequires": [
                     "canMidAirMorph",
@@ -462,9 +464,10 @@
                     "After the wall jump, continue holding jump in order to only need to press down a single time to morph.",
                     "This is typically used in places where the morph neededs to be done quickly in order to have relatively precise positioning."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 34,
+                      "id": 33,
                       "name": "can3HighWallMidAirMorph",
                       "techRequires": [
                         "canPreciseWalljump",
@@ -475,12 +478,14 @@
                       "note": [
                         "Getting up into a morph passage from a 3-tile-high space by mid-air morphing off of a wall jump. This is easier from an opposite wall.",
                         "After the wall jump, continue holding jump in order to only need to press down a single time to morph."
-                      ]
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 },
                 {
-                  "id": 35,
+                  "id": 34,
                   "name": "can4HighMidAirMorph",
                   "techRequires": [
                     "canMidAirMorph",
@@ -492,15 +497,20 @@
                     "It's a lot more precise than with more room. Turn off HiJump before attempting this.",
                     "Most applications of this tech are in places where wall jump instant morphing is not possible."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 196,
+                      "id": 35,
                       "name": "canInsaneMidAirMorph",
                       "techRequires": [
                         "can4HighMidAirMorph"
                       ],
                       "otherRequires": [],
-                      "note": ["Performing a mid-air morph exceptionally quickly or precisely."]
+                      "note": [
+                        "Performing a mid-air morph exceptionally quickly or precisely."
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 },
@@ -512,7 +522,11 @@
                     "canDisableEquipment"
                   ],
                   "otherRequires": [
-                    {"noFlashSuit": {}}
+                    {
+                      "noFlashSuit": {
+                        
+                      }
+                    }
                   ],
                   "note": [
                     "A technique for mid-air morphing in a 3-tile-high space in air physics, or a 2-tile-high space in water physics.",
@@ -522,7 +536,9 @@
                     "2) Pause and jump as late as possible.",
                     "3) Release all inputs during the pause screen.",
                     "4) Hold jump and down and forward after the pause screen clears but before game control resumes."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
                   "id": 37,
@@ -532,6 +548,7 @@
                   ],
                   "otherRequires": [],
                   "note": "Performing the same input as a mockball, but in mid-air, in order to maintain forward momentum while morphing in mid-air.",
+                  "devNote": null,
                   "extensionTechs": [
                     {
                       "id": 38,
@@ -543,6 +560,7 @@
                         "SpringBall"
                       ],
                       "note": "Using a lateral mid-air morph to bounce off a surface with Spring Ball while retaining previous momentum.",
+                      "devNote": null,
                       "extensionTechs": [
                         {
                           "id": 39,
@@ -551,7 +569,9 @@
                             "canSpringBallBounce"
                           ],
                           "otherRequires": [],
-                          "note": "Performing spring ball bounces in tricky situations, such as precisely platforming while bouncing to keep blue speed."
+                          "note": "Performing spring ball bounces in tricky situations, such as precisely platforming while bouncing to keep blue speed.",
+                          "devNote": null,
+                          "extensionTechs": null
                         }
                       ]
                     },
@@ -566,7 +586,9 @@
                         "While performing a stationary vertical jump and after the first down press, Morph with down and forward being pressed on the same frame (neither before the other).",
                         "Doing this immediately gives a noticable horizontal speed boost.",
                         "This is most useful underwater where acceleration is slower."
-                      ]
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 }
@@ -585,6 +607,7 @@
             "Maintaining running speed while morphed, by holding jump and down (to crouch) during a lateral jump, then morphing as Samus hits the ground while holding jump and transition from holding down to holding forward.",
             "Sometimes referred to as a Machball."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
               "id": 42,
@@ -600,7 +623,9 @@
                 "Maintain the SpeedBooster effect while rolling as a Morph Ball in order to destroy bomb blocks in Morph tunnels.",
                 "A Speedball involves performing a Mockball at faster speeds and additionally it will help to be able to perform short jumps to reduce the amount of space needed.",
                 "A Speedball can also be used with SpringBall as a way to jump with temporary blue state while maintaining Samus' momentum."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
@@ -611,7 +636,9 @@
           "otherRequires": [
             "Morph"
           ],
-          "note": "Using Morph to retain momentum when transitioning to water physics."
+          "note": "Using Morph to retain momentum when transitioning to water physics.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
           "id": 44,
@@ -622,6 +649,7 @@
             "Taking advantage of the smaller hitbox of spinjump and down-aim to squeeze through two-tile gaps.",
             "Aiming down while jumping into a two-tile gap will allow Samus to stand up."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
               "id": 45,
@@ -630,7 +658,9 @@
                 "canTwoTileSqueeze"
               ],
               "otherRequires": [],
-              "note": "Using a spinjump and down-aim to clip into a closing gate, allowing Samus to walk through the gate."
+              "note": "Using a spinjump and down-aim to clip into a closing gate, allowing Samus to walk through the gate.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
               "id": 46,
@@ -642,12 +672,14 @@
               "note": [
                 "Moving along a 2-tile-high passage while standing up by repeatedly spin-jumping and then pressing down.",
                 "The tech comes with softlock risks without Morph Ball or a way to wiggle to the right with canTurnaroundAimCancel."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 180,
+          "id": 47,
           "name": "canMomentumConservingTurnaround",
           "techRequires": [],
           "otherRequires": [],
@@ -656,9 +688,10 @@
             "Can be used to make it through an opening door, or barely just past a ledge.",
             "It is often beneficial to be in a downward pose when hitting the ceiling, in order to shrink Samus' hitbox to delay contact."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 47,
+              "id": 48,
               "name": "canQuickDrop",
               "techRequires": [
                 "canMomentumConservingTurnaround"
@@ -667,12 +700,14 @@
               "note": [
                 "Using a momentum conserving turnaround on a crumble block, an opening doorshell, or any other breaking block, to preserve Samus' momentum.",
                 "This is often used when traversing with a shinecharge, or to quickly fall through a crumble block and jump back through it before it re-forms."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 181,
+          "id": 49,
           "name": "canMomentumConservingMorph",
           "techRequires": [],
           "otherRequires": [
@@ -682,10 +717,12 @@
             "Uses the uninteruptable frames of morphing or unmorphing in order to continue moving up after hitting a solid object above.",
             "This can be used to make it barely just past a ledge.",
             "The same technique can also be used to temporarily glide along a ceiling to extend a jump horizontally."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 48,
+          "id": 50,
           "name": "canMidairWiggle",
           "techRequires": [],
           "otherRequires": [],
@@ -693,20 +730,24 @@
             "Turning around quickly so as to manipulate game physics.",
             "For using Screw Attack to break blocks and to shrink Samus' hitbox following a wall jump,",
             "and for maneuvering sharply underwater."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 49,
+          "id": 51,
           "name": "canOffScreenMovement",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to perform non-trivial movement while Samus is off-camera.",
             "This does not include movement where visual feedback is unimportant, such as simply falling down or holding a single direction."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 50,
+          "id": 52,
           "name": "canUseGrapple",
           "techRequires": [],
           "otherRequires": [
@@ -716,9 +757,10 @@
             "The ability to fling Samus moderate distances by grappling onto attach points to build up momentum.",
             "Knowing how to use Grapple also means knowing that the Grapple Beam can be used as a weapon to instantly kill certain enemies."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 51,
+              "id": 53,
               "name": "canPreciseGrapple",
               "techRequires": [
                 "canUseGrapple"
@@ -727,21 +769,29 @@
               "note": [
                 "The ability to precisely aim at grapple points while moving quickly, and precise control of Samus' speed and trajectory when releasing from a grapplable object.",
                 "canPreciseGrapple can also be used to shoot Grapple Beam through single tile ceilings."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 52,
+              "id": 54,
               "name": "canGrappleJump",
               "techRequires": [
                 "canUseGrapple",
                 "canMidAirMorph"
               ],
               "otherRequires": [
-                {"or": [
-                  "HiJump",
-                  "can4HighMidAirMorph"
-                ]},
-                {"noFlashSuit": {}}
+                {
+                  "or": [
+                    "HiJump",
+                    "can4HighMidAirMorph"
+                  ]
+                },
+                {
+                  "noFlashSuit": {
+                    
+                  }
+                }
               ],
               "note": [
                 "Using Grapple to propel Samus upwards, then continuously morphing/unmorphing/jumping in mid-air to climb upwards.",
@@ -749,9 +799,10 @@
                 "The window for morphing and jumping is much more lenient with HiJump.",
                 "This is most often a series of crouch jumps, but it is possible to stand and spinjump on each Grapple Jump."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 195,
+                  "id": 55,
                   "name": "canPreciseGrappleJump",
                   "techRequires": [
                     "canGrappleJump"
@@ -764,9 +815,10 @@
                     "3) Performing actions between individual grapple jumps, such as arm pumping, shooting, or kago-ing an enemy,",
                     "4) Breaking a water line while grapple jumping."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 53,
+                      "id": 56,
                       "name": "canTrickyGrappleJump",
                       "techRequires": [
                         "canPreciseGrappleJump"
@@ -778,14 +830,16 @@
                         "2) Using turnarounds or wiggles in order to reach a precise position without normalization,",
                         "3) Moving greater horizontal distances using denser sequences of arm pumps, and",
                         "4) Morphing and unmorphing quickly in between other actions."
-                      ]
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 }
               ]
             },
             {
-              "id": 54,
+              "id": 57,
               "name": "canBombGrappleJump",
               "techRequires": [
                 "canUseGrapple",
@@ -802,10 +856,11 @@
                 "This is most useful underwater to reach higher ledges.",
                 "This trick is effectively double frame perfect and kills the enemy requiring either a room reset, or a respawning enemy."
               ],
-              "devNote": "Bombs is a leniency as the trick has a high chance of failure."
+              "devNote": "Bombs is a leniency as the trick has a high chance of failure.",
+              "extensionTechs": null
             },
             {
-              "id": 55,
+              "id": 58,
               "name": "canGrappleTeleport",
               "techRequires": [
                 "canUseGrapple"
@@ -816,10 +871,12 @@
                 "The position to which Samus teleports corresponds to the position of the grapple block in the first room.",
                 "The corresponding position in the destination room (counting tiles from the top-left corner of the room) must have a block to which Samus can remain grappled (e.g. a solid block would work but air would not);",
                 "otherwise the teleport will not occur."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 56,
+              "id": 59,
               "name": "canGrappleBombHang",
               "techRequires": [
                 "canUseGrapple"
@@ -829,10 +886,12 @@
                 "Receiving a boost from a Bomb or Power Bomb while grappled, to enter a 'glitched grapple hanging' state.",
                 "Among other things, this state gives a way to trigger a door transition while still grappled.",
                 "The game may lag heavily in this state: if lag persists, it can sometimes be alleviated by changing the inputs held."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 57,
+              "id": 60,
               "name": "canUnmorphGrappleHang",
               "techRequires": [
                 "canUseGrapple"
@@ -847,10 +906,12 @@
                 "By doing this while pressed against a Grapple block and grappling at the very top of it, Samus can get clipped inside a Grapple block by a pixel (or sometimes two, for a block on the left);",
                 "In this case, Samus will remain standing after releasing Grapple;",
                 "jumping (to force crouch) and firing an angled grapple shot will then result in glitched grapple hanging."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 192,
+              "id": 61,
               "name": "canFrozenEnemyGrappleHang",
               "techRequires": [
                 "canUseGrapple",
@@ -887,10 +948,11 @@
                 "For grappling to the left, in positions F, 0, 1, 2, and 3 it is possible to get stuck by simply grappling while pressed against the Grapple block;",
                 "for grappling to the right, this can be done in positions 2 and 3.",
                 "These positions also work if Samus is moving toward the block; and all other positions require Samus to be moving toward the block."
-              ]
+              ],
+              "extensionTechs": null
             },
             {
-              "id": 204,
+              "id": 62,
               "name": "canSuperSink",
               "techRequires": [
                 "canUseGrapple",
@@ -904,12 +966,14 @@
                 "in order to land while continuing to gain fall speed;",
                 "Once Samus reaches a speed of 16, she will clip down through any number of solid tiles below,",
                 "with her fall speed resetting to zero once an air tile is reached."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 185,
+          "id": 63,
           "name": "canMorphTurnaround",
           "techRequires": [],
           "otherRequires": [
@@ -918,7 +982,9 @@
           "note": [
             "The ability to use Morph to turn around without moving horizontally.",
             "This is typically used to back into a corner without Moonwalk."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         }
       ]
     },
@@ -927,16 +993,22 @@
       "description": "Techs related to jumping. Excludes bomb jumping.",
       "techs": [
         {
-          "id": 58,
+          "id": 64,
           "name": "canCrouchJump",
           "techRequires": [],
           "otherRequires": [
-            {"noFlashSuit": {}}
+            {
+              "noFlashSuit": {
+                
+              }
+            }
           ],
-          "note": "The ability to crouch before jumping to reach higher ledges. Commonly paired with a down-grab or a mid-air Spring Ball jump."
+          "note": "The ability to crouch before jumping to reach higher ledges. Commonly paired with a down-grab or a mid-air Spring Ball jump.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 59,
+          "id": 65,
           "name": "canTurnaroundSpinJump",
           "techRequires": [],
           "otherRequires": [],
@@ -944,9 +1016,10 @@
             "The ability to buffer a jump by using the turnaround animation frames.",
             "This allows for an easier Spin Jump timing and works as a way jump far underwater without building up run speed."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 60,
+              "id": 66,
               "name": "canFlatleyJump",
               "techRequires": [
                 "canTurnaroundSpinJump",
@@ -956,12 +1029,14 @@
               "note": [
                 "Positioning Samus at the very edge of a platform, facing away, then turning around and jumping to initiate the jump from a position that is off the platform (and slightly below it).",
                 "Sometimes referred to as a corner jump."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 61,
+          "id": 67,
           "name": "canGravityJump",
           "techRequires": [
             "canDisableEquipment"
@@ -972,10 +1047,12 @@
           "note": [
             "Turning off Gravity Suit right after the start of an underwater jump to achieve a much higher jump.",
             "Can be performed in water, lava, or acid."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 62,
+          "id": 68,
           "name": "canUseIFrames",
           "techRequires": [
             "canCarefulJump"
@@ -985,20 +1062,23 @@
             "Take damage to gain invulnerability frames so that Samus can run through enemies and on spike floors or wall jump from a spike wall.",
             "Enemies and their projectiles provide 95 i-frames, while spikes and thorns provide 60."
           ],
-          "devNote": "Spikes seem to have collision oscillation which can make them have 59-60 frames, thorns seem to always have 59."
+          "devNote": "Spikes seem to have collision oscillation which can make them have 59-60 frames, thorns seem to always have 59.",
+          "extensionTechs": null
         },
         {
-          "id": 63,
+          "id": 69,
           "name": "canStationarySpinJump",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "Spin jumping with no horizontal movement by quickly pressing and releasing forward and then immediately pressing jump (after stopping).",
             "Doing this while holding run produces a spin jump with very low horizontal speed."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 64,
+          "id": 70,
           "name": "canSpringBallJumpMidAir",
           "techRequires": [
             "canDisableEquipment",
@@ -1013,9 +1093,10 @@
             "This is often done most easily by buffering the Spring Ball jump: while unpausing after turning on Spring Ball, press and hold jump starting anytime after the pause menu has finished fading out (i.e. while the screen is black).",
             "This is often combined with a crouch jump to gain a bit more height."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 65,
+              "id": 71,
               "name": "canTrickySpringBallJump",
               "techRequires": [
                 "canSpringBallJumpMidAir"
@@ -1029,9 +1110,10 @@
                 "This, along with a crouch jump, is also needed in order to perform a maximum height spring ball jump.",
                 "Maximum height jumps primarily have underwater applications, as it enables Samus to barely make it up 7 tiles vertically."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 66,
+                  "id": 72,
                   "name": "canSpringwall",
                   "techRequires": [
                     "canTrickySpringBallJump",
@@ -1041,10 +1123,12 @@
                   "note": [
                     "A mid-air Spring Ball jump that starts with a wall jump to gain more height.",
                     "It often benefits from the momentum change when equipping Spring Ball while morphed and moving horizontally after a WallJump."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
-                  "id": 67,
+                  "id": 73,
                   "name": "canDoubleSpringBallJumpMidAir",
                   "techRequires": [
                     "canTrickySpringBallJump"
@@ -1054,10 +1138,12 @@
                     "Using a mid-air Spring Ball jump twice during a single jump to gain even more height.",
                     "This consists of a tight variant of mid-air Spring Ball jump, then turning off Spring Ball, then a second mid-air Spring Ball jump all while still climbing upwards.",
                     "This is typically used underwater with HiJump, but it is technically possible in lava without HiJump or to perform more than two Spring Ball jumps in acid."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
-                  "id": 68,
+                  "id": 74,
                   "name": "canUnderwaterBombIntoSpringBallJump",
                   "techRequires": [
                     "canSuitlessMaridia",
@@ -1070,17 +1156,15 @@
                     "This is most often used to get a second Spring Ball jump when underwater without Hi-Jump.",
                     "Bombs are required since Power Bombs will prevent pausing."
                   ],
-                  "detailNote": [
-                    "There is a 3-frame window for when to perform the final Spring Ball jump relative to when the Bomb was laid.",
-                    "Usually this will be done as a pause-buffered Spring Ball jump, in which case pause must be pressed between 23 and 25 frames after laying the Bomb."
-                  ]
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
           ]
         },
         {
-          "id": 69,
+          "id": 75,
           "name": "canSpringFling",
           "techRequires": [
             "canDisableEquipment"
@@ -1094,36 +1178,42 @@
             "When equipping or unequipping Springball while Morphed, Samus' speed is reset.",
             "If rising (and not in liquid physics), the horizontal speed is set to full roll speed.",
             "If falling, the vertical speed is set to zero and horizontal speed is reset unless SpeedBooster is equipped."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 70,
+          "id": 76,
           "name": "canCrumbleJump",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to jump off of a crumble block while it crumbles.",
             "A straight jump may employ the small amount of jump buffering the game offers, but a spinjump can only use the time before the crumble block breaks."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 71,
+          "id": 77,
           "name": "canCarefulJump",
           "techRequires": [],
           "otherRequires": [],
           "note": "Executing a jump that requires somewhat precise or unintuitive movement.",
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 72,
+              "id": 78,
               "name": "canTrickyJump",
               "techRequires": [
                 "canCarefulJump"
               ],
               "otherRequires": [],
               "note": "Executing a jump that requires very precise timing.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 73,
+                  "id": 79,
                   "name": "canTrickyDashJump",
                   "techRequires": [
                     "canTrickyJump"
@@ -1134,10 +1224,12 @@
                   "note": [
                     "Using Speed Booster and jumping with a precise runway length in order to jump higher than with a slightly shorter or longer run.",
                     "This works because of the extreme non-linearity of the speed to jump height ratio, when Speed Booster is active."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
-                  "id": 74,
+                  "id": 80,
                   "name": "canInsaneJump",
                   "techRequires": [
                     "canTrickyJump"
@@ -1145,10 +1237,12 @@
                   "otherRequires": [],
                   "note": [
                     "Executing a jump that requires extremely precise timing, in the vicinity of frame-perfect precision."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
-                  "id": 75,
+                  "id": 81,
                   "name": "canCWJ",
                   "techRequires": [
                     "canTrickyJump",
@@ -1160,30 +1254,34 @@
                     "It can be done by spinjumping forward and then wall jump off a solid object to retain all forward momentum.",
                     "The more speed Samus has, the smaller the frame window for the CWJ.",
                     "A slow CWJ uses a wall or ledge near the initial jump point, while a fast CWJ will wall jump using the opposite side of a more distant platform."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
           ]
         },
         {
-          "id": 76,
+          "id": 82,
           "name": "canWalljump",
           "techRequires": [],
           "otherRequires": [],
           "note": "Jump off walls, as taught by the Etecoons.",
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 77,
+              "id": 83,
               "name": "canPreciseWalljump",
               "techRequires": [
                 "canWalljump"
               ],
               "otherRequires": [],
               "note": "A wall jump that needs to be performed at a fairly precise spot in order to yield the desired result.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 78,
+                  "id": 84,
                   "name": "canTrickyWalljump",
                   "techRequires": [
                     "canPreciseWalljump"
@@ -1194,40 +1292,46 @@
                     "This includes 'delayed wall jumps' in which Samus must move away as far from the wall as possible before wall jumping;",
                     "it also includes cases in which Samus must dodge enemies or other obstacles while wall jumping."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 79,
+                      "id": 85,
                       "name": "canInsaneWalljump",
                       "techRequires": [
                         "canTrickyWalljump"
                       ],
                       "otherRequires": [],
-                      "note": "A wall jump with extreme precision, in the vicinity of pixel and frame perfect precision. These jumps are typically delayed wall jumps."
+                      "note": "A wall jump with extreme precision, in the vicinity of pixel and frame perfect precision. These jumps are typically delayed wall jumps.",
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 }
               ]
             },
             {
-              "id": 80,
+              "id": 86,
               "name": "canConsecutiveWalljump",
               "techRequires": [
                 "canWalljump"
               ],
               "otherRequires": [],
               "note": "Climbing a wall with three or more consecutive wall jumps without a mistake.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 81,
+                  "id": 87,
                   "name": "canFastWalljumpClimb",
                   "techRequires": [
                     "canConsecutiveWalljump"
                   ],
                   "otherRequires": [],
-                  "note": "Climbing a wall with consecutive wall jumps very quickly, e.g. for setting up a full halfie."
+                  "note": "Climbing a wall with consecutive wall jumps very quickly, e.g. for setting up a full halfie.",
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
-                  "id": 83,
+                  "id": 88,
                   "name": "canUnderwaterWalljump",
                   "techRequires": [
                     "canConsecutiveWalljump",
@@ -1243,9 +1347,10 @@
                     "Each walljump provides very little height gain so they must be performed very quickly to make progress.",
                     "This tech assumes Samus has HiJump and only expects gaining about 1 tile of height through consecutive walljumping."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 187,
+                      "id": 89,
                       "name": "canLongUnderwaterWalljump",
                       "techRequires": [
                         "canUnderwaterWalljump"
@@ -1254,10 +1359,12 @@
                       "note": [
                         "The ability to gain height by walljumping underwater against a single wall.",
                         "This tech assumes Samus has HiJump and expects gaining more than 1 tile of height through consecutive walljumping."
-                      ]
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     },
                     {
-                      "id": 186,
+                      "id": 90,
                       "name": "canUnderwaterWalljumpBreakFree",
                       "techRequires": [
                         "canUnderwaterWalljump"
@@ -1265,13 +1372,17 @@
                       "otherRequires": [],
                       "note": [
                         "The ability to underwater wall jump against a single wall and break the water line with HiJump but without Space Jump."
-                      ]
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     },
                     {
-                      "id": 201,
+                      "id": 91,
                       "name": "canBootless2WideUWJ",
                       "techRequires": [
-                        {"tech": "canUnderwaterWalljump"}
+                        {
+                          "tech": "canUnderwaterWalljump"
+                        }
                       ],
                       "otherRequires": [],
                       "note": [
@@ -1280,7 +1391,8 @@
                         "With very precise execution, Samus will gain height very slowly.",
                         "This requires Space Jump when breaking the water line."
                       ],
-                      "devNote": "It is possible to bootless UWJ on a single wall as well, but that is not reasonable to ever expect."
+                      "devNote": "It is possible to bootless UWJ on a single wall as well, but that is not reasonable to ever expect.",
+                      "extensionTechs": null
                     }
                   ]
                 }
@@ -1289,7 +1401,7 @@
           ]
         },
         {
-          "id": 84,
+          "id": 92,
           "name": "canJumpIntoRespawningBlock",
           "techRequires": [],
           "otherRequires": [],
@@ -1297,17 +1409,21 @@
             "The ability to time a jump up into a respawning block so that Samus gets stuck in it and can jump up again.",
             "The bottom of Samus' hitbox must be completely in the respawning block or she will fall out.",
             "Because of this, it is typically required to aim down or morph to stay in the block."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 197,
+          "id": 93,
           "name": "canSidePlatformCrossRoomJump",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to jump through a horizontal door transition from a nearby platform below the doorway,",
             "jumping close and low enough through the door to be able to pass through while carrying upward momentum into the next room."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         }
       ]
     },
@@ -1316,48 +1432,73 @@
       "description": "Techs that have to do with using bomb explosions to propel Samus.",
       "techs": [
         {
-          "id": 85,
+          "id": 94,
           "name": "canUnmorphBombBoost",
           "techRequires": [
             "canResetFallSpeed"
           ],
           "otherRequires": [
             "Morph",
-            {"or": [
-              "Bombs",
-              {"ammo": {"type": "PowerBomb", "count": 1}}
-            ]}
+            {
+              "or": [
+                "Bombs",
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 1
+                  }
+                }
+              ]
+            }
           ],
-          "note": "A tech that involves mid-air morphing to place a bomb or Power Bomb, then mid-air unmorphing to briefly hover above the bomb, in order to use the bomb blast to go just a bit higher than max jump height."
+          "note": "A tech that involves mid-air morphing to place a bomb or Power Bomb, then mid-air unmorphing to briefly hover above the bomb, in order to use the bomb blast to go just a bit higher than max jump height.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 86,
+          "id": 95,
           "name": "canWallJumpBombBoost",
           "techRequires": [
             "canWallJumpInstantMorph"
           ],
           "otherRequires": [
             "Morph",
-            {"or": [
-              "Bombs",
-              {"ammo": {"type": "PowerBomb", "count": 1}}
-            ]}
+            {
+              "or": [
+                "Bombs",
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 1
+                  }
+                }
+              ]
+            }
           ],
           "note": [
             "The ability to accurately place a bomb or Power Bomb in mid-air following a wall jump, then using that bomb explosion to propel Samus forward.",
             "There is a timing component where the bomb is placed while rising then hit while falling, and a momentum component for maximizing horizontal distance."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 87,
+          "id": 96,
           "name": "canBombHorizontally",
           "techRequires": [],
           "otherRequires": [
             "Morph",
-            {"or": [
-              "Bombs",
-              {"ammo": {"type": "PowerBomb", "count": 1}}
-            ]}
+            {
+              "or": [
+                "Bombs",
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 1
+                  }
+                }
+              ]
+            }
           ],
           "note": [
             "Place a single bomb then move Samus to the side to be boosted horizontally from the explosion.",
@@ -1366,9 +1507,10 @@
             "Since it only uses one bomb, it can be executed with a Power Bomb or a bomb.",
             "It is not assumed by this tech, but it is possible to move forward just before the explosion in order to gain more horizontal momentum."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 88,
+              "id": 97,
               "name": "canHBJ",
               "techRequires": [
                 "canBombHorizontally"
@@ -1380,12 +1522,13 @@
                 "A Horizontal Bomb Jump (HBJ) uses three bombs to execute. Place a bomb to get boosted horizontally; place a second bomb immediately as Samus is propelled.",
                 "Place a third bomb, mid-air, as far horizontally as possible while still being able to return and get propelled by the second and then third bombs."
               ],
-              "devNote": "This can be done from a wall jump or from a mid-air morph, eliminating the need for the first bomb, but these are very situational and should be described in a notable strat."
+              "devNote": "This can be done from a wall jump or from a mid-air morph, eliminating the need for the first bomb, but these are very situational and should be described in a notable strat.",
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 89,
+          "id": 98,
           "name": "canIBJ",
           "techRequires": [],
           "otherRequires": [
@@ -1399,9 +1542,10 @@
             "This tech alone only requires maintaining an IBJ for a vertical distance of approximately 11 tiles (the same distance as Samus can jump with HiJump),",
             "however, it may require doing this multiple times consecutively (i.e. if there is a ledge to land on mid-way)."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 193,
+              "id": 99,
               "name": "canLongIBJ",
               "techRequires": [
                 "canIBJ"
@@ -1411,114 +1555,146 @@
                 "The ability to maintain an IBJ for any distance longer than approximately 11 tiles (the distance that Samus can jump with HiJump).",
                 "Note that without this tech, Samus may still require doing multiple consecutively short IBJs (i.e. if there is a ledge to land on mid-way)."
               ],
-              "devNote": "Samus is not expected to bypass canLongIBJ with a jump into an IBJ from a midair spring ball jump."
+              "devNote": "Samus is not expected to bypass canLongIBJ with a jump into an IBJ from a midair spring ball jump.",
+              "extensionTechs": null
             },
             {
-              "id": 90,
+              "id": 100,
               "name": "canJumpIntoIBJ",
               "techRequires": [
                 "canIBJ"
               ],
               "otherRequires": [
-                {"or": [
-                  "SpringBall",
-                  "canMidAirMorph"
-                ]}
+                {
+                  "or": [
+                    "SpringBall",
+                    "canMidAirMorph"
+                  ]
+                }
               ],
-              "note": "The ability to start an IBJ from a jump or a spring ball jump. It is most often used in strats that need Samus to IBJ up faster or to avoid something near the ground."
+              "note": "The ability to start an IBJ from a jump or a spring ball jump. It is most often used in strats that need Samus to IBJ up faster or to avoid something near the ground.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 91,
+              "id": 101,
               "name": "canBombAboveIBJ",
               "techRequires": [
                 "canIBJ"
               ],
               "otherRequires": [],
-              "note": "The ability to break blocks above Samus while maintaining an ongoing IBJ without falling."
+              "note": "The ability to break blocks above Samus while maintaining an ongoing IBJ without falling.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 92,
+              "id": 102,
               "name": "canCeilingBombJump",
               "techRequires": [
                 "canBombAboveIBJ"
               ],
               "otherRequires": [],
               "note": "The ability to IBJ at the ceiling and place bombs at a steady rhythm while slowly moving horizontally.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 93,
+                  "id": 103,
                   "name": "canLongCeilingBombJump",
                   "techRequires": [
                     "canCeilingBombJump"
                   ],
                   "otherRequires": [],
-                  "note": "The ability to ceiling bomb jump over a distance of two screens or more."
+                  "note": "The ability to ceiling bomb jump over a distance of two screens or more.",
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             },
             {
-              "id": 94,
+              "id": 104,
               "name": "canDiagonalBombJump",
               "techRequires": [
                 "canIBJ"
               ],
               "otherRequires": [],
-              "note": "The ability to IBJ with backspin which results in an IBJ with diagonal movement."
+              "note": "The ability to IBJ with backspin which results in an IBJ with diagonal movement.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 96,
+              "id": 105,
               "name": "canDoubleBombJump",
               "techRequires": [
                 "canIBJ"
               ],
               "otherRequires": [],
-              "note": "The ability to place a second bomb near the top of a bomb boost during an IBJ in order to ascend much faster."
+              "note": "The ability to place a second bomb near the top of a bomb boost during an IBJ in order to ascend much faster.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 97,
+              "id": 106,
               "name": "canStaggeredIBJ",
               "techRequires": [
                 "canIBJ"
               ],
               "otherRequires": [],
-              "note": "The ability to change the bomb placement timing in order control the speed with which you gain height. This is typically used to avoid an enemy moving in Samus' path above."
+              "note": "The ability to change the bomb placement timing in order control the speed with which you gain height. This is typically used to avoid an enemy moving in Samus' path above.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 98,
+              "id": 107,
               "name": "canPowerBombMidIBJ",
               "techRequires": [
                 "canIBJ"
               ],
               "otherRequires": [
-                {"ammo": {"type": "PowerBomb", "count": 1}}
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 1
+                  }
+                }
               ],
               "note": [
                 "The ability to place a single Power Bomb while climbing during an IBJ, and then switch back to Bombs to continuing the climb without falling.",
                 "This is often used to break a block that respawns where breaking it before the IBJ would be too slow,",
                 "or to break a block in a heated environment that is too high to reach from the ground and a second IBJ would waste Energy."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 99,
+          "id": 108,
           "name": "canSpringBallBombJump",
           "techRequires": [],
           "otherRequires": [
             "Morph",
             "SpringBall",
-            {"or": [
-              "Bombs",
-              {"ammo": {"type": "PowerBomb", "count": 1}}
-            ]}
+            {
+              "or": [
+                "Bombs",
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 1
+                  }
+                }
+              ]
+            }
           ],
           "note": [
             "After gaining some height with a single bomb explosion from the ground, use Spring Ball to jump higher.",
             "Usable only when Samus' vertical speed is 0 (at the max height gained by the bomb)."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 100,
+          "id": 109,
           "name": "canBombJumpWaterEscape",
           "techRequires": [
             "canSuitlessMaridia",
@@ -1526,13 +1702,21 @@
           ],
           "otherRequires": [
             "Morph",
-            {"or": [
-              "Bombs",
-              {"ammo": {"type": "PowerBomb", "count": 1}}
-            ]}
+            {
+              "or": [
+                "Bombs",
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 1
+                  }
+                }
+              ]
+            }
           ],
           "note": "From a submerged platform, setting up a single bomb jump above the water line to propel Samus up and out of the water.",
-          "devNote": "It's recommended to apply a number of tries as leniency here for the PBs version."
+          "devNote": "It's recommended to apply a number of tries as leniency here for the PBs version.",
+          "extensionTechs": null
         }
       ]
     },
@@ -1541,7 +1725,7 @@
       "description": "Techs that depend on the presence of an enemy.",
       "techs": [
         {
-          "id": 101,
+          "id": 110,
           "name": "canUseEnemies",
           "techRequires": [],
           "otherRequires": [],
@@ -1549,7 +1733,7 @@
           "devNote": "Turning this off should greatly improve the logic for enemizer contexts.",
           "extensionTechs": [
             {
-              "id": 102,
+              "id": 111,
               "name": "canSnailClimb",
               "techRequires": [
                 "canUseEnemies"
@@ -1566,19 +1750,21 @@
               "devNote": [
                 "HiJump/Gravity do not provide enough benefit on their own, and Spring Ball is kind of obscure in how it helps,",
                 "so Spring Ball and a jump height item are given as part of the base tech."
-              ]
+              ],
+              "extensionTechs": null
             },
             {
-              "id": 103,
+              "id": 112,
               "name": "canNeutralDamageBoost",
               "techRequires": [
                 "canUseEnemies"
               ],
               "otherRequires": [],
               "note": "Using the small vertical knockback from taking enemy damage, while not holding any directional inputs, to assist Samus in her movement.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 104,
+                  "id": 113,
                   "name": "canHorizontalDamageBoost",
                   "techRequires": [
                     "canNeutralDamageBoost"
@@ -1590,12 +1776,14 @@
                     "Holding forward will knock Samus backwards and down.",
                     "Holding jump but delaying the back button delays the horizontal damage boost to gain some neutral boost first.",
                     "Very quickly releasing back and pressing forward will give a forward boost."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             },
             {
-              "id": 105,
+              "id": 114,
               "name": "canManipulateMellas",
               "techRequires": [
                 "canUseEnemies"
@@ -1624,10 +1812,11 @@
                 "These result in a maximum upward displacement (in pixels) per swoop of +3.98, +2.07, +0.43, -0.65, -1.03, -0.65, +0.43, +2.07, +3.98 respectively.",
                 "With consecutive swoops, the phases alternate in pairs: $00 alternating with $100, $20 with $E0, $40 with $C0, $60 with $A0, and $80 with itself;",
                 "both phases in each pair result in the same displacement."
-              ]
+              ],
+              "extensionTechs": null
             },
             {
-              "id": 106,
+              "id": 115,
               "name": "canSamusEaterStandUp",
               "techRequires": [
                 "canUseEnemies"
@@ -1637,10 +1826,12 @@
                 "The ability to gain a shinecharge in place while captured by a Samus Eater.",
                 "This is done by landing in the Samus Eater while moving forward.",
                 "Note that Samus maintains control of most of her abilities while captured by a Samus Eater."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 107,
+              "id": 116,
               "name": "canKago",
               "techRequires": [
                 "canUseEnemies"
@@ -1649,10 +1840,12 @@
               "note": [
                 "Clipping through an enemy by performing an uninterruptible animation while coming into contact with them.",
                 "These animations include morphing, unmorphing, or performing a turnaround."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 108,
+              "id": 117,
               "name": "canTrivialUseFrozenEnemies",
               "techRequires": [
                 "canUseEnemies"
@@ -1664,9 +1857,10 @@
                 "Can use Ice Beam to freeze enemies to use as platforms.",
                 "This only includes the most basic examples, where enemies can be easily positioned and refrozen without risk of killing them."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 109,
+                  "id": 118,
                   "name": "canUseFrozenEnemies",
                   "techRequires": [
                     "canTrivialUseFrozenEnemies"
@@ -1676,18 +1870,21 @@
                     "Can use Ice Beam to freeze enemies in nontrivial situations, such as to use as a platform or to wall jump off of.",
                     "This may require removing Plasma Beam in order to prevent freezing and then killing the enemy with a single shot."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 110,
+                      "id": 119,
                       "name": "canMochtroidIceClimb",
                       "techRequires": [
                         "canUseFrozenEnemies"
                       ],
                       "otherRequires": [],
-                      "note": "Using a frozen Mochtroid to climb upwards, by continually jumping as it thaws and refreezing it higher."
+                      "note": "Using a frozen Mochtroid to climb upwards, by continually jumping as it thaws and refreezing it higher.",
+                      "devNote": null,
+                      "extensionTechs": null
                     },
                     {
-                      "id": 111,
+                      "id": 120,
                       "name": "canTrickyUseFrozenEnemies",
                       "techRequires": [
                         "canUseFrozenEnemies"
@@ -1697,9 +1894,10 @@
                         "The ability to use Ice Beam to freeze enemies in precise positions.",
                         "If Supers are available, they can be used to knock wall crawlers off walls and freeze them mid air."
                       ],
+                      "devNote": null,
                       "extensionTechs": [
                         {
-                          "id": 112,
+                          "id": 121,
                           "name": "canWallIceClip",
                           "techRequires": [
                             "canTrickyUseFrozenEnemies"
@@ -1708,10 +1906,12 @@
                           "note": [
                             "Collision will prioritize frozen enemies before walls which allows Samus to clip 1 pixel into a wall if an enemy is there.",
                             "Additionally, enemies that fly through walls may be repeatedly frozen to advance 1 pixel at a time to eventually push Samus through a wall or touch a door transition."
-                          ]
+                          ],
+                          "devNote": null,
+                          "extensionTechs": null
                         },
                         {
-                          "id": 113,
+                          "id": 122,
                           "name": "canCrazyCrabClimb",
                           "techRequires": [
                             "canTrickyUseFrozenEnemies"
@@ -1721,7 +1921,9 @@
                             "Repeatedly freezing a crab to climb up an uneven wall, using no other support.",
                             "These climbs often require high precision when jumping around ledges: too many pixels in any direction and Samus may fall off or clip through the crab.",
                             "This includes only tricky versions of crab climbs and may include manipulating global and non-global crabs, multiple at a time, and freezing crabs in mid-air."
-                          ]
+                          ],
+                          "devNote": null,
+                          "extensionTechs": null
                         }
                       ]
                     }
@@ -1730,7 +1932,7 @@
               ]
             },
             {
-              "id": 114,
+              "id": 123,
               "name": "canMetroidAvoid",
               "techRequires": [],
               "otherRequires": [],
@@ -1739,10 +1941,12 @@
                 "Metroids will charge towards Samus but keep their momentum if they miss.",
                 "Shooting a metroid will stop it in place and knock it back slightly.",
                 "Rinkas exist in all metroid rooms, so this tech also includes the ability to avoid Rinkas while in a Metroid room."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 115,
+              "id": 124,
               "name": "canBabyMetroidAvoid",
               "techRequires": [
                 "canTrickyJump",
@@ -1753,17 +1957,20 @@
                 "The ability to skip the Baby Metroid health drain.",
                 "The Baby Metroid skip has three parts: The first jump, repeated jumps over the baby while clearing the vines, and the final jump into the transition.",
                 "The classic skip, with this tech, assumes HiJump, Wave Beam, and Morph Ball. Speed Booster can help, but only changes the first jump."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 116,
+              "id": 125,
               "name": "canDodgeWhileShooting",
               "techRequires": [],
               "otherRequires": [],
               "note": "The ability to run from, jump over, or duck under attacks that do not require precise avoidance movements while shooting the enemy.",
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 117,
+                  "id": 126,
                   "name": "canFarmWhileShooting",
                   "techRequires": [
                     "canDodgeWhileShooting"
@@ -1773,26 +1980,32 @@
                     "The ability to actively kill enemies to spawn drops and collect them while racing a timer.",
                     "There is a low chance that the required drop(s) will not spawn.",
                     "This does not apply to easy farm bugs, like Gamets."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             },
             {
-              "id": 118,
+              "id": 127,
               "name": "canTrickyDodgeEnemies",
               "techRequires": [],
               "otherRequires": [],
-              "note": "The ability to dodge enemies requiring highly precise or unintuitive avoidance movements."
+              "note": "The ability to dodge enemies requiring highly precise or unintuitive avoidance movements.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 119,
+              "id": 128,
               "name": "canEscapeEnemyGrab",
               "techRequires": [],
               "otherRequires": [],
-              "note": "The ability to become grabbed by Draygon or a Beetom and then escape by pressing 60+ inputs."
+              "note": "The ability to become grabbed by Draygon or a Beetom and then escape by pressing 60+ inputs.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 120,
+              "id": 129,
               "name": "canEnemyExtendRunway",
               "techRequires": [
                 "canUseEnemies"
@@ -1808,9 +2021,10 @@
                 "A pixel-perfect positioning is necessary when using an enemy to bridge a gap, where Samus needs to run onto and off of the frozen enemy.",
                 "If the enemy is even 1 pixel lower than the runway, it cannot be used."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 121,
+                  "id": 130,
                   "name": "canTrickyEnemyExtendRunway",
                   "techRequires": [
                     "canEnemyExtendRunway"
@@ -1819,7 +2033,9 @@
                   "note": [
                     "The ability to use tricky enemy setups to extend the length of a runway.",
                     "This includes the use of unintuitive or particularly precise setups or the use of multiple enemies with non-trivial setups."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
@@ -1832,17 +2048,19 @@
       "description": "Techs that revolve around shooting.",
       "techs": [
         {
-          "id": 122,
+          "id": 131,
           "name": "canHitbox",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to move through some enemies undamaged by timing a hit on them.",
             "This can be done with a Plasma shot, a well timed Power Bomb explosion, or a normal shot against Metal Pirates."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 123,
+          "id": 132,
           "name": "canPseudoScrew",
           "techRequires": [],
           "otherRequires": [
@@ -1853,9 +2071,10 @@
             "Pseudo screw gives Samus some protection from projecitles and enemies.",
             "It will damage enemies who are vulnerable to this attack and Samus will only take damage if the enemy takes damage and is not killed."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 124,
+              "id": 133,
               "name": "canWalljumpWithCharge",
               "techRequires": [
                 "canPseudoScrew",
@@ -1866,44 +2085,56 @@
                 "The ability to store charge beam and continue wall jumping.",
                 "This is done by releasing the shoot button when trying to walljump, otherwise Samus will stop spinning.",
                 "This can be used to store a charge shot or to pseudo screw through enemy projectiles."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 125,
+          "id": 134,
           "name": "canSpecialBeamAttack",
           "techRequires": [],
           "otherRequires": [
             "Charge",
             "PowerBomb",
-            {"or": [
-              "Ice",
-              "Wave",
-              "Spazer",
-              "Plasma"
-            ]}
+            {
+              "or": [
+                "Ice",
+                "Wave",
+                "Spazer",
+                "Plasma"
+              ]
+            }
           ],
           "note": [
             "A Special Beam Attack (SBA) is activated by equipping Charge and exactly one other beam and selecting Power Bombs.",
             "After charging the beam, a power bomb will be consumed, and a beam specific attack will occur."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 126,
+          "id": 135,
           "name": "canOffScreenSuperShot",
           "techRequires": [],
           "otherRequires": [
-            {"ammo": {"type": "Super", "count": 1}}
+            {
+              "ammo": {
+                "type": "Super",
+                "count": 1
+              }
+            }
           ],
           "note": "The ability to shoot a Super at a precise location to hit an offscreen inanimate target, e.g. a Super block.",
           "devNote": [
             "It's recommended to apply a number of tries as leniency here.",
             "Although, the difficulty is very variable by strat so maybe it's preferrable to apply a leniency by individual strat rather than to the tech."
-          ]
+          ],
+          "extensionTechs": null
         },
         {
-          "id": 127,
+          "id": 136,
           "name": "canGateGlitch",
           "techRequires": [],
           "otherRequires": [],
@@ -1911,40 +2142,46 @@
           "devNote": [
             "A number of tries can't be applied as leniency on this tech, because the resource cost is not included in the tech (it varies with circumstances).",
             "There is a helper for all combinations of circumstances, and it's recommended to apply a number of tries as leniency on all such helpers that use this tech."
-          ]
+          ],
+          "extensionTechs": null
         },
         {
-          "id": 128,
+          "id": 137,
           "name": "canWrapAroundShot",
           "techRequires": [],
           "otherRequires": [
             "Wave",
             "Charge"
           ],
-          "note": "The ability to reach targets on one side of a room by shooting Wave Beam at the right spot in the opposite wall."
+          "note": "The ability to reach targets on one side of a room by shooting Wave Beam at the right spot in the opposite wall.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 129,
+          "id": 138,
           "name": "canGrappleClip",
           "techRequires": [],
           "otherRequires": [
             "Grapple"
           ],
           "note": "Using Grapple on an enemy or grapple block to clip into walls and other surfaces.",
-          "devNote": "FIXME This could use a better description."
+          "devNote": "FIXME This could use a better description.",
+          "extensionTechs": null
         },
         {
-          "id": 130,
+          "id": 139,
           "name": "canHeroShot",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to follow a shot to prevent it from despawning before hitting its target.",
             "This may include aiming between enemies or waiting for the shot to travel some distance before following it."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 131,
+          "id": 140,
           "name": "canAutoCancelWeapon",
           "techRequires": [],
           "otherRequires": [],
@@ -1952,7 +2189,9 @@
             "The ability to set a HUD equipment item (Missiles, Power Bomb, Grapple) to be single use.",
             "Doing this allows for a fast beam shot following the item use, or can reduce button input complexity.",
             "The button combination is 'Item Select' + 'Item Cancel' pressed together."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         }
       ]
     },
@@ -1961,7 +2200,7 @@
       "description": "Techs related to Speed Booster use. Note that short charging is not a tech per se.",
       "techs": [
         {
-          "id": 132,
+          "id": 141,
           "name": "canShinespark",
           "techRequires": [],
           "otherRequires": [],
@@ -1973,7 +2212,7 @@
           "devNote": "SpeedBooster is not required to Shinespark, only to Shinecharge.",
           "extensionTechs": [
             {
-              "id": 133,
+              "id": 142,
               "name": "canHorizontalShinespark",
               "techRequires": [
                 "canShinespark"
@@ -1986,9 +2225,10 @@
                 "Shinesparking in water can be done the same way, but requires a slightly longer delay between the jump and forward presses.",
                 "If needing to spark near ground level, avoid being crouched when pressing jump, as crouch jumping will boost Samus vertically and result in a higher position for the spark."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 134,
+                  "id": 143,
                   "name": "canMidairShinespark",
                   "techRequires": [
                     "canHorizontalShinespark"
@@ -2008,9 +2248,10 @@
                     "The wind-up period is fairly lenient, so the timing of the jump input after the up/angle doesn't need to be rushed.",
                     "Note that mid-air shinesparks can't be performed from a fall, only from a jump."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 135,
+                      "id": 144,
                       "name": "canShinesparkDeepStuck",
                       "techRequires": [
                         "canMidairShinespark"
@@ -2021,30 +2262,15 @@
                         "This is done by spin jumping, facing away from the door, and pressing angle up to activate a shinespark on the same frame as getting a wall jump check.",
                         "While going through the transition, hold jump and angle up."
                       ],
-                      "detailNote": [
-                        "If enough shinecharge frames are available, the recommended method is to moonwalk back into the doorway and perform a stationary spin jump:",
-                        "with this method, the deep stuck will always succeed as long as the forward press and angle-up press happen on the same frame.",
-                        "If instead approaching the door with momentum,",
-                        "backward must be pressed before Samus is in wall-jump check range,",
-                        "but close enough that Samus will reach wall-jump check range during the turnaround deceleration;",
-                        "angle-up must then be pressed on the frame that the wall-jump check triggers.",
-                        "This will need to happen after a delay of at least 1 frame after the backward press, but possibly more at high speeds.",
-                        "Note that if backward is pressed while already in wall-jump check range, there is no timing for the angle-up press that will work:",
-                        "if angle-up is pressed on the same frame as the wall-jump check, Samus will be facing the wrong direction when the spark activates,",
-                        "and if not, then the spark will not activate at all.",
-                        "With a walking spin-jump toward the door (i.e. no dash speed), the angle-up press will usually need to be delayed by exactly 1 frame after the backward press,",
-                        "and the backward press will usually also be frame-perfect, right at the edge of the wall-jump check range.",
-                        "At higher speeds, there will be a larger frame window for the backward press as the turnaround deceleration will last longer,",
-                        "but the angle-up press is still frame-perfect,",
-                        "and its required timing (relative to the backward press) will vary based on Samus' X position when the backward press happens."
-                      ]
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 }
               ]
             },
             {
-              "id": 136,
+              "id": 145,
               "name": "canShinechargeMovement",
               "techRequires": [
                 "canShinespark"
@@ -2056,9 +2282,10 @@
                 "After moving, be sure to wait for Samus to come to a complete stop before pressing jump to spark,",
                 "because if Samus has horizontal momentum then jumping will cause Samus to spin jump instead of sparking."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 137,
+                  "id": 146,
                   "name": "canShinechargeMovementComplex",
                   "techRequires": [
                     "canShinechargeMovement",
@@ -2069,9 +2296,10 @@
                     "The ability to make multiple movement actions with a shinespark charge timer running to get into position to shinespark.",
                     "This reposition may be necessary to avoid obstacles, conserve energy, etc."
                   ],
+                  "devNote": null,
                   "extensionTechs": [
                     {
-                      "id": 138,
+                      "id": 147,
                       "name": "canShinechargeMovementTricky",
                       "techRequires": [
                         "canShinechargeMovementComplex"
@@ -2080,23 +2308,27 @@
                       "note": [
                         "The ability to make precise and potentially unintuitive movement actions with a shinespark charge timer running to get into position to shinespark.",
                         "A common example is using the shinespark wind-up period to wait for a hero shot to open an off-camera door."
-                      ]
+                      ],
+                      "devNote": null,
+                      "extensionTechs": null
                     }
                   ]
                 }
               ]
             },
             {
-              "id": 139,
+              "id": 148,
               "name": "canUseSpeedEchoes",
               "techRequires": [
                 "canShinespark"
               ],
               "otherRequires": [],
-              "note": "Using the Samus echoes that are emitted after a shinespark bonk as a weapon to kill enemies."
+              "note": "Using the Samus echoes that are emitted after a shinespark bonk as a weapon to kill enemies.",
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 189,
+              "id": 149,
               "name": "canControlShinesparkEnd",
               "techRequires": [
                 "canShinespark"
@@ -2104,10 +2336,12 @@
               "otherRequires": [],
               "note": [
                 "The ability to control where a shinespark ends, by starting with a certain amount of energy."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 203,
+              "id": 150,
               "name": "canShinesparkSlopeClip",
               "techRequires": [
                 "canShinespark"
@@ -2116,12 +2350,14 @@
               "note": [
                 "The ability to clip into a slope-type wall by shinesparking into it.",
                 "In some cases this may require activating the spark at a precise horizontal position."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 140,
+          "id": 151,
           "name": "canSlowShortCharge",
           "techRequires": [],
           "otherRequires": [
@@ -2130,25 +2366,32 @@
           "note": [
             "The ability to control Samus' run speed while shortcharging by releasing run after achieving blue.",
             "Being able to 4 tap is expected as that brings out the most value from this tech."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 141,
+          "id": 152,
           "name": "canSpikeSuit",
           "techRequires": [],
           "otherRequires": [
             "SpeedBooster",
             "Morph",
-            {"gainFlashSuit": {}}
+            {
+              "gainFlashSuit": {
+                
+              }
+            }
           ],
           "note": [
             "The ability to gain a flash suit using spikes or similar damage source.",
             "Gain a shinecharge, take a spike hit while morphed, unmorphing either 1 or 2 frames after taking damage.",
             "Then press jump to activate a shinespark on the last frame of knockback, 10 frames after taking damage."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 142,
+              "id": 153,
               "name": "canTrickyCarryFlashSuit",
               "techRequires": [
                 "canSpikeSuit"
@@ -2158,12 +2401,13 @@
                 "The ability to preserve a flash suit while performing strats that have a high risk of losing the flash suit.",
                 "For example, performing a gate glitch starting with a spin jump, morph, unmorph."
               ],
-              "devNote": "This technically shouldn't require canSpikeSuit, but that is the easiest known method of obtaining a flash suit."
+              "devNote": "This technically shouldn't require canSpikeSuit, but that is the easiest known method of obtaining a flash suit.",
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 143,
+          "id": 154,
           "name": "canSpeedKeep",
           "techRequires": [
             "canBounceBall",
@@ -2177,34 +2421,44 @@
             "It is necessary to bounce while in Morph Ball, either by falling or by taking damage, to set the correct fall state for a SpeedKeep.",
             "This allows for charging a Shinespark or Temporary Blue using a shorter runway if there is a stretch of spikes available.",
             "It is also possible to use multiple SpeedKeeps to build up the Dash counter without travelling much distance in a room by applying canChainTemporaryBlue movements."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 144,
+          "id": 155,
           "name": "canPreciseSpaceJump",
           "techRequires": [],
           "otherRequires": [
             "SpaceJump"
           ],
-          "note": "Carefully controlling the height and timing of Space Jump in order to carry momentum, and possibly blue speed, across substantial distances to specific locations."
+          "note": "Carefully controlling the height and timing of Space Jump in order to carry momentum, and possibly blue speed, across substantial distances to specific locations.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 145,
+          "id": 156,
           "name": "canBlueSpaceJump",
           "techRequires": [],
           "otherRequires": [
             "SpeedBooster",
             "SpaceJump"
           ],
-          "note": "Using SpaceJump to carry SpeedBooster's blue suit into some destructible blocks that couldn't be reached by simply running and jumping."
+          "note": "Using SpaceJump to carry SpeedBooster's blue suit into some destructible blocks that couldn't be reached by simply running and jumping.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 146,
+          "id": 157,
           "name": "canTemporaryBlue",
           "techRequires": [],
           "otherRequires": [
             "SpeedBooster",
-            {"noFlashSuit": {}}
+            {
+              "noFlashSuit": {
+                
+              }
+            }
           ],
           "note": [
             "The ability to maintain a temporary blue state through any of the following methods:",
@@ -2219,7 +2473,7 @@
           ],
           "extensionTechs": [
             {
-              "id": 147,
+              "id": 158,
               "name": "canChainTemporaryBlue",
               "techRequires": [
                 "canTemporaryBlue",
@@ -2247,18 +2501,23 @@
                 "in water physics, even a full-height jump with HiJump is not enough to get a bounce,",
                 "which means that bouncing is not possible except after falling a substantial distance."
               ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 148,
+                  "id": 159,
                   "name": "canLongChainTemporaryBlue",
                   "techRequires": [
                     "canChainTemporaryBlue"
                   ],
                   "otherRequires": [],
-                  "note": ["The ability to move across large distances while maintaining Temporary Blue."]
+                  "note": [
+                    "The ability to move across large distances while maintaining Temporary Blue."
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 },
                 {
-                  "id": 149,
+                  "id": 160,
                   "name": "canPauseRemorphTemporaryBlue",
                   "techRequires": [
                     "canChainTemporaryBlue"
@@ -2269,29 +2528,36 @@
                     "This is done by pausing while aiming down, then pressing down during the unpause black screen to buffer a morph.",
                     "Coming out of the pause, roll from down into forward before the morph animation finishes.",
                     "Alternatively, press diagonally down-forward during the black screen to buffer a stationary lateral morph."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
           ]
         },
         {
-          "id": 150,
+          "id": 161,
           "name": "canWaterShineCharge",
           "techRequires": [
             "canSuitlessMaridia"
           ],
           "otherRequires": [
             "SpeedBooster",
-            {"noFlashSuit": {}}
+            {
+              "noFlashSuit": {
+                
+              }
+            }
           ],
           "note": [
             "Starting from an air environment, run into water and charge a spark in the water. This is typically done while crossing a door transition from a room with air physics to a room with water.",
             "This is easy to do; the tech just represents knowledge that it is possible."
           ],
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 151,
+              "id": 162,
               "name": "canStutterWaterShineCharge",
               "techRequires": [
                 "canWaterShineCharge"
@@ -2304,14 +2570,10 @@
                 "After entering the water, dash should be held the entire time. With Gravity Suit it is possible to do this without leaving water, with or without a room transition, by removing the suit just after stuttering.",
                 "The same technique is applicable with acid."
               ],
-              "detailNote": [
-                "To gain the shortcharge in the shortest distance and with the greatest amount of lenience,",
-                "it is best to use approximately 5 tiles of runway.",
-                "If fewer than 5 runway tiles are available, use the full runway length."
-              ],
+              "devNote": null,
               "extensionTechs": [
                 {
-                  "id": 199,
+                  "id": 163,
                   "name": "canPreciseStutterWaterShineCharge",
                   "techRequires": [
                     "canStutterWaterShineCharge"
@@ -2320,7 +2582,9 @@
                   "note": [
                     "Performing a stutter water shinecharge in a situation requiring a precise stutter,",
                     "for example if not much runway is available in one or both of the rooms."
-                  ]
+                  ],
+                  "devNote": null,
+                  "extensionTechs": null
                 }
               ]
             }
@@ -2333,7 +2597,7 @@
       "description": "A tech not referring to gameplay but to the handling of the model itself.",
       "techs": [
         {
-          "id": 167,
+          "id": 164,
           "name": "canAwakenZebes",
           "techRequires": [],
           "otherRequires": [],
@@ -2348,10 +2612,11 @@
           "devNote": [
             "This tech is for understanding how the planet is awakened and how to utilize that.",
             "As such, strats that require the planet to not be awakened, with canRiskPermanentLossOfAccess, are also not in logic without this tech."
-          ]
+          ],
+          "extensionTechs": null
         },
         {
-          "id": 168,
+          "id": 165,
           "name": "canRiskPermanentLossOfAccess",
           "techRequires": [],
           "otherRequires": [],
@@ -2359,7 +2624,9 @@
             "The acceptance that changes to game state can result in a strat becoming impossible.",
             "If that strat needed to be executed before the game state change, the game becomes incompletable.",
             "And that the \"mistake\" may not become visible until much later."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         }
       ]
     },
@@ -2368,14 +2635,15 @@
       "description": "A catch-all for techs that don't fit in anywhere else.",
       "techs": [
         {
-          "id": 169,
+          "id": 166,
           "name": "canCeilingClip",
           "techRequires": [],
           "otherRequires": [],
           "note": "Basic variant of jumping into a two block high space and performing the actions needed to clip up through a one-tile-thick ceiling.",
+          "devNote": null,
           "extensionTechs": [
             {
-              "id": 171,
+              "id": 167,
               "name": "canPreciseCeilingClip",
               "techRequires": [
                 "canCeilingClip",
@@ -2388,10 +2656,12 @@
                 "Setting up an enemy positioning to perform a very precise ceiling clip, typically with a frozen enemy.",
                 "The enemy positioning will require a 2-3 pixel precision range.",
                 "A crouch jump is then required to clip through."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 172,
+              "id": 168,
               "name": "canHighPixelCeilingClip",
               "techRequires": [
                 "canCeilingClip",
@@ -2409,34 +2679,64 @@
                 "There are few examples where this is necessary, which include:",
                 "extremely tight spaces where an enemy cannot be positioned lower for an easier clip, underwater without Gravity, or in many locations while preserving a flash suit."
               ],
-              "devNote": "This tech is not required for uses with trivial positioning, such as the Botwoon Hallway Mochtroid Ice Clip."
+              "devNote": "This tech is not required for uses with trivial positioning, such as the Botwoon Hallway Mochtroid Ice Clip.",
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 173,
+          "id": 169,
           "name": "canPartialFloorClip",
           "techRequires": [],
           "otherRequires": [
-            {"noFlashSuit": {}}
+            {
+              "noFlashSuit": {
+                
+              }
+            }
           ],
           "note": [
             "While standing upright in a two-tile gap between solid tiles, jump in such a way as to clip a pixel into the below floor as a setup to another tech.",
             "This is done by, in quick succession: jumping, aiming down, and then pressing forward."
           ],
-          "devNote": "Cancelling a spinjump with angle can get the same effect, but has very limited logical uses."
+          "devNote": "Cancelling a spinjump with angle can get the same effect, but has very limited logical uses.",
+          "extensionTechs": null
         },
         {
-          "id": 174,
+          "id": 170,
           "name": "canCrystalFlash",
           "techRequires": [],
           "otherRequires": [
             "Morph",
-            {"ammo": {"type": "PowerBomb", "count": 1}},
-            {"ammo": {"type": "Missile", "count": 10}},
-            {"ammo": {"type": "Super", "count": 10}},
-            {"ammo": {"type": "PowerBomb", "count": 10}},
-            {"noFlashSuit": {}}
+            {
+              "ammo": {
+                "type": "PowerBomb",
+                "count": 1
+              }
+            },
+            {
+              "ammo": {
+                "type": "Missile",
+                "count": 10
+              }
+            },
+            {
+              "ammo": {
+                "type": "Super",
+                "count": 10
+              }
+            },
+            {
+              "ammo": {
+                "type": "PowerBomb",
+                "count": 10
+              }
+            },
+            {
+              "noFlashSuit": {
+                
+              }
+            }
           ],
           "note": [
             "Performing a Crystal Flash (CF).",
@@ -2447,7 +2747,7 @@
           "devNote": "Note that this does not include the refill, as the amount is dependent on Samus' environment.",
           "extensionTechs": [
             {
-              "id": 191,
+              "id": 171,
               "name": "canHeatedCrystalFlash",
               "techRequires": [
                 "canCrystalFlash"
@@ -2456,10 +2756,12 @@
               "note": [
                 "Performing a Crystal Flash while taking environmental damage.",
                 "In heat damage, this requires laying the Power Bomb while Samus' energy is between 43 and 88."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 175,
+              "id": 172,
               "name": "canBombIntoCrystalFlashClip",
               "techRequires": [
                 "canCrystalFlash",
@@ -2474,20 +2776,24 @@
                 "This trick has a 2 frame window.",
                 "If below crumble blocks, hold down to break them. Usually only useful when the crumble blocks do not respawn.",
                 "If below a single solid tile, Grapple can be used immediately when the Crystal Flash finishes to place Samus above it."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 176,
+              "id": 173,
               "name": "canJumpIntoCrystalFlashClip",
               "techRequires": [
                 "canCrystalFlash",
                 "canCeilingClip"
               ],
               "otherRequires": [
-                {"or": [
-                  "SpringBall",
-                  "canMidAirMorph"
-                ]}
+                {
+                  "or": [
+                    "SpringBall",
+                    "canMidAirMorph"
+                  ]
+                }
               ],
               "note": [
                 "Setting up a Crystal Flash by jumping and morphing. Once to place the Power Bomb, then again to activate the Crystal Flash.",
@@ -2495,32 +2801,62 @@
                 "If below crumble blocks, hold down to break them. Usually only useful when the crumble blocks do not respawn.",
                 "If below a single solid tile, Grapple can be used to place Samus above it.",
                 "To do this, select Grapple as Samus' energy refills then hold down and mash shoot, the earlier the better."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             },
             {
-              "id": 177,
+              "id": 174,
               "name": "can10PowerBombCrystalFlash",
               "techRequires": [
-                {"tech": "canCrystalFlash"}
+                {
+                  "tech": "canCrystalFlash"
+                }
               ],
               "otherRequires": [
                 "Morph",
-                {"ammo": {"type": "Missile", "count": 10}},
-                {"ammo": {"type": "Super", "count": 10}},
-                {"ammo": {"type": "PowerBomb", "count": 10}},
-                {"noFlashSuit": {}}
+                {
+                  "ammo": {
+                    "type": "Missile",
+                    "count": 10
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 10
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "PowerBomb",
+                    "count": 10
+                  }
+                },
+                {
+                  "noFlashSuit": {
+                    
+                  }
+                }
               ],
               "note": "Setting up a Crystal Flash with only a 10 Power Bomb capacity, by picking up a Power Bomb in between placing the first Power Bomb and activating the Crystal Flash.",
-              "devNote": "Note that this does not include the refill, as the amount is dependent on Samus' environment."
+              "devNote": "Note that this does not include the refill, as the amount is dependent on Samus' environment.",
+              "extensionTechs": null
             },
             {
-              "id": 178,
+              "id": 175,
               "name": "canElevatorCrystalFlash",
               "techRequires": [
-                {"tech": "canCrystalFlash"}
+                {
+                  "tech": "canCrystalFlash"
+                }
               ],
               "otherRequires": [
-                {"gainFlashSuit": {}}
+                {
+                  "gainFlashSuit": {
+                    
+                  }
+                }
               ],
               "note": [
                 "The ability to gain a flash suit by interrupting a crystal flash by going down an elevator.",
@@ -2529,19 +2865,23 @@
                 "While standing, press the crystal flash inputs, where the down press is not pressed until the last frame, where the inputs are checked.",
                 "This occurs approximately 13 frames after the Power Bomb explosion is completely gone.",
                 "Instead of crystal flashing, Samus will go down the elevator. If it was done properly, Samus' beam will be grey in color."
-              ]
+              ],
+              "devNote": null,
+              "extensionTechs": null
             }
           ]
         },
         {
-          "id": 179,
+          "id": 176,
           "name": "canTurnaroundAimCancel",
           "techRequires": [],
           "otherRequires": [],
-          "note": "Canceling an aim angle while crouching and turning around, to wiggle to the right."
+          "note": "Canceling an aim angle while crouching and turning around, to wiggle to the right.",
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 182,
+          "id": 177,
           "name": "canCameraManip",
           "techRequires": [],
           "otherRequires": [],
@@ -2550,10 +2890,12 @@
             "Most enemes become inactive while off camera, and most projectiles cease to exist.",
             "This can be done by jumping in place; changing Samus' hitbox with aim down will scroll the camera lower.",
             "By running back and forth the camera will scroll horizontally; Moonwalk can be used to camera scroll without travelling as far."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 183,
+          "id": 178,
           "name": "canDeepTransition",
           "techRequires": [],
           "otherRequires": [],
@@ -2566,32 +2908,43 @@
             "The unpause version refers to a buffered technique of standing at a specific distance from the door, pausing, and then unpausing while holding forward and run.",
             "When starting facing the door, the position is approximately a 3-pixel window, at a distance of a 6-tile closed-end runway, with possible variations due to slopes.",
             "When starting facing away from the door (doing a turnaround while unpausing), the position is approximately a 2-pixel window, at a distance of about 3.7 tiles."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 184,
+          "id": 179,
           "name": "canSkipDoorLock",
           "techRequires": [],
           "otherRequires": [],
           "note": [
             "The ability to trigger a door transition without opening a door lock in front of it.",
             "Specific techniques for achieving this are covered in other tech."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         },
         {
-          "id": 190,
+          "id": 180,
           "name": "canUsePowerBombLag",
           "techRequires": [],
           "otherRequires": [
             "Morph",
-            {"ammo": {"type": "PowerBomb", "count": 1}}
+            {
+              "ammo": {
+                "type": "PowerBomb",
+                "count": 1
+              }
+            }
           ],
           "note": [
             "The ability to take advantage of the lag during a Power Bomb explosion in order to execute precise movement more easily."
-          ]
+          ],
+          "devNote": null,
+          "extensionTechs": null
         }
       ]
     }
   ],
-  "nextTechId": 207
+  "nextTechId": 181
 }
