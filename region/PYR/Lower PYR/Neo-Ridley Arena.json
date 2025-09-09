@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 245,
+  "id": 246,
   "name": "Neo-Ridley Arena",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 70,
+      "id": 72,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 727,
+      "id": 736,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",

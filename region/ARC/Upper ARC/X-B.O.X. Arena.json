@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 363,
+      "id": 365,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 364,
+      "id": 366,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

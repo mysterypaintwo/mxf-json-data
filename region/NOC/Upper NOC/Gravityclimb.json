@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 217,
+  "id": 218,
   "name": "Gravityclimb",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -21,7 +21,24 @@
   ],
   "nodes": [
     {
-      "id": 671,
+      "id": 675,
+      "name": "North-West Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 676,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 672,
+      "id": 677,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

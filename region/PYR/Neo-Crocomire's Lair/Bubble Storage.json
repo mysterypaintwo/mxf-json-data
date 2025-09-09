@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 258,
+  "id": 259,
   "name": "Bubble Storage",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 73,
+      "id": 75,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 756,
+      "id": 765,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

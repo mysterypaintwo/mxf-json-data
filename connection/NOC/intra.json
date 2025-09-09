@@ -1,9 +1,9 @@
 {
-  "$schema": "../../schema/mxf-connection.schema.json",
+  "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Ice-X Shaft and East Turbo Tube",
+      "connectionType": "Toilet",
+      "description": "Door connection between Ice-X Shaft and East Turbo Tube",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -11,7 +11,7 @@
           "subarea": "Lower NOC",
           "roomid": 190,
           "roomName": "Ice-X Shaft",
-          "nodeid": 605,
+          "nodeid": 607,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -20,15 +20,15 @@
           "subarea": "Turbo Tubes",
           "roomid": 212,
           "roomName": "East Turbo Tube",
-          "nodeid": 660,
+          "nodeid": 662,
           "nodeName": "South Door",
           "position": "bottom"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Lower Crane Pit and West Turbo Tube",
+      "connectionType": "Toilet",
+      "description": "Door connection between Lower Crane Pit and West Turbo Tube",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -36,7 +36,7 @@
           "subarea": "Lower NOC",
           "roomid": 191,
           "roomName": "Lower Crane Pit",
-          "nodeid": 609,
+          "nodeid": 611,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -45,7 +45,7 @@
           "subarea": "Turbo Tubes",
           "roomid": 213,
           "roomName": "West Turbo Tube",
-          "nodeid": 662,
+          "nodeid": 664,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -61,24 +61,24 @@
           "subarea": "Lower NOC",
           "roomid": 193,
           "roomName": "Nightmare Arena Access",
-          "nodeid": 614,
+          "nodeid": 616,
           "nodeName": "North Door",
           "position": "top"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 225,
+          "roomid": 226,
           "roomName": "NOC Data Room",
-          "nodeid": 689,
+          "nodeid": 695,
           "nodeName": "South Door",
           "position": "bottom"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between NOC Entrance Lobby South and Central Turbo Tube",
+      "connectionType": "Toilet",
+      "description": "Door connection between NOC Entrance Lobby South and Central Turbo Tube",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -86,7 +86,7 @@
           "subarea": "Lower NOC",
           "roomid": 196,
           "roomName": "NOC Entrance Lobby South",
-          "nodeid": 622,
+          "nodeid": 624,
           "nodeName": "West-North Door",
           "position": "top"
         },
@@ -95,15 +95,15 @@
           "subarea": "Turbo Tubes",
           "roomid": 211,
           "roomName": "Central Turbo Tube",
-          "nodeid": 658,
+          "nodeid": 660,
           "nodeName": "South Door",
           "position": "bottom"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Central Turbo Tube and Central Turbo Tube Access",
+      "connectionType": "Toilet",
+      "description": "Door connection between Central Turbo Tube and Central Turbo Tube Access",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -111,31 +111,6 @@
           "subarea": "Turbo Tubes",
           "roomid": 211,
           "roomName": "Central Turbo Tube",
-          "nodeid": 657,
-          "nodeName": "North Door",
-          "position": "top"
-        },
-        {
-          "area": "NOC",
-          "subarea": "Upper NOC",
-          "roomid": 214,
-          "roomName": "Central Turbo Tube Access",
-          "nodeid": 664,
-          "nodeName": "South Door",
-          "position": "bottom"
-        }
-      ]
-    },
-    {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between East Turbo Tube and East Turbo Tube Access",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "NOC",
-          "subarea": "Turbo Tubes",
-          "roomid": 212,
-          "roomName": "East Turbo Tube",
           "nodeid": 659,
           "nodeName": "North Door",
           "position": "top"
@@ -144,23 +119,23 @@
           "area": "NOC",
           "subarea": "Upper NOC",
           "roomid": 215,
-          "roomName": "East Turbo Tube Access",
-          "nodeid": 667,
+          "roomName": "Central Turbo Tube Access",
+          "nodeid": 668,
           "nodeName": "South Door",
           "position": "bottom"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between West Turbo Tube and West Turbo Tube Access",
+      "connectionType": "Toilet",
+      "description": "Door connection between East Turbo Tube and East Turbo Tube Access",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "NOC",
           "subarea": "Turbo Tubes",
-          "roomid": 213,
-          "roomName": "West Turbo Tube",
+          "roomid": 212,
+          "roomName": "East Turbo Tube",
           "nodeid": 661,
           "nodeName": "North Door",
           "position": "top"
@@ -168,9 +143,34 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 236,
+          "roomid": 216,
+          "roomName": "East Turbo Tube Access",
+          "nodeid": 671,
+          "nodeName": "South Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "Toilet",
+      "description": "Door connection between West Turbo Tube and West Turbo Tube Access",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Turbo Tubes",
+          "roomid": 213,
+          "roomName": "West Turbo Tube",
+          "nodeid": 663,
+          "nodeName": "North Door",
+          "position": "top"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 237,
           "roomName": "West Turbo Tube Access",
-          "nodeid": 711,
+          "nodeid": 720,
           "nodeName": "South Door",
           "position": "bottom"
         }

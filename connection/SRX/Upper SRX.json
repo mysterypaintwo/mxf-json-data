@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/mxf-connection.schema.json",
+  "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
       "connectionType": "VerticalDoor",
@@ -9,18 +9,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 303,
+          "roomid": 304,
           "roomName": "Arachnus-X Arena",
-          "nodeid": 866,
+          "nodeid": 875,
           "nodeName": "North Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 307,
+          "roomid": 308,
           "roomName": "Just Don\u0027t Die Bend",
-          "nodeid": 876,
+          "nodeid": 885,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -34,18 +34,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 303,
+          "roomid": 304,
           "roomName": "Arachnus-X Arena",
-          "nodeid": 867,
+          "nodeid": 876,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 320,
+          "roomid": 321,
           "roomName": "Twin Junctions East",
-          "nodeid": 905,
+          "nodeid": 914,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -59,18 +59,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 303,
+          "roomid": 304,
           "roomName": "Arachnus-X Arena",
-          "nodeid": 868,
+          "nodeid": 877,
           "nodeName": "South Door",
           "position": "bottom"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 316,
+          "roomid": 317,
           "roomName": "SRX Navigation Room",
-          "nodeid": 897,
+          "nodeid": 906,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -84,18 +84,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 304,
+          "roomid": 305,
           "roomName": "Data Room Checkpoint",
-          "nodeid": 869,
+          "nodeid": 878,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 310,
+          "roomid": 311,
           "roomName": "Lava Tornado",
-          "nodeid": 883,
+          "nodeid": 892,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -109,18 +109,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 304,
+          "roomid": 305,
           "roomName": "Data Room Checkpoint",
-          "nodeid": 870,
+          "nodeid": 879,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 313,
+          "roomid": 314,
           "roomName": "SRX Data Room Access",
-          "nodeid": 890,
+          "nodeid": 899,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -134,18 +134,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 305,
+          "roomid": 306,
           "roomName": "Fool\u0027s Dead End",
-          "nodeid": 871,
+          "nodeid": 880,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 320,
+          "roomid": 321,
           "roomName": "Twin Junctions East",
-          "nodeid": 908,
+          "nodeid": 917,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -159,18 +159,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 306,
+          "roomid": 307,
           "roomName": "Hornoad Hole",
-          "nodeid": 874,
+          "nodeid": 883,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 322,
+          "roomid": 323,
           "roomName": "Yameba Corridor",
-          "nodeid": 914,
+          "nodeid": 923,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -184,18 +184,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 306,
+          "roomid": 307,
           "roomName": "Hornoad Hole",
-          "nodeid": 875,
+          "nodeid": 884,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 320,
+          "roomid": 321,
           "roomName": "Twin Junctions East",
-          "nodeid": 904,
+          "nodeid": 913,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -209,18 +209,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 308,
+          "roomid": 309,
           "roomName": "L-X-SRX Normal Exit Tube",
-          "nodeid": 880,
+          "nodeid": 889,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 311,
+          "roomid": 312,
           "roomName": "Moto Towerway",
-          "nodeid": 885,
+          "nodeid": 894,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -234,18 +234,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 309,
+          "roomid": 310,
           "roomName": "Lava Horseshoe",
-          "nodeid": 881,
+          "nodeid": 890,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 321,
+          "roomid": 322,
           "roomName": "Twin Junctions West",
-          "nodeid": 911,
+          "nodeid": 920,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -259,18 +259,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 310,
+          "roomid": 311,
           "roomName": "Lava Tornado",
-          "nodeid": 882,
+          "nodeid": 891,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 321,
+          "roomid": 322,
           "roomName": "Twin Junctions West",
-          "nodeid": 912,
+          "nodeid": 921,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -284,18 +284,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 311,
+          "roomid": 312,
           "roomName": "Moto Towerway",
-          "nodeid": 886,
+          "nodeid": 895,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 315,
+          "roomid": 316,
           "roomName": "SRX Entrance Lobby",
-          "nodeid": 893,
+          "nodeid": 902,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -309,18 +309,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 312,
+          "roomid": 313,
           "roomName": "SRX Auxiliary Room",
-          "nodeid": 887,
+          "nodeid": 896,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 316,
+          "roomid": 317,
           "roomName": "SRX Navigation Room",
-          "nodeid": 899,
+          "nodeid": 908,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -334,18 +334,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 313,
+          "roomid": 314,
           "roomName": "SRX Data Room Access",
-          "nodeid": 888,
+          "nodeid": 897,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 315,
+          "roomid": 316,
           "roomName": "SRX Entrance Lobby",
-          "nodeid": 896,
+          "nodeid": 905,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -359,18 +359,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 313,
+          "roomid": 314,
           "roomName": "SRX Data Room Access",
-          "nodeid": 889,
+          "nodeid": 898,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 314,
+          "roomid": 315,
           "roomName": "SRX Data Room",
-          "nodeid": 891,
+          "nodeid": 900,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -384,18 +384,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 315,
+          "roomid": 316,
           "roomName": "SRX Entrance Lobby",
-          "nodeid": 892,
+          "nodeid": 901,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 319,
+          "roomid": 320,
           "roomName": "SRX-MDK Tube",
-          "nodeid": 903,
+          "nodeid": 912,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -409,18 +409,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 315,
+          "roomid": 316,
           "roomName": "SRX Entrance Lobby",
-          "nodeid": 894,
+          "nodeid": 903,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 322,
+          "roomid": 323,
           "roomName": "Yameba Corridor",
-          "nodeid": 913,
+          "nodeid": 922,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -434,18 +434,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 315,
+          "roomid": 316,
           "roomName": "SRX Entrance Lobby",
-          "nodeid": 895,
+          "nodeid": 904,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 321,
+          "roomid": 322,
           "roomName": "Twin Junctions West",
-          "nodeid": 910,
+          "nodeid": 919,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -459,18 +459,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 316,
+          "roomid": 317,
           "roomName": "SRX Navigation Room",
-          "nodeid": 898,
+          "nodeid": 907,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 320,
+          "roomid": 321,
           "roomName": "Twin Junctions East",
-          "nodeid": 906,
+          "nodeid": 915,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -484,18 +484,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 317,
+          "roomid": 318,
           "roomName": "SRX Save Station Central",
-          "nodeid": 900,
+          "nodeid": 909,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 320,
+          "roomid": 321,
           "roomName": "Twin Junctions East",
-          "nodeid": 907,
+          "nodeid": 916,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -509,18 +509,18 @@
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 318,
+          "roomid": 319,
           "roomName": "SRX Save Station West",
-          "nodeid": 901,
+          "nodeid": 910,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 321,
+          "roomid": 322,
           "roomName": "Twin Junctions West",
-          "nodeid": 909,
+          "nodeid": 918,
           "nodeName": "North-West Door",
           "position": "left"
         }

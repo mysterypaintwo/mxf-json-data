@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 220,
+  "id": 221,
   "name": "Mochtroid Tower Closet",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 63,
+      "id": 64,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": "Bottom-leftmost floor in the room"
     },
     {
-      "id": 677,
+      "id": 682,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

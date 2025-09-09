@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 287,
+  "id": 288,
   "name": "Trash Gap",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 828,
+      "id": 837,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 829,
+      "id": 838,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 294,
+  "id": 295,
   "name": "SRX Etecoon Room",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 91,
+      "id": 93,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 845,
+      "id": 854,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

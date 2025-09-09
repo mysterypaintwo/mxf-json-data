@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 278,
+      "id": 280,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 279,
+      "id": 281,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 280,
+      "id": 282,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 281,
+      "id": 283,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 282,
+      "id": 284,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -39,7 +39,7 @@
       "comment": "Center, right half"
     },
     {
-      "id": 555,
+      "id": 557,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 556,
+      "id": 558,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 557,
+      "id": 559,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 558,
+      "id": 560,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -107,7 +107,7 @@
       "comment": ""
     },
     {
-      "id": 559,
+      "id": 561,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -124,7 +124,7 @@
       "comment": ""
     },
     {
-      "id": 560,
+      "id": 562,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -141,7 +141,7 @@
       "comment": ""
     },
     {
-      "id": 561,
+      "id": 563,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/mxf-connection.schema.json",
+  "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
       "connectionType": "VerticalDoor",
@@ -11,7 +11,7 @@
           "subarea": "Lower AQA",
           "roomid": 15,
           "roomName": "Cheddar Bay",
-          "nodeid": 158,
+          "nodeid": 160,
           "nodeName": "North Door",
           "position": "left"
         },
@@ -20,7 +20,7 @@
           "subarea": "Upper West AQA",
           "roomid": 47,
           "roomName": "AQA Security Room North Access",
-          "nodeid": 244,
+          "nodeid": 246,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -36,7 +36,7 @@
           "subarea": "Lower AQA",
           "roomid": 15,
           "roomName": "Cheddar Bay",
-          "nodeid": 161,
+          "nodeid": 163,
           "nodeName": "East-Upper Morph Ball Hole",
           "position": "right"
         },
@@ -45,7 +45,7 @@
           "subarea": "Upper East AQA",
           "roomid": 37,
           "roomName": "Hydrospark",
-          "nodeid": 218,
+          "nodeid": 220,
           "nodeName": "South-West Morph Ball Hole",
           "position": "left"
         }
@@ -61,7 +61,7 @@
           "subarea": "Lower AQA",
           "roomid": 16,
           "roomName": "Drowned Junction",
-          "nodeid": 165,
+          "nodeid": 167,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -70,7 +70,7 @@
           "subarea": "Upper West AQA",
           "roomid": 59,
           "roomName": "Resevoir West",
-          "nodeid": 277,
+          "nodeid": 279,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "Upper East AQA",
           "roomid": 28,
           "roomName": "AQA Central Hub",
-          "nodeid": 196,
+          "nodeid": 198,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -95,7 +95,7 @@
           "subarea": "Upper West AQA",
           "roomid": 63,
           "roomName": "Triple Gate Room",
-          "nodeid": 289,
+          "nodeid": 291,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "Upper East AQA",
           "roomid": 28,
           "roomName": "AQA Central Hub",
-          "nodeid": 197,
+          "nodeid": 199,
           "nodeName": "West Door",
           "position": "left"
         },
@@ -120,7 +120,7 @@
           "subarea": "Upper West AQA",
           "roomid": 52,
           "roomName": "Construction Site Checkpoint",
-          "nodeid": 256,
+          "nodeid": 258,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -136,7 +136,7 @@
           "subarea": "Upper East AQA",
           "roomid": 28,
           "roomName": "AQA Central Hub",
-          "nodeid": 199,
+          "nodeid": 201,
           "nodeName": "South-West Door",
           "position": "left"
         },
@@ -145,7 +145,7 @@
           "subarea": "Upper West AQA",
           "roomid": 57,
           "roomName": "Owtch Atrium",
-          "nodeid": 272,
+          "nodeid": 274,
           "nodeName": "East-Upper Door",
           "position": "right"
         }

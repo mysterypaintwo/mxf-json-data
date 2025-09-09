@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/mxf-connection.schema.json",
+  "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
       "connectionType": "Elevator",
@@ -11,7 +11,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 166,
           "roomName": "Elevator to Central Nexus",
-          "nodeid": 540,
+          "nodeid": 542,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -20,7 +20,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 168,
           "roomName": "Habitation Deck Holding",
-          "nodeid": 547,
+          "nodeid": 549,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -36,7 +36,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 166,
           "roomName": "Elevator to Central Nexus",
-          "nodeid": 541,
+          "nodeid": 543,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -45,7 +45,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 170,
           "roomName": "MDK Security Room",
-          "nodeid": 551,
+          "nodeid": 553,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -61,7 +61,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 167,
           "roomName": "Etecoon Hangar Bay",
-          "nodeid": 543,
+          "nodeid": 545,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -70,7 +70,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 169,
           "roomName": "Habitation Deck",
-          "nodeid": 550,
+          "nodeid": 552,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -86,7 +86,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 167,
           "roomName": "Etecoon Hangar Bay",
-          "nodeid": 544,
+          "nodeid": 546,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -95,7 +95,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 170,
           "roomName": "MDK Security Room",
-          "nodeid": 552,
+          "nodeid": 554,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 169,
           "roomName": "Habitation Deck",
-          "nodeid": 548,
+          "nodeid": 550,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -120,7 +120,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 171,
           "roomName": "MDK-PYR Tube",
-          "nodeid": 554,
+          "nodeid": 556,
           "nodeName": "East-Upper Door",
           "position": "right"
         }

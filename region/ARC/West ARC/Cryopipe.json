@@ -39,7 +39,7 @@
       "comment": "Very top-left ceiling, using Morph Ball"
     },
     {
-      "id": 379,
+      "id": 381,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 380,
+      "id": 382,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

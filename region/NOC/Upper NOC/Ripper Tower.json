@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 233,
+  "id": 234,
   "name": "Ripper Tower",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 65,
+      "id": 67,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 66,
+      "id": 68,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -57,8 +57,25 @@
       "comment": "Center-right of the room"
     },
     {
-      "id": 704,
+      "id": 712,
       "name": "North Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeItem": null,
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air",
+          "heated": false
+        }
+      ],
+      "mapTileMask": [],
+      "comment": ""
+    },
+    {
+      "id": 713,
+      "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeItem": null,

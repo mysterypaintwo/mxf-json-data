@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 179,
+      "id": 181,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 180,
+      "id": 182,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

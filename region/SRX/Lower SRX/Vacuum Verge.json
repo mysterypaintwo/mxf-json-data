@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 301,
+  "id": 302,
   "name": "Vacuum Verge",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 93,
+      "id": 95,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": "Far left"
     },
     {
-      "id": 858,
+      "id": 867,
       "name": "West-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 859,
+      "id": 868,
       "name": "East-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",

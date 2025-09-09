@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 277,
+  "id": 278,
   "name": "Garbage Chute",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 82,
+      "id": 84,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": "Very top-left; Shinespark up from the very bottom of the room with Speedbooster; Use a Diffusion Missile to clear the path before sparking"
     },
     {
-      "id": 83,
+      "id": 85,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -57,7 +57,7 @@
       "comment": "Above the middle door"
     },
     {
-      "id": 803,
+      "id": 812,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 804,
+      "id": 813,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -91,7 +91,7 @@
       "comment": ""
     },
     {
-      "id": 805,
+      "id": 814,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -108,7 +108,7 @@
       "comment": ""
     },
     {
-      "id": 806,
+      "id": 815,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

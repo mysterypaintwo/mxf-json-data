@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 354,
+  "id": 355,
   "name": "Needlepoint",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 117,
+      "id": 119,
       "name": "Item",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -39,7 +39,7 @@
       "comment": ""
     },
     {
-      "id": 1000,
+      "id": 1009,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

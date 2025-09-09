@@ -39,7 +39,7 @@
       "comment": "Coming from Freezer Shaft East, using Morph Ball to get in an invisible hole in the wall, elevated off the ground"
     },
     {
-      "id": 313,
+      "id": 315,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 314,
+      "id": 316,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 315,
+      "id": 317,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 316,
+      "id": 318,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

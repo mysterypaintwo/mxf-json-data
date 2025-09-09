@@ -11,16 +11,16 @@
           "subarea": "Lower AQA",
           "roomid": 10,
           "roomName": "AQA-L-X Tube",
-          "nodeid": 141,
+          "nodeid": 143,
           "nodeName": "West Door",
           "position": "left"
         },
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 349,
+          "roomid": 350,
           "roomName": "TRO-L-X Tube",
-          "nodeid": 991,
+          "nodeid": 1000,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -36,7 +36,7 @@
           "subarea": "Lower AQA",
           "roomid": 11,
           "roomName": "AQA-MDK Elevator",
-          "nodeid": 143,
+          "nodeid": 145,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -45,7 +45,7 @@
           "subarea": "West Main Deck",
           "roomid": 180,
           "roomName": "MDK-AQA Elevator",
-          "nodeid": 579,
+          "nodeid": 581,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -61,7 +61,7 @@
           "subarea": "Lower AQA",
           "roomid": 17,
           "roomName": "East Tunnel",
-          "nodeid": 169,
+          "nodeid": 171,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -70,7 +70,7 @@
           "subarea": "AQA Access",
           "roomid": 67,
           "roomName": "ARC-AQA Elevator",
-          "nodeid": 298,
+          "nodeid": 300,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "Lower AQA",
           "roomid": 26,
           "roomName": "West Tunnel",
-          "nodeid": 191,
+          "nodeid": 193,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -95,7 +95,7 @@
           "subarea": "AQA Access",
           "roomid": 66,
           "roomName": "ARC-AQA Access",
-          "nodeid": 295,
+          "nodeid": 297,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "Upper East AQA",
           "roomid": 33,
           "roomName": "AQA-ARC Elevator",
-          "nodeid": 208,
+          "nodeid": 210,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -120,7 +120,7 @@
           "subarea": "AQA Access",
           "roomid": 67,
           "roomName": "ARC-AQA Elevator",
-          "nodeid": 300,
+          "nodeid": 302,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -136,7 +136,7 @@
           "subarea": "Upper East AQA",
           "roomid": 35,
           "roomName": "AQA-NOC Tube",
-          "nodeid": 214,
+          "nodeid": 216,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -145,7 +145,7 @@
           "subarea": "Lower NOC",
           "roomid": 204,
           "roomName": "NOC-AQA Tube",
-          "nodeid": 637,
+          "nodeid": 639,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -161,7 +161,7 @@
           "subarea": "Upper ARC",
           "roomid": 83,
           "roomName": "ARC-NOC Tube",
-          "nodeid": 340,
+          "nodeid": 342,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -170,7 +170,7 @@
           "subarea": "Lower NOC",
           "roomid": 205,
           "roomName": "NOC-ARC Tube",
-          "nodeid": 639,
+          "nodeid": 641,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -186,16 +186,16 @@
           "subarea": "Upper ARC",
           "roomid": 85,
           "roomName": "ARC-PYR Tube",
-          "nodeid": 344,
+          "nodeid": 346,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "PYR",
           "subarea": "Upper PYR",
-          "roomid": 283,
+          "roomid": 284,
           "roomName": "PYR-ARC Tube",
-          "nodeid": 815,
+          "nodeid": 824,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -211,16 +211,16 @@
           "subarea": "Upper ARC",
           "roomid": 86,
           "roomName": "ARC-SRX Tube",
-          "nodeid": 347,
+          "nodeid": 349,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 296,
+          "roomid": 297,
           "roomName": "SRX-ARC Tube",
-          "nodeid": 847,
+          "nodeid": 856,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -236,7 +236,7 @@
           "subarea": "West ARC",
           "roomid": 97,
           "roomName": "ARC-MDK Tube",
-          "nodeid": 373,
+          "nodeid": 375,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -245,7 +245,7 @@
           "subarea": "Reactor Silo",
           "roomid": 161,
           "roomName": "MDK-ARC Tube",
-          "nodeid": 527,
+          "nodeid": 529,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -261,7 +261,7 @@
           "subarea": "Opening Segment",
           "roomid": 122,
           "roomName": "DMX Entrance",
-          "nodeid": 431,
+          "nodeid": 433,
           "nodeName": "South Door",
           "position": "bottom"
         },
@@ -270,7 +270,7 @@
           "subarea": "West Main Deck",
           "roomid": 174,
           "roomName": "DMX Security Gate",
-          "nodeid": 566,
+          "nodeid": 568,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -286,16 +286,16 @@
           "subarea": "General",
           "roomid": 132,
           "roomName": "L-X-TRO Tube",
-          "nodeid": 456,
+          "nodeid": 458,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 349,
+          "roomid": 350,
           "roomName": "TRO-L-X Tube",
-          "nodeid": 990,
+          "nodeid": 999,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -311,16 +311,16 @@
           "subarea": "General",
           "roomid": 143,
           "roomName": "Sector 0 Hard Exit Tube",
-          "nodeid": 481,
+          "nodeid": 483,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 307,
+          "roomid": 308,
           "roomName": "Just Don\u0027t Die Bend",
-          "nodeid": 877,
+          "nodeid": 886,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -336,16 +336,16 @@
           "subarea": "General",
           "roomid": 144,
           "roomName": "Sector 0 Normal Exit Tube",
-          "nodeid": 484,
+          "nodeid": 486,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 308,
+          "roomid": 309,
           "roomName": "L-X-SRX Normal Exit Tube",
-          "nodeid": 878,
+          "nodeid": 887,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -361,7 +361,7 @@
           "subarea": "East Main Deck",
           "roomid": 155,
           "roomName": "MDK-NOC Tube",
-          "nodeid": 511,
+          "nodeid": 513,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -370,7 +370,7 @@
           "subarea": "Lower NOC",
           "roomid": 206,
           "roomName": "NOC-MDK Tube",
-          "nodeid": 641,
+          "nodeid": 643,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -386,16 +386,16 @@
           "subarea": "East Main Deck",
           "roomid": 156,
           "roomName": "MDK-SRX Tube",
-          "nodeid": 513,
+          "nodeid": 515,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 319,
+          "roomid": 320,
           "roomName": "SRX-MDK Tube",
-          "nodeid": 902,
+          "nodeid": 911,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -411,16 +411,16 @@
           "subarea": "Reactor Silo",
           "roomid": 164,
           "roomName": "Silo Tunnel",
-          "nodeid": 536,
+          "nodeid": 538,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 358,
+          "roomid": 359,
           "roomName": "Overgrown Entrance",
-          "nodeid": 1011,
+          "nodeid": 1020,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -436,16 +436,16 @@
           "subarea": "Upper Main Deck",
           "roomid": 171,
           "roomName": "MDK-PYR Tube",
-          "nodeid": 553,
+          "nodeid": 555,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "PYR",
           "subarea": "Neo-Crocomire\u0027s Lair",
-          "roomid": 269,
+          "roomid": 270,
           "roomName": "PYR-MDK Tube",
-          "nodeid": 780,
+          "nodeid": 789,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -461,16 +461,16 @@
           "subarea": "West Main Deck",
           "roomid": 182,
           "roomName": "MDK-TRO Tube",
-          "nodeid": 582,
+          "nodeid": 584,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 350,
+          "roomid": 351,
           "roomName": "TRO-MDK Tube",
-          "nodeid": 993,
+          "nodeid": 1002,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -484,18 +484,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 219,
+          "roomid": 220,
           "roomName": "L-X-NOC Tube",
-          "nodeid": 676,
+          "nodeid": 681,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 308,
+          "roomid": 309,
           "roomName": "L-X-SRX Normal Exit Tube",
-          "nodeid": 879,
+          "nodeid": 888,
           "nodeName": "West Door",
           "position": "left"
         }
@@ -509,18 +509,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 231,
+          "roomid": 232,
           "roomName": "NOC-SRX Elevator",
-          "nodeid": 701,
+          "nodeid": 709,
           "nodeName": "North Door",
           "position": "top"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 298,
+          "roomid": 299,
           "roomName": "SRX-NOC Elevator",
-          "nodeid": 852,
+          "nodeid": 861,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -534,18 +534,18 @@
         {
           "area": "PYR",
           "subarea": "Upper PYR",
-          "roomid": 274,
+          "roomid": 275,
           "roomName": "Chute Pit",
-          "nodeid": 797,
+          "nodeid": 806,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 288,
+          "roomid": 289,
           "roomName": "Cruciform Hall",
-          "nodeid": 834,
+          "nodeid": 843,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -559,18 +559,18 @@
         {
           "area": "PYR",
           "subarea": "Upper PYR",
-          "roomid": 284,
+          "roomid": 285,
           "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
-          "nodeid": 816,
+          "nodeid": 825,
           "nodeName": "North Door",
           "position": "top"
         },
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 352,
+          "roomid": 353,
           "roomName": "TRO-PYR Elevator",
-          "nodeid": 997,
+          "nodeid": 1006,
           "nodeName": "South Door",
           "position": "bottom"
         }

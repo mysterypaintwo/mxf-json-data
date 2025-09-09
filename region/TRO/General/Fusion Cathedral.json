@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 328,
+  "id": 329,
   "name": "Fusion Cathedral",
   "area": "TRO",
   "subarea": "General",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 936,
+      "id": 945,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 937,
+      "id": 946,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       "comment": ""
     },
     {
-      "id": 938,
+      "id": 947,
       "name": "East-North Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -72,7 +72,7 @@
       "comment": ""
     },
     {
-      "id": 939,
+      "id": 948,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -89,7 +89,7 @@
       "comment": ""
     },
     {
-      "id": 940,
+      "id": 949,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -106,7 +106,7 @@
       "comment": ""
     },
     {
-      "id": 941,
+      "id": 950,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -123,7 +123,7 @@
       "comment": ""
     },
     {
-      "id": 942,
+      "id": 951,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -140,7 +140,7 @@
       "comment": ""
     },
     {
-      "id": 943,
+      "id": 952,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -157,7 +157,7 @@
       "comment": ""
     },
     {
-      "id": 944,
+      "id": 953,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/mxf-connection.schema.json",
+  "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
       "connectionType": "Elevator",
@@ -11,7 +11,7 @@
           "subarea": "Chase Segment",
           "roomid": 105,
           "roomName": "DMX Elevator Bottom",
-          "nodeid": 394,
+          "nodeid": 396,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -20,7 +20,7 @@
           "subarea": "Opening Segment",
           "roomid": 124,
           "roomName": "DMX Hub",
-          "nodeid": 436,
+          "nodeid": 438,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -36,7 +36,7 @@
           "subarea": "Chase Segment",
           "roomid": 111,
           "roomName": "Metroid Swarm Chase",
-          "nodeid": 405,
+          "nodeid": 407,
           "nodeName": "North Door",
           "position": "left"
         },
@@ -45,7 +45,7 @@
           "subarea": "Opening Segment",
           "roomid": 124,
           "roomName": "DMX Hub",
-          "nodeid": 438,
+          "nodeid": 440,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -61,7 +61,7 @@
           "subarea": "Chase Segment",
           "roomid": 113,
           "roomName": "SA-X Hallway of Death",
-          "nodeid": 410,
+          "nodeid": 412,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -70,7 +70,7 @@
           "subarea": "Opening Segment",
           "roomid": 124,
           "roomName": "DMX Hub",
-          "nodeid": 435,
+          "nodeid": 437,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "Chase Segment",
           "roomid": 116,
           "roomName": "Winding SA-X Chase",
-          "nodeid": 416,
+          "nodeid": 418,
           "nodeName": "East-South Door",
           "position": "left"
         },
@@ -95,7 +95,7 @@
           "subarea": "Ending Segment",
           "roomid": 119,
           "roomName": "Hornoad Sewer",
-          "nodeid": 422,
+          "nodeid": 424,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "Ending Segment",
           "roomid": 121,
           "roomName": "Ventilation B",
-          "nodeid": 428,
+          "nodeid": 430,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -120,7 +120,7 @@
           "subarea": "Opening Segment",
           "roomid": 122,
           "roomName": "DMX Entrance",
-          "nodeid": 429,
+          "nodeid": 431,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

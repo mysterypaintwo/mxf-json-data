@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 241,
+  "id": 242,
   "name": "Fune Tower",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 718,
+      "id": 727,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 719,
+      "id": 728,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

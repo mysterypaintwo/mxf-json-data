@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 239,
+  "id": 240,
   "name": "Elevator Passage to Neo-Ridley",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 714,
+      "id": 723,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 715,
+      "id": 724,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -57,7 +57,7 @@
       "comment": "Very top-left of the room, coming from ARC-AQA Access after defeating B.O.X. in X-B.O.X. Arena"
     },
     {
-      "id": 324,
+      "id": 326,
       "name": "North-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 325,
+      "id": 327,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -91,7 +91,7 @@
       "comment": ""
     },
     {
-      "id": 326,
+      "id": 328,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -108,7 +108,7 @@
       "comment": ""
     },
     {
-      "id": 327,
+      "id": 329,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

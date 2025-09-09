@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 231,
+  "id": 232,
   "name": "NOC-SRX Elevator",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 701,
+      "id": 709,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 702,
+      "id": 710,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -57,7 +57,7 @@
       "comment": "Jump through the wall at the bottom-right of the room"
     },
     {
-      "id": 643,
+      "id": 645,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 644,
+      "id": 646,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -91,7 +91,7 @@
       "comment": ""
     },
     {
-      "id": 645,
+      "id": 647,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -108,7 +108,7 @@
       "comment": ""
     },
     {
-      "id": 646,
+      "id": 648,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
