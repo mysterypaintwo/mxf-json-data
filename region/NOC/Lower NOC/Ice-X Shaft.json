@@ -39,7 +39,7 @@
       "comment": "Very top; come from Zozoro Crossing or Mochtroid Tower"
     },
     {
-      "id": 606,
+      "id": 608,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       "comment": ""
     },
     {
-      "id": 607,
+      "id": 609,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -73,7 +73,7 @@
       "comment": ""
     },
     {
-      "id": 608,
+      "id": 610,
       "name": "West-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -90,7 +90,7 @@
       "comment": ""
     },
     {
-      "id": 609,
+      "id": 611,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -107,7 +107,7 @@
       "comment": ""
     },
     {
-      "id": 610,
+      "id": 612,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

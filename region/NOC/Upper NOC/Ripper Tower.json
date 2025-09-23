@@ -57,7 +57,7 @@
       "comment": "Center-right of the room"
     },
     {
-      "id": 712,
+      "id": 714,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 713,
+      "id": 715,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

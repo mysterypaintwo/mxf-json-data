@@ -57,7 +57,7 @@
       "comment": "Above the middle door"
     },
     {
-      "id": 812,
+      "id": 814,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -74,7 +74,7 @@
       "comment": ""
     },
     {
-      "id": 813,
+      "id": 815,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -91,7 +91,7 @@
       "comment": ""
     },
     {
-      "id": 814,
+      "id": 816,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -108,7 +108,7 @@
       "comment": ""
     },
     {
-      "id": 815,
+      "id": 817,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

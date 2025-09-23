@@ -21,7 +21,7 @@
   ],
   "nodes": [
     {
-      "id": 663,
+      "id": 665,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -38,7 +38,7 @@
       "comment": ""
     },
     {
-      "id": 664,
+      "id": 666,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
